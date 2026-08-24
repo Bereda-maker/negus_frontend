@@ -1,0 +1,978 @@
+{
+  "topbar": {
+    "freeShipping": "Ajaja Qarshii 10K ol ta'aniif Baasii Malee Geessisuu",
+    "returns": "Guyyaa 30 keessatti Maallaqa Deebisiifuu",
+    "support": "Tajaajila Maamiltootaa 24/7"
+  },
+  "nav": {
+    "home": "Fuula Duraa",
+    "marketplace": "Maarkitpileesii",
+    "reels": "Riilsii",
+    "blog": "Biloogii",
+    "about": "Waa'ee Keenya",
+    "contact": "Nu Quunnamaa",
+    "searchPlaceholder": "Qabeenya barbaadi...",
+    "login": "Seeni",
+    "signup": "Galmaa'i",
+    "logout": "Ba'i",
+    "dashboard": "Daashboardii",
+    "admin": "Bulchaa",
+    "myListings": "Tarreewwan Koo",
+    "favorites": "Goochaan Kan Jaalladhe",
+    "sell": "Gurguri",
+    "profile": "Piroofayilii",
+    "myOrders": "Ajajawwan Koo",
+    "sellerOrders": "Ajajawwan Gurguraa",
+    "adminPanel": "Paaneelii Bulchaa"
+  },
+  "hero": {
+    "badge": "Maarkitpileesii Itiyoophiyaa Amantaa Qabu",
+    "title": "Qabeenya Itiyoophiyaa Nagaan Bitaa fi Gurguraa.",
+    "subtitle": "Negus Gebeya caacculee fi iftoomina maarkitpileesii pirimiyeemii Itiyoophiyaaf ni fida — garee faca'an caalaatti tarkaanfata. Ogeeyyii mirkanaa'an waliin walqunnamaa, buna dhugaa, qicha urgaa'aa, meeshalee harkaan hojjetaman fi qabeenya aadaa argadhaa.",
+    "browse": "Tarreewwan Ilaali",
+    "sell": "Meshaa Gurguri"
+  },
+  "trust": {
+    "verified": "Qabxii amantaa mirkanaa'e",
+    "verifiedDesc": "Qabxii amantaa gurguraa kamiyyuu ifaadha — maaliif akka ta'ه sirriitti ilaali.",
+    "ai": "Gargaaraa tarreeffama AI",
+    "aiDesc": "Sekondii keessatti tarreeffama qulqulluu fi amanamoo ta'e barreessuuf gargaarsa argadhaa.",
+    "pricing": "Gatii haqa qabeessa",
+    "pricingDesc": "Yaada gatii tarreeffama walcinaa qabaman dhugaa irratti hundaa'e."
+  },
+  "categories": {
+    "shop": "Ramaddiidhaan Bitaa",
+    "title": "Qabeenya Keessan Argadhaa",
+    "subtitle": "Walitti qabama keenya filataman, kan tokkoon tokkoon isaanii seenaa ogeessa harkaa fi aadaa Itiyoophiyaa odeessan sakatta'aa."
+  },
+  "marketplace": {
+    "badge": "Maarkitpileesii",
+    "title": "Filannoo Itiyoophiyaa Isa Fooyya'aa",
+    "subtitle": "Oomishaalee biyyattii hundarraa filataman, kunuunsaan hanga balbalaa keessaniitti ni geessifamu."
+  },
+  "signup": {
+    "badge": "Hawaasaitti makamaa",
+    "title": "Har'uma Galmaa'aa",
+    "subtitle": "Qabeenya dhugaa Itiyoophiyaa bituu fi gurguruu eegaluuf herrega keessan uumaa.",
+    "button": "Galmaa'i",
+    "loginButton": "Seeni"
+  },
+  "auth": {
+    "loginTitle": "Gara Negus Gebeya Seeni",
+    "loginSubtitle": "Baga nagaan deebitan — nagaan bitaa fi gurguraa.",
+    "registerTitle": "Herrega keessan uumaa",
+    "registerSubtitle": "Naannoo keessanitti nagaan bituu fi gurguruuf makamaa.",
+    "email": "Imeelii",
+    "password": "Jecha Darbiifata",
+    "name": "Maqaa Guutuu",
+    "phone": "Bilbila (filannoo)",
+    "city": "Magaalaa (filannoo)",
+    "noAccount": "Negus Gebeyaaf haaraa dha?",
+    "createAccount": "Herrega uumi",
+    "haveAccount": "Durayyuu herrega qabduu?",
+    "loginLink": "Seeni",
+    "logInBtn": "Seeni",
+    "signUpBtn": "Galmaa'i",
+    "welcome": "Baga nagaan deebitan!",
+    "success": "Herregni uumameera — baga gara Negus Gebeya nagaan dhuftan!"
+  },
+  "createListing": {
+    "title": "Meexaa gurguri",
+    "subtitle": "Suuraalee qulqulluu fi ibsa amanamoo ta'e dabali — tarreeffamni lamaanuu qaban saffisaan gurguramu.",
+    "submit": "Tarreeffama maxxansi",
+    "noPhotos": "Maaloo suuraa tokko yoo xiqqaate dabali.",
+    "videoSection": "Viidiyoowwan Oomishaa (filannoo)",
+    "maxVideos": "viidiyoowwan olaanoo fayyadaman. Bocni deggeramu: MP4, MOV, WebM.",
+    "upload": "Viidiyo Fe'i",
+    "uploadingVideos": "Viidiyoowwan fe'amaa jiru... {{progress}}%",
+    "publishButton": "Tarreeffama maxxansi",
+    "waitForUpload": "Maaloo fe'uun akka xumuramu eegaa…",
+    "toasts": {
+      "noImages": "Maaloo suuraa tokko yoo xiqqaate dabali.",
+      "published": "Tarreeffamni maxxanfameera!",
+      "failed": "Tarreeffama uumuu hin danda'amne.",
+      "uploadFailed": "Fe'uun hin milkoofne",
+      "videoUploadFailed": "Viidiyoon {{number}} fe'amuu hin danda're: {{message}}"
+    }
+  },
+  "editListing": {
+    "title": "Tarreeffama sirreessi",
+    "subtitle": "Suuraaleen haaraan kan keessan duraanii wajjin dabalamu (walitti qabaatti hanga 8).",
+    "submit": "Jijjiirama olkaa'i",
+    "uploadProgress": "{{progress}}% fe'ameera",
+    "emptyState": {
+      "forbiddenTitle": "Tarreeffama kana sirreessuu hin dandeessu",
+      "forbiddenDescription": "Gurguraa tarreeffama uume qofaatu sirreessuu danda'a.",
+      "notFoundTitle": "Tarreeffamni hin argamne",
+      "notFoundDescription": "Tarreeffamni kun haqamee ta'uu danda'a."
+    },
+    "toasts": {
+      "uploadingVideos": "Viidiyoowwan fe'amaa jiru...",
+      "videosUploaded": "Viidiyoowwan fe'amaniiru!",
+      "updateSuccess": "Tarreeffamni haaromfameera.",
+      "updateFailed": "Haaromsuun hin milkoofne"
+    }
+  },
+  "reels": {
+    "empty": {
+      "title": "Riilsii yookiin lakkofsa kallattii hin qabu",
+      "description": "Gurgurtoonni ammayyuu viidiyoowwan oomishaa hin fe'in yookiin gara kallattiitti hin seenne.",
+      "cta": "Amma tokko uumi"
+    },
+    "liveBadge": "KALLATTII (LIVE)",
+    "liveTitleFallback": "Kallattiin Darbuu",
+    "sellerFallback": "Gurguraa",
+    "viewProduct": "Oomisha Ilaali",
+    "viewerCount": "Namoonni {{count}} ilaalaa jiru",
+    "progress": "{{current}} / {{total}}",
+    "swipeHint": "Sakatta'uuf gara oliitti harkisi",
+    "aria": {
+      "prev": "Kan duraa",
+      "next": "Kan aanu",
+      "play": "Taphachiisi",
+      "pause": "Dhaabi"
+    }
+  },
+  "footer": {
+    "description": "Maarkitpileesii marsariitii amanamoo ta'eef buna dhugaa Itiyoophiyaa, qicha urgaa'aa, fi meeshalee harkaan hojjetaman — hawaasa naannoorraa kabajaa fi kunuunsaan kallattiidhaan argaman.",
+    "shop": "Bitaa",
+    "company": "Dhaabbata",
+    "support": "Deggersa",
+    "shopLinks": {
+      "coffee": "Buna",
+      "spices": "Qicha Urgaa'aa",
+      "handicrafts": "Hojii Harkaa",
+      "honeyOils": "Damma fi Zayitii"
+    },
+    "companyLinks": {
+      "about": "Waa'ee Keenya",
+      "story": "Seenaa Keenya",
+      "sustainability": "Ittifayyadama Tasgabbeessaa",
+      "careers": "Carraa Hojii"
+    },
+    "supportLinks": {
+      "help": "Giddugala Gargaarsaa",
+      "shipping": "Odeeffannoo Fe'umsaa",
+      "returns": "Deebii",
+      "contact": "Nu Quunnamaa"
+    },
+    "copyright": "© {{year}} Negus Gebeya — Maarkitpileesii Piriimiyaamii Itiyoophiyaa. Mirgi hundi eegamaadha."
+  },
+  "common": {
+    "loading": "Fe'amaa jira...",
+    "notFound": "Fuulli hin argamne",
+    "error": "Rakkoon uumameera",
+    "close": "Cufi",
+    "save": "Olkaa'i",
+    "cancel": "Dhiisi",
+    "delete": "Haquu",
+    "viewAll": "Hunda Ilaali",
+    "items": "meeshalee",
+    "viewDetails": "Bal'ina Ilaali",
+    "addFav": "Goochaan jaallatamutti dabali",
+    "removeFav": "Goochaan jaallatamurraa kaasi"
+  },
+  "product": {
+    "price": "Gatii",
+    "condition": "Haala Meeshichaa",
+    "city": "Magaalaa",
+    "negotiable": "Kan daldalamuu danda'u",
+    "viewCount": "Ilaalcha",
+    "favorites": "Kan Jaallataman",
+    "seller": "Gurguraa",
+    "contactSeller": "Gurguraa Quunnamaa",
+    "report": "Gabaasi",
+    "similar": "Oomishaalee Wal Fakkaatan",
+    "noSimilar": "Oomishni wal fakkaatu hin argamne."
+  },
+  "home": {
+    "staffPick": "Filannoo Hojjettootaa",
+    "newArrival": "Dhufaatii Haaraa",
+    "viewDetails": "Bal'ina Ilaali"
+  },
+  "trending": {
+    "badge": "Baay'ee Kan Ilaalaman",
+    "title": "Yeroo Kana Kan Beekaman",
+    "empty": "Amma oomishni beekamuu qabu hin jiru."
+  },
+  "discount": {
+    "badge": "GATII HIR'IFAMAA YEROO MURAASAA",
+    "title": "Fayyadamtoonni haaraan argatu",
+    "percent": "Hir'ina 10%!",
+    "description": "Hir'inni kun guyyoota 3 dhufaniif tajaajila. Amma galmaa'aa fi bittaa jalqabaa keessan irratti qusachaa.",
+    "days": "Guyyoota",
+    "hours": "Sa'aatii",
+    "mins": "Daqiiqaa",
+    "secs": "Sekondii",
+    "cta": "Kennaa Fudhachuu"
+  },
+  "newsletter": {
+    "title": "Gaazexaa Oduu Keenyaaf Galmaa'aa",
+    "subtitle": "Oodeeffannoo haaraa oomishaalee haaraa fi kennaa addaa kallattiidhaan saanduqa imeelii keessaniif argadhaa.",
+    "placeholder": "Teessoo imeelii keessanii galchaa",
+    "subscribe": "Galmaa'i",
+    "subscribing": "Galmaa'aa jira...",
+    "privacy": "Imaammata Dhuunfaaf waliigaleera",
+    "success": "Milkaa'inaan galmooftaniirtu!",
+    "error": "Maaloo teessoo imeelii sirrii galchaa.",
+    "fail": "Galmaa'uun hin milkoofne."
+  },
+  "instagram": {
+    "title": "Instagram irratti Nu Hordofaa",
+    "follow": "Hordofi"
+  },
+  "blog": {
+    "title": "Biloogii Keenya",
+    "subtitle": "Hubannoo, gorsa, fi seenaa hawaasa Negus Gebeya irraa.",
+    "emptyMessage": "Ammaaf barruun biloogii hin jiru. Yeroo dhiyootti deebisaa ilaalaa!",
+    "readMore": "Dabalataan Dubbisi",
+    "defaultAuthor": "Bulchaa",
+    "pagination": {
+      "prev": "Kan duraa",
+      "next": "Kan aanu",
+      "pageOf": "Fuula {{current}} / {{total}}"
+    }
+  },
+  "faq": {
+    "title": "Gaaffilee Baay'ee Gaafataman",
+    "q1": "Tarsiimoo kaffaltii akkamii fudhattu?",
+    "a1": "Baankiidhaan dabarsuu, maallaqa mobaayiliin (TeleBirr, M-Pesa), fi magaawwan muraasa keessatti yeroo geessifamu maallaqa harkaa ni fudhanna.",
+    "q2": "Ajaja koo akkamitti hordofuu danda'a?",
+    "a2": "Ajajni keessan erga mirkanaa'ee booda, lakkoofsa hordoffii imeelii fi SMS-dhaan isiif ergina. Akkasumas daashboardii keessanii hordofuu dandeessu.",
+    "q3": "Tarsiimoon deebii keessan maali?",
+    "a3": "Meeshaalee miidhaman yookiin akka ibsametti hin ta'iniif tarsiimoo deebii guyyaa 7 ni kennina. Guyyaa geessifame irraa eegalee guyyaa 7 keessatti nu qunnamuu qabdu.",
+    "q4": "BiYYa alatti ni ergituu?",
+    "a4": "Ammaf kan erginu Itoophiyaa keessatti qofaadha. Fuulduraf filannoo ergaa biyya alaa irratti hojjechaa jirra.",
+    "q5": "Akkamitti gurguraa mirkanaa'e ta'uu danda'a?",
+    "a5": "Piroofayilii keessan guutaa, eenyummeessaa keessanii fe'aa, fi lakkoofsa bilbilaa keessanii mirkaneessaa. Gareen keenya sa'aatii 24 keessatti herrega keessan ilaalee ni mirkaneessa."
+  },
+  "trustStrip": {
+    "secure": "Kaffaltii Nageenya Qabu",
+    "secureDesc": "100% Kan Eegame",
+    "returns": "Deebii Salphaa",
+    "returnsDesc": "Tarsiimoo Guyyaa 30",
+    "quality": "Mirga Qulqullinaa",
+    "qualityDesc": "Oomishaalee Piriimiyaamii",
+    "delivery": "Geessisuu Saffisaa",
+    "deliveryDesc": "Ergaa Biyya Keessaa"
+  },
+  "cta": {
+    "badge": "Hawaasaitti makamaa",
+    "title": "Har'uma Galmaa'aa",
+    "subtitle": "Nagaa sammuu guutuun qabeenya dhugaa Itiyoophiyaa bituu fi gurguruu eegaluuf herrega keessan uumaa.",
+    "signup": "Bilisaan Galmaa'i",
+    "login": "Seeni"
+  },
+  "productGrid": {
+    "emptyTitle": "Ammaf tarreeffamni hin jiru",
+    "emptyDescription": "Negus Gebeya irratti meshaa jalqabaa tarreessuu keessaa isa duraa ta'aa."
+  },
+  "admin": {
+    "title": "Daashboardii Bulchaa",
+    "stats": {
+      "activeUsers": "Fayyadamoowwan Hojii Irra Jiran",
+      "listings": "Tarreeffama",
+      "pendingReports": "Gabaasa Eegamaa Jiran",
+      "commission": "Komiishinii (10%)"
+    },
+    "tabs": {
+      "overview": "Haala Waliigalaa",
+      "products": "Oomishaalee",
+      "orders": "Ajajawwan",
+      "reports": "Gabaasa",
+      "verifications": "Mirkaneessuu",
+      "withdrawals": "Baasii Gaafatame",
+      "blogs": "Biloogota"
+    },
+    "overview": {
+      "title": "Sochii Dhihoo",
+      "welcome": "Baga gara paaneelii bulchaa nagaan dhuftan. Oomishaalee, ajajawwan, gabaasota, mirkaneessuu, baasii gaafatame, fi barruulee biloogii bulchuuf taabota olii fayyadamaa."
+    },
+    "errors": {
+      "loadFailed": "Odeeffannoo daashboardii fe'uun hin milkoofne.",
+      "productsLoadFailed": "Oomishaalee fe'uun hin milkoofne.",
+      "ordersLoadFailed": "Ajajawwan fe'uun hin milkoofne.",
+      "statusUpdateFailed": "Haala haaromsuun hin milkoofne.",
+      "actionFailed": "Tarkaanfiin hin milkoofne.",
+      "blogSaveFailed": "Biloogii olkaa'uun hin milkoofne.",
+      "deleteFailed": "Haquun hin milkoofne."
+    },
+    "products": {
+      "title": "Oomishaalee Bulchaa",
+      "searchPlaceholder": "Mata dureedhaan barbaadi...",
+      "statusAll": "Haala Hundaa",
+      "refresh": "Haaromsi",
+      "noProducts": "Oomishni hin argamne",
+      "noProductsDesc": "Oomishni calaqqee keessan wajjin walsimu hin jiru.",
+      "uncategorized": "Kan hin ramadamne",
+      "unknown": "Kan hin beekamne",
+      "updating": "Haaromfamaa jira...",
+      "confirmStatusChange": "Haalli oomishaa gara \"{{status}}\" jijjiiramuu?",
+      "statusUpdated": "Haalli oomishaa haaromfameera.",
+      "statuses": {
+        "active": "Hojii Irra Kan Jiru",
+        "sold": "Gurgurameera",
+        "pending": "Eegamaa Jira",
+        "inactive": "Kan hin hojjenne",
+        "removed": "Haqameera",
+        "draft": "Qajeelfama Jalqabaa (Draft)"
+      },
+      "table": {
+        "product": "Oomisha",
+        "seller": "Gurguraa",
+        "price": "Gatii (Qarshii)",
+        "status": "Haala",
+        "actions": "Tarkaanfii"
+      },
+      "pagination": {
+        "showing": "{{start}} - {{end}} keessaa {{total}} agarsiisaa jira",
+        "prev": "Kan duraa",
+        "next": "Kan aanu"
+      }
+    },
+    "orders": {
+      "title": "Ajajawwan Bulchaa",
+      "searchPlaceholder": "Oomisha, bitataa, gurguraa barbaadi...",
+      "statusAll": "Haala Hundaa",
+      "refresh": "Haaromsi",
+      "noOrders": "Ajajni hin argamne",
+      "noOrdersDesc": "Ajajni calaqqee keessan wajjin walsimu hin jiru.",
+      "na": "Hin jiru",
+      "unknown": "Kan hin beekamne",
+      "updating": "Haaromfamaa jira...",
+      "confirmStatusChange": "Haalli ajajaa gara \"{{status}}\" jijjiiramuu?",
+      "statusUpdated": "Haalli ajajaa haaromfameera.",
+      "statuses": {
+        "pending": "Eegamaa Jira",
+        "paid": "Kaffalameera",
+        "shipped": "Ergameera",
+        "delivered": "Geessifameera",
+        "completed": "Xumurameera",
+        "cancelled": "Haqameera",
+        "failed": "Hin milkoofne",
+        "refunded": "Deebifameera"
+      },
+      "table": {
+        "orderId": "Lakkoofsa Ajajaa",
+        "product": "Oomisha",
+        "buyer": "Bitataa",
+        "seller": "Gurguraa",
+        "amount": "Madda Maallaqaa (Qarshii)",
+        "status": "Haala",
+        "date": "Guyyaa",
+        "actions": "Tarkaanfii"
+      },
+      "pagination": {
+        "showing": "{{start}} - {{end}} keessaa {{total}} agarsiisaa jira",
+        "prev": "Kan duraa",
+        "next": "Kan aanu"
+      }
+    },
+    "reports": {
+      "title": "Gabaasa Eegamaa Jiran",
+      "noReports": "Hundi qulqulluudha",
+      "noReportsDesc": "Gabaasni eegamaa jiru hin jiru.",
+      "resolve": "Hiikuu",
+      "dismiss": "Dhiisuu",
+      "resolvedSuccess": "Gabaasni hiikameera.",
+      "dismissedSuccess": "Gabaasni dhiifameera.",
+      "unknown": "Kan hin beekamne",
+      "deletedListing": "Tarreeffama haqame",
+      "table": {
+        "reporter": "Gabaasa Kan Dhiyeesse",
+        "listing": "Tarreeffama",
+        "reason": "Sababa",
+        "actions": "Tarkaanfii"
+      }
+    },
+    "verifications": {
+      "title": "Mirkaneessuu Gurguraa Eegamaa Jiru",
+      "noRequests": "Hundi mirkanaa'aniiru",
+      "noRequestsDesc": "Gaaffiin mirkaneessuu eegamaa jiru hin jiru.",
+      "approve": "Hayyamu",
+      "reject": "Diduu",
+      "approveSuccess": "Mirkaneessuun hayyamameera.",
+      "rejectSuccess": "Mirkaneessuun didameera.",
+      "open": "Bani",
+      "noDocument": "Galmi hin jiru",
+      "documentLabel": "Galmee",
+      "documentAlt": "Galmee",
+      "table": {
+        "name": "Maqaa",
+        "email": "Imeelii",
+        "document": "Galmee",
+        "actions": "Tarkaanfii"
+      }
+    },
+    "withdrawals": {
+      "title": "Gaaffii Maallaqa Baasuu",
+      "noRequests": "Gaaffiin maallaqa baasuu hin jiru",
+      "noRequestsDesc": "Gurgurtoota irraa gaaffiin maallaqa baasuu hin jiru.",
+      "approve": "Hayyamu",
+      "reject": "Diduu",
+      "approvedSuccess": "Maallaqni baasuun hayyamameera.",
+      "rejectedSuccess": "Maallaqni baasuun didameera.",
+      "unknown": "Kan hin beekamne",
+      "statuses": {
+        "pending": "Eegamaa Jira",
+        "approved": "Hayyamameera",
+        "rejected": "Didameera"
+      },
+      "table": {
+        "seller": "Gurguraa",
+        "amount": "Madda (Qarshii)",
+        "bankAccount": "Herrega Baankii",
+        "status": "Haala",
+        "actions": "Tarkaanfii"
+      }
+    },
+    "blogs": {
+      "title": "Bulchiinsa Biloogii",
+      "newPost": "Barruu Haaraa",
+      "editPost": "Barruu Biloogii Sirreessi",
+      "createPost": "Barruu Biloogii Uumi",
+      "titlePlaceholder": "Mata Duree",
+      "bodyPlaceholder": "Qabiyyee (HTML / Markdown kan deggeru)",
+      "excerptPlaceholder": "Yaada Gabaabaa (filannoo)",
+      "coverImagePlaceholder": "Teessoo Suuraa Uffisaa (filannoo)",
+      "tagsPlaceholder": "Mallattoo (komadhaan kan qoodaman, fakkeenyaaf buna, gorsa)",
+      "publish": "Maxxansi",
+      "update": "Haaromsi",
+      "cancel": "Dhiisi",
+      "noBlogs": "Biloogiin hin jiru",
+      "noBlogsDesc": "Biloogii keessan jalqabaa oliitti uumi.",
+      "createSuccess": "Biloogiin uumameera!",
+      "updateSuccess": "Biloogiin haaromfameera!",
+      "deleteSuccess": "Biloogiin haqameera.",
+      "confirmDelete": "Barruun biloogii kun haquu?",
+      "edit": "Sirreessi",
+      "delete": "Haquu",
+      "table": {
+        "title": "Mata Duree",
+        "slug": "Slug",
+        "tags": "Mallattoo",
+        "actions": "Tarkaanfii"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Baga nagaan deebitan, {{name}}",
+    "defaultName": "Gurguraa",
+    "subtitle": "Haala waliigalaa tarreeffama keessanii fi ergaawwan Negus Gebeya irratti.",
+    "uncategorized": "Kan hin ramadamne",
+    "statuses": {
+      "active": "Hojii Irra Kan Jiru",
+      "sold": "Gurgurameera",
+      "pending": "Eegamaa Jira",
+      "approved": "Hayyamameera",
+      "rejected": "Didameera",
+      "other": "Kan biroo"
+    },
+    "quickActions": {
+      "sell": "Meeshaa Gurguri",
+      "myListings": "Tarreeffama Koo",
+      "favorites": "Kan Jaallataman",
+      "messages": "Ergaawwan",
+      "myOrders": "Ajajawwan Koo",
+      "sellerOrders": "Ajajawwan Gurguraa"
+    },
+    "live": {
+      "title": "Kallattiin Darbuu (Live Streaming)",
+      "liveNow": "🔴 Amma Kallattiirratti Argamtu",
+      "badge": "KALLATTII",
+      "goLive": "Kallattiitti Seenii",
+      "endStream": "Darbiinsa Xumuri",
+      "streamKey": "Furtuu Darbiinsaa (Stream Key)",
+      "activeNote": "Kallattiin darbuun keessan hojii irra jira. Bitatootaaf feedii Riilsii irratti ni mul'ata."
+    },
+    "earnings": {
+      "title": "Galii",
+      "subtitle": "Ajajawwan kaffalaman/xumuramtan irraa",
+      "refresh": "Haaromsi",
+      "requestWithdrawal": "Maallaqa Baasuu Gaafachuu",
+      "withdrawalHistory": "Seenaa Maallaqa Baasuu"
+    },
+    "periodLabels": {
+      "all": "Yeroo Hundaa",
+      "today": "Har'a",
+      "week": "Torban Kana",
+      "month": "Ji'a Kana",
+      "3months": "Ji'oota 3",
+      "6months": "Ji'oota 6",
+      "year": "Woggaa Kana"
+    },
+    "stats": {
+      "totalListings": "Ida'ama Tarreeffamaa",
+      "active": "Hojii Irra",
+      "sold": "Gurgurame",
+      "views": "Ilaalcha",
+      "favorites": "Kan Jaallataman"
+    },
+    "charts": {
+      "categoryTitle": "Tarreeffama Ramaddiidhaan",
+      "noCategoryData": "Odeeffannoon ramaddii hin jiru.",
+      "statusTitle": "Raabsa Haalaa",
+      "noStatusData": "Raabsa agarsiisuuf tarreeffamni hin jiru."
+    },
+    "messages": {
+      "title": "Ergaawwan",
+      "unread": "kan hin dubbifamne",
+      "noConversations": "Hamma ammaatti mariin hin jiru.",
+      "noMessages": "Ergaawwan hin jirani"
+    },
+    "recentListings": {
+      "title": "Tarreeffama Dhihoo",
+      "viewAll": "Hunda Ilaali",
+      "empty": "Hamma ammaatti tarreeffama tokkollee hin uumne.",
+      "createFirst": "Tarreeffama keessan jalqabaa uumaa",
+      "noImage": "Suuraa hin qabu",
+      "views": "ilaalcha",
+      "edit": "Sirreessi"
+    },
+    "tip": "Gorsa: Saffisaan gurguruuf suuraa qulqulluu fi ibsa ifaa fayyadamaa.",
+    "modal": {
+      "stream": {
+        "title": "Kallattiin Darbuu Jalqabi",
+        "streamKeyLabel": "Furtuu Darbiinsaa",
+        "rtmpLabel": "RTMP URL",
+        "instructions": "⚠️ RTMP URL kanaaf oolchuuf OBS yookiin sagantaa darbiinsaa kamiyyuu fayyadamaa. Darbiinsi keessan bitatootaaf feedii Riilsii irratti ni mul'ata.",
+        "startButton": "Kallattiitti Jalqabi"
+      },
+      "withdraw": {
+        "title": "Maallaqa Baasuu Gaafachuu",
+        "amountLabel": "Madda (Qarshii) – Kan Jiru: {{earnings}} Qarshii",
+        "amountPlaceholder": "Muraasni {{max}}, olaanaan {{max}}",
+        "minimum": "Maallaqa baasuu xiqqaa: 1000 Qarshii",
+        "accountNameLabel": "Maqaa Abbaa Herregichaa",
+        "accountNamePlaceholder": "Maqaa guutuu baankii waliin deemtu",
+        "accountNumberLabel": "Lakkoofsa Herrega Baankii (CBE)",
+        "accountNumberPlaceholder": "fakkeenyaaf 1000XXXXXXXX",
+        "submitButton": "Gaaffii Ergi"
+      }
+    },
+    "toasts": {
+      "live": {
+        "onlyVerified": "Gurgurtoota mirkanaa'an qofaatu kallattiitti seenuu danda'a.",
+        "generateFailed": "Furtuu darbiinsaa uumuu hin danda'amne.",
+        "started": "Amma kallattiirratti argamtu!",
+        "startFailed": "Darbiinsa jalqabuu hin danda'amne.",
+        "ended": "Darbiinsi xumurameera.",
+        "endFailed": "Darbiinsa xumuruu hin danda'amne."
+      },
+      "withdraw": {
+        "invalidFields": "Maaloo bakkeewwan hunda guutaa fi maallaqni yoo xiqqaate 1000 Qarshii ta'uu qaba",
+        "exceedsEarnings": "Maallaqni baasuuf gaafatamu galii keessan caala.",
+        "success": "Gaaffiin maallaqa baasuu ergameera!",
+        "failed": "Gaaffii maallaqa baasuu gaafachuu hin danda'amne",
+        "minimum": "Maallaqa baasuu gaafachuuf galii keessaa yoo xiqqaate 1000 Qarshii qabaachuu qabdu."
+      },
+      "earningsRefreshed": "Galii haaromfameera",
+      "fetchDataFailed": "Odeeffannoo daashboardii fe'uun hin milkoofne.",
+      "fetchEarningsFailed": "Galii fe'uun hin milkoofne."
+    }
+  },
+  "favorites": {
+    "title": "Kan Keessan Jaallataman",
+    "subtitle": "Meeshaalee Negus Gebeya irratti olkaa'attan.",
+    "empty": "Hamma ammaatti meeshaa tokkollee hin olkaafne.",
+    "browseLink": "Maarkitpileesii sakatta'aa",
+    "noImage": "Suuraa hin qabu",
+    "views": "ilaalcha",
+    "viewButton": "Ilaali",
+    "removeButton": "Kaasi",
+    "statuses": {
+      "active": "Hojii Irra",
+      "sold": "Gurgurame",
+      "pending": "Eegamaa Jira"
+    },
+    "errors": {
+      "loadFailed": "Kan jaallataman fe'uu hin danda'amne.",
+      "removeFailed": "Kaasuun hin danda'amne."
+    },
+    "toasts": {
+      "removed": "Kan jaallataman keessaa kaafameera."
+    }
+  },
+  "login": {
+    "title": "Baga Nagaan Deebitan",
+    "subtitle": "Nagaan bituu fi gurguruu itti fufuuf seenaa.",
+    "leftColumnTagline": "Qabeenya Itiyoophiyaatiif gara maarkitpileesii amanamuutti baga nagaan deebitan.",
+    "logoAlt": "Mallattoo Negus Gebeya",
+    "mobileSubtitle": "Gara herrega keessaniitti seenaa",
+    "closeAria": "Seensa cufi",
+    "form": {
+      "emailPlaceholder": "Teessoo Imeelii",
+      "passwordPlaceholder": "Jecha Darbiifata",
+      "emailRequired": "Imeeliin ni barbaachisa",
+      "emailInvalid": "Teessoo imeelii sirrii galchaa",
+      "passwordRequired": "Jechi darbiifata ni barbaachisa",
+      "forgotPassword": "Jecha darbiifata irraanfattan?",
+      "loginButton": "Gara Negus Gebeya Seeni",
+      "loggingIn": "Seenaa jira...",
+      "orContinue": "Yookiin itti fufaa",
+      "googleButton": "Google waliin itti fufi",
+      "noAccount": "Negus Gebeyaaf haaraa dha?",
+      "signUpLink": "Herrega uumi"
+    },
+    "errors": {
+      "incorrectCredentials": "Imeelii yookiin jecha darbiifata sirrii hin taane."
+    },
+    "toasts": {
+      "welcomeBack": "Baga nagaan deebitan!",
+      "redirectingGoogle": "Gara Googletti geessamaa jira..."
+    }
+  },
+  "orders": {
+    "title": "Ajajawwan Koo",
+    "refresh": "Haaromsi",
+    "sellerLabel": "Gurguraa",
+    "unknownProduct": "Oomisha",
+    "unknownSeller": "Kan hin beekamne",
+    "viewDetails": "Bal'ina Ilaali",
+    "statuses": {
+      "completed": "Xumurameera",
+      "pending": "Eegamaa Jira",
+      "cancelled": "Haqameera",
+      "failed": "Hin milkoofne",
+      "refunded": "Deebifameera"
+    },
+    "emptyState": {
+      "title": "Hamma ammaatti ajajni hin jiru",
+      "description": "Hamma ammaatti ajaja tokkollee hin ajajne."
+    },
+    "errors": {
+      "loadFailed": "Ajajawwan fe'uun hin milkoofne"
+    }
+  },
+  "myListings": {
+    "title": "Tarreeffama Koo",
+    "subtitle": "Tarreeffama keessan hunda Negus Gebeya irratti bulchaa.",
+    "sellNew": "Meeshaa Haaraa Gurguri",
+    "noImage": "Suuraa hin qabu",
+    "views": "ilaalcha",
+    "favorites": "kan jaallataman",
+    "editButton": "Sirreessi",
+    "deleteButton": "Haquu",
+    "filterOptions": {
+      "all": "Hunda",
+      "active": "Hojii Irra",
+      "sold": "Gurgurame",
+      "inactive": "Kan hin hojjenne"
+    },
+    "statuses": {
+      "active": "Hojii Irra",
+      "sold": "Gurgurame",
+      "inactive": "Kan hin hojjenne"
+    },
+    "empty": {
+      "title": "Tarreeffamni hin argamne.",
+      "cta": "Tarreeffama keessan jalqabaa uumaa"
+    },
+    "pagination": {
+      "prev": "Kan duraa",
+      "next": "Kan aanu",
+      "pageOf": "Fuula {{current}} / {{total}}"
+    },
+    "errors": {
+      "loadFailed": "Tarreeffama keessan fe'uu hin danda'amne.",
+      "deleteFailed": "Tarreeffama haquu hin danda'amne."
+    },
+    "toasts": {
+      "deleteSuccess": "Tarreeffamni milkaa'inaan haqameera."
+    },
+    "confirmDelete": "\"{{title}}\" haquu akka barbaaddan mirkanaa'tuu?"
+  },
+  "paymentFailed": {
+    "title": "Kaffaltiin Hin Milkoofne",
+    "description": "Walitti dhufeenyi keessan hin xumuramne.",
+    "referenceLabel": "Wabii (Reference)",
+    "returnHome": "Gara Fuula Duraatti Deebi'i",
+    "toasts": {
+      "failed": "Kaffaltiin hin milkoofne. Maaloo irra deebofaa yaalaa."
+    }
+  },
+  "paymentSuccess": {
+    "title": "Kaffaltiin Milkaa'eera!",
+    "description": "Walitti dhufeenyi keessan xumurameera.",
+    "referenceLabel": "Wabii (Reference)",
+    "viewOrders": "Ajajawwan Ilaali",
+    "toasts": {
+      "success": "Kaffaltiin milkaa'eera!"
+    }
+  },
+  "productDetails": {
+    "noImage": "Suuraa hin qabu",
+    "negotiable": "Gatiin ni daldalama",
+    "removeFavorite": "Kan jaallataman keessaa kaasi",
+    "addFavorite": "Kan jaallatamanitti dabali",
+    "unknownSeller": "Gurguraa Kan Hin Beekamne",
+    "descriptionLabel": "Ibsa",
+    "editButton": "Sirreessi",
+    "deleteButton": "Haquu",
+    "buyNow": "Amma Bitaa",
+    "loginToBuy": "Bituuf Seenaa",
+    "contactSeller": "Gurguraa quunnami",
+    "reportButton": "Tarreeffama kana gabaasi",
+    "reviewsTitle": "Madaalli",
+    "writeReview": "Madaallii Barreessi",
+    "editReview": "Madaallii Sirreessi",
+    "writeReviewTitle": "Madaallii Barreessi",
+    "editReviewTitle": "Madaallii Keessan Sirreessi",
+    "ratingLabel": "Sadarkaa",
+    "commentLabel": "Yaada (filannoo)",
+    "commentPlaceholder": "Oomisha kana waliin muuxannoo qabdan qoodaa...",
+    "submitReviewButton": "Madaallii Galchi",
+    "updateReviewButton": "Madaallii Haaromsi",
+    "cancelButton": "Dhiisi",
+    "anonymous": "Eenyuunsaa Kan Hin Beekamne",
+    "noReviews": "Hamma ammaatti madaalliin hin jiru. Oomisha kanaaf kan jalqabaa ta'aa!",
+    "similarListings": "Tarreeffama wal fakkaata",
+    "reviewCount": "({{count}} madaalliwwan)",
+    "sellerRating": "{{rating}} ★ · {{count}} madaallii",
+    "sellerNoReviews": "Hamma ammaatti madaalliin hin jiru",
+    "emptyState": {
+      "title": "Tarreeffamni hin argamne",
+      "description": "Tarreeffamni kun haqamee yookiin gurguramee ta'uu danda'a."
+    },
+    "statuses": {
+      "active": "Hojii Irra",
+      "sold": "Gurgurame",
+      "pending": "Eegamaa Jira",
+      "inactive": "Kan hin hojjenne",
+      "removed": "Haqameera",
+      "draft": "Draft"
+    },
+    "conditions": {
+      "new": "Haaraa",
+      "likeNew": "Akka Haaraatti",
+      "used": "Kan Fayyadame",
+      "damaged": "Kan Miidhame"
+    },
+    "confirmDelete": "Tarreeffama kana haquu? Kana deebisuun hin danda'amu.",
+    "toasts": {
+      "paymentConfirmed": "Kaffaltiin mirkanaa'eera! Ajajni amma kaffalameera.",
+      "paymentNotVerified": "Haalli kaffaltii mirkaneessuu hin danda'amne.",
+      "paymentVerificationFailed": "Mirkaneessuun kaffaltii hin milkoofne.",
+      "sellerNotifiedNoPhone": "Gurguraaf beksifameera — ammayyuu lakkoofsa bilbilaa hin daballe.",
+      "contactRevealed": "Odeeffannoon qunnamtii gurguraa baafameera!",
+      "contactFailed": "Gurguraa qunnamuu hin danda'amne.",
+      "deleteSuccess": "Tarreeffamni haqameera.",
+      "deleteFailed": "Tarreeffama haquu hin danda'amne.",
+      "alreadySold": "Oomishni kun durayyuu gurgurameera.",
+      "paymentInitFailed": "Kaffaltii jalqabsiisuu hin milkoofne.",
+      "ratingRequired": "Maaloo sadarkaa filadhaa.",
+      "reviewSubmitSuccess": "Madaalliin galfameera!",
+      "reviewSubmitFailed": "Madaallii galchuu hin milkoofne.",
+      "reviewUpdateSuccess": "Madaalliin haaromfameera!",
+      "reviewUpdateFailed": "Madaallii haaromsuu hin milkoofne."
+    }
+  },
+  "profile": {
+    "title": "Piroofayilii Keessan",
+    "loading": "Fe'amaa jira...",
+    "avatar": {
+      "save": "Suuraa Piroofayilii Olkaa'i",
+      "uploading": "Fe'amaa jira..."
+    },
+    "personalInfo": {
+      "title": "Odeeffannoo Dhuunfaa",
+      "edit": "Sirreessi",
+      "cancel": "Dhiisi",
+      "saveChanges": "Jijjiirama Olkaa'i",
+      "saving": "Olkaa'amaa jira...",
+      "fullName": "Maqaa Guutuu",
+      "phone": "Bilbila",
+      "phonePlaceholder": "fakkeenyaaf 0912345678",
+      "city": "Magaalaa",
+      "cityPlaceholder": "fakkeenyaaf Finfinnee",
+      "bio": "Waa'ee Keessan (Bio)",
+      "bioPlaceholder": "Waa'ee keessan nutti himaa..."
+    },
+    "verification": {
+      "title": "Mirkaneessuu Eenyummeessaa",
+      "statusLabel": "Haala",
+      "verifiedBadge": "Gurguraa Mirkanaa'e",
+      "statuses": {
+        "verified": "Mirkanaa'eera",
+        "pending": "Madaalliif Eegamaa Jira",
+        "rejected": "Didameera",
+        "notSubmitted": "Hin dhiyaanne"
+      },
+      "rejectionReason": "Sababa",
+      "verifiedMessage": "Eenyummeessaan keessan mirkanaa'eera. Amma piroofayilii fi tarreeffama keessan irratti mallattoo mirkaneessaa qabdu.",
+      "documentTypeLabel": "Gosa Galmee",
+      "documentTypes": {
+        "nationalId": "Waraqaa Eenyummaa Biyyaalessaa",
+        "passport": "Paaspoortii",
+        "driverLicense": "Hayyama Konkolaachisummaa"
+      },
+      "uploadLabel": "Galmee Fe'i (JPG, PNG, PDF)",
+      "submit": "Mirkaneessaaf Dhiyeessi",
+      "submitting": "Ergaa jira..."
+    },
+    "toasts": {
+      "profileUpdated": "Piroofayilii haaromfameera!",
+      "updateFailed": "Haaromsuun hin milkoofne",
+      "avatarUpdated": "Suuraan piroofayilii haaromfameera!",
+      "avatarUploadFailed": "Fe'uun hin milkoofne",
+      "selectDocument": "Maaloo galmee filadhaa",
+      "documentSubmitted": "Galmi mirkaneessaaf dhiyaateera!",
+      "documentUploadFailed": "Fe'uun hin milkoofne"
+    }
+  },
+  "register": {
+    "title": "Herrega Uumi",
+    "subtitle": "Galmaa'aa fi daqiiqaa muraasa keessatti imala maarkitpileesii keessan jalqabaa.",
+    "leftColumnTagline": "Qabeenya Itiyoophiyaatiif gara maarkitpileesii amanamuutti makamaa – amantaadhaan bitaa fi gurguraa.",
+    "logoAlt": "Mallattoo Negus Gebeya",
+    "mobileSubtitle": "Herrega keessan uumaa",
+    "closeAria": "Galmee cufi",
+    "form": {
+      "namePlaceholder": "Maqaa Guutuu",
+      "nameRequired": "Maqaan ni barbaachisa",
+      "nameMinLength": "Maqaan yoo xiqqaate qubee 2 qabaachuu qaba",
+      "nameMaxLength": "Maqaan qubee 60 gadi ta'uu qaba",
+      "emailPlaceholder": "Teessoo Imeelii",
+      "emailRequired": "Imeeliin ni barbaachisa",
+      "emailInvalid": "Teessoo imeelii sirrii galchaa",
+      "passwordPlaceholder": "Jecha Darbiifata Jabaa Filadhu",
+      "passwordRequired": "Jechi darbiifata ni barbaachisa",
+      "passwordMinLength": "Jechi darbiifata yoo xiqqaate qubee 8 qabaachuu qaba",
+      "passwordNumberRequired": "Jechi darbiifata lakkoofsa tokko qabaachuu qaba",
+      "phonePlaceholder": "Bilbila (filannoo)",
+      "phoneInvalid": "Lakkoofsa bilbilaa Itiyoophiyaa sirrii galchaa (fakkeenyaaf 0912345678)",
+      "phoneHelp": "Bilbila keessan mirkaneessuun qabxii amantaa keessan ni dabala.",
+      "cityDefault": "Magaalaa Filadhu (filannoo)",
+      "termsLabel": "Waliigaleera",
+      "termsLink": "Tarsiimoo Tajaajilaa",
+      "and": "fi",
+      "privacyLink": "Imaammata Dhuunfaa",
+      "submitButton": "Herrega Negus Gebeya Uumi",
+      "creating": "Herrega uumaa jira...",
+      "orSignUp": "Yookiin galmaa'aa",
+      "googleButton": "Google waliin itti fufi",
+      "alreadyAccount": "Durayyuu herrega qabduu?",
+      "loginLink": "Seeni"
+    },
+    "passwordStrength": {
+      "weak": "Jecha darbiifata dadhabaa",
+      "fair": "Jecha darbiifata giddu-galeessaa",
+      "strong": "Jecha darbiifata jabaa"
+    },
+    "toasts": {
+      "termsRequired": "Maaloo Tarsiimoo Tajaajilaa fi Imaammata Dhuunfaaf waliigala.",
+      "welcome": "Herregni uumameera — baga gara Negus Gebeya nagaan dhuftan!",
+      "createFailed": "Herrega keessan uumuu hin danda'amne.",
+      "redirectingGoogle": "Gara Googletti geessamaa jira..."
+    }
+  },
+  "search": {
+    "title": {
+      "withQuery": "Bu'aa \"{{query}}\"ef",
+      "browse": "Tarreeffama sakatta'aa"
+    },
+    "resultCount_one": "Tarreeffamni {{count}} argameera",
+    "resultCount_other": "Tarreeffamni {{count}} argamaniiru",
+    "filterButton": "Calqabuu",
+    "showResults": "Bu'aa agarsiisi",
+    "closeFilters": "Calqabuu cufi",
+    "sortOptions": {
+      "newest": "Haaraa dura",
+      "oldest": "Dulloomaa dura",
+      "priceAsc": "Gatii: Gadi aanaa irraa gara olaanaatti",
+      "priceDesc": "Gatii: Olaanaa irraa gara gadi anaatti",
+      "popular": "Baay'ee kan jaallataman"
+    }
+  },
+  "sellerProfile": {
+    "youBadge": "Ati",
+    "joined": "Kan makame {{time}}",
+    "salesCount_one": "Gurgurtaa {{count}}",
+    "salesCount_other": "Gurgurtaa {{count}}",
+    "ratingNew": "Haaraa",
+    "reviewCount_one": "({{count}} madaallii)",
+    "reviewCount_other": "({{count}} madaalliwwan)",
+    "trustScore": "Amantaa {{score}}/5",
+    "viewAllListings": "Tarreeffama hunda ilaali",
+    "chat": "Haasa'i",
+    "closeChat": "Haasaa Cufi",
+    "emptyState": {
+      "title": "Gurguraan hin argamne",
+      "description": "Gurguraan kun haqamee yookiin tajaajilli isaa dhaabbatee ta'uu danda'a."
+    },
+    "stats": {
+      "completedSales": "Gurgurtaa Xumuraman",
+      "reviews": "Madaalliwwan",
+      "avgRating": "Madaallii Giddu-galeessaa",
+      "trustScore": "Qabxii Amantaa"
+    },
+    "listingsTitle": "Tarreeffama {{name}}",
+    "noListings": "Gurguraa kana irraa ammaf tarreeffamni hojii irra jiru hin jiru."
+  },
+  "sellerOrders": {
+    "title": "Ajajawwan Gurguraa",
+    "earningsLabel": "Galii Waliigalaa",
+    "refreshButton": "Haaromsi",
+    "buyerLabel": "Bitataa",
+    "unknownProduct": "Oomisha",
+    "unknownBuyer": "Kan hin beekamne",
+    "viewDetails": "Bal'ina Ilaali",
+    "updating": "Haaromfamaa jira...",
+    "confirmStatusChange": "Haalli ajajaa gara \"{{status}}\" jijjiiramuu?",
+    "statuses": {
+      "pending": "Eegamaa Jira",
+      "paid": "Kaffalameera",
+      "shipped": "Ergameera",
+      "delivered": "Geessifameera",
+      "completed": "Xumurameera",
+      "cancelled": "Haqameera"
+    },
+    "emptyState": {
+      "title": "Hamma ammaatti ajajni hin jiru",
+      "description": "Hamma ammaatti ajaja tokkollee hin fudhanne."
+    },
+    "toasts": {
+      "loadFailed": "Ajajawwan gurguraa fe'uun hin milkoofne.",
+      "refreshed": "Ajajawwan haaromfamaniiru",
+      "statusUpdated": "Haalli ajajaa gara {{status}}tti haaromfameera",
+      "statusUpdateFailed": "Haala haaromsuun hin milkoofne."
+    }
+  },
+  "socialLogin": {
+    "loading": "Galchaa jira...",
+    "defaultName": "Fayyadaamaa",
+    "toasts": {
+      "welcome": "Baga nagaan dhuftan {{name}}!",
+      "error": "Seensi hawaasaa hin milkoofne. Maaloo irra deebofaa yaalaa."
+    }
+  },
+  "about": {
+    "title": "Waa'ee Negus Gebeya",
+    "paragraph1": "Negus Gebeya maarkitpileesii marsariitii piriimiyaamii Itiyoophiyaa ti, biyyattii keessatti bitattootaa fi gurgurtoota amantaa fi iftoominan wal qunnamsiisa. Oomishaaleen dhugaa Itiyoophiyaa — bunaa fi qicha urgaa'aa irraa kaasee hanga meeshalee harkaan hojjetamanitti — argamanii amantaan itti daldalaman dhiyeessuun hawaasa naannoo cimsuu amanna.",
+    "paragraph2": "Ergaan keenya daldala xixiqqoo, ogeeyyii harkaatti fayyadaman, fi qonnaan bulaa deeggaruudhaan guddina diinagdee fiduudha. Namoota hundaf muuxannoo nagaa fi amansiisaa ta'e mirkaneessuuf gatii haqa qabeessa, kaffaltii eegamaa, fi piroofayilii mirkanaa'e dursina. Negus Gebeya irratti daldalli kamiyyuu jireenya naannoo deeggaruuf gargaara akkasumas eegumsa aadaa Itiyoophiyaa kabachiisa.",
+    "paragraph3": "Nuti garee Itoophiyaanota fedhii guddaa qaban yoo taanu maarkitpileesii hundaaaf hojjetu ijaaruuf qophoofneerra. Bitataa qabeenya addaa barbaadu yookiin gurguraa dhaggeeffattoota bal'aa bira ga'uu barbaadu yoo taattan, Negus Gebeya hiriyaa amantaa qabudha.",
+    "cta": "Har'uma hawaasa keenyaatti makamaa fi guddina diinagdee dijiitalaa Itiyoophiyaa keessatti hirmaataa ta'aa."
+  },
+  "contact": {
+    "title": "Nu Quunnamaa",
+    "form": {
+      "title": "Ergaa Nuuf Ergi",
+      "nameLabel": "Maqaa Guutuu",
+      "namePlaceholder": "Maqaa keessan guutuu",
+      "emailLabel": "Teessoo Imeelii",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Ergaa",
+      "messagePlaceholder": "Akkamitti gargaaruu dandeenya?",
+      "submitButton": "Ergaa Ergi"
+    },
+    "info": {
+      "title": "Nu Quunnamaa",
+      "emailLabel": "Imeelii",
+      "phoneLabel": "Bilbila",
+      "addressLabel": "Teessoo",
+      "address": "Boolee, Finfinnee, Itiyoophiyaa",
+      "hoursLabel": "Sa'aatii Hojii",
+      "hours": "Wiixata – Jimaata, Ganama sa'aatii 3:00 irraa hanga Galgala sa'aatii 12:00tti (Sa'aatii Baha Afrikaa)"
+    }
+  }
+}

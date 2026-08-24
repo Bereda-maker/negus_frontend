@@ -1,0 +1,978 @@
+{
+  "topbar": {
+    "freeShipping": "ካብ 10 ሽሕ ብር ንላዕሊ ንዝግበር ትእዛዝ ናጻ መጓዓዝያ",
+    "returns": "ን30 መዓልታት ውሽጢ ገንዘብ ምምላስ",
+    "support": "ኩሉ ግዜ ደገፍ ዓሚል"
+  },
+  "nav": {
+    "home": "ቀንዲ ገጽ",
+    "marketplace": "ማርኬትፕለስ",
+    "reels": "ሪልስ",
+    "blog": "ብሎግ",
+    "about": "ብዛዕባና",
+    "contact": "ርኸቡና",
+    "searchPlaceholder": "ሃብቲ ድለ...",
+    "login": "እቱ",
+    "signup": "ተመዝገብ",
+    "logout": "ውጻእ",
+    "dashboard": "ዳሽቦርድ",
+    "admin": "ኣልጋብ (Admin)",
+    "myListings": "ዝርዝረይ",
+    "favorites": "ዝፈተኹዎም",
+    "sell": "ሸጥ",
+    "profile": "ፕሮፋይል",
+    "myOrders": "ትእዛዛተይ",
+    "sellerOrders": "ትእዛዛት ሸያጢ",
+    "adminPanel": "ፓነል ኣልጋብ"
+  },
+  "hero": {
+    "badge": "እትዮጵያዊ መተኣማመኒ ማርኬትፕለስ",
+    "title": "ሃብቲ ኢትዮጵያ ብደሓን ግዛእትን ሸጥን።",
+    "subtitle": "ነጉስ ገበያ ንፕሪምየም ማርኬትፕለስ ኢትዮጵያ ምዕቡልን ግሉጽን መሳርሒታት የተሓሕዝ — ካብ ዝተበታተኑ ጉጅለታት ንላዕሊ ዕዉት እዩ። ምስ ክኢላታት ዝተረጋገጹ ተራኸቡ፣ ሩባ  ቡን፣ መቐመጥ ጨው፣ ሰብ-ሞያ ስርሕ ኢደ ጥበብን ባህላዊ ሃብትን ረኽቡ።",
+    "browse": "ዝርዝር ርአ",
+    "sell": "ንብረት ሸጥ"
+  },
+  "trust": {
+    "verified": "ዝተረጋገጸ ነጥቢ እምነት",
+    "verifiedDesc": "ናይ ዝኾነ ሸያጢ ነጥቢ እምነት ግሉጽ እዩ — ስለምንታይ ከም ዝኾነ ብቐሊሉ ርአ።",
+    "ai": "ረዳኢ ናይ ዝርዝር AI",
+    "aiDesc": "ኣብ ውሽጢ ካዕበት ጽሩይን እሙንን ዝርዝር ንምጽሓፍ ደገፍ ረኽቡ።",
+    "pricing": "ፍትሓዊ ዋጋ",
+    "pricingDesc": "ኣብ ሓቂ ዝተሞርኰሰ ተወዳዳሪ ሓሳብ ዋጋ ዝርዝር።"
+  },
+  "categories": {
+    "shop": "ብመደብ ግዛእ",
+    "title": "ሃብቲኹም ረኽቡ",
+    "subtitle": "እተመረጸው ስብስብና፣ ነፍስ ወከፎም ሰናይ ስርሕ ኢደ ጥበብን ባህላዊ ታሪኽ ኢትዮጵያን ዝነግሩ ዳህሰሱ።"
+  },
+  "marketplace": {
+    "badge": "ማርኬትፕለስ",
+    "title": "ምርጫ ኢትዮጵያ ዝሐሸ",
+    "subtitle": "ካብ ምሉእ ሃገር ዝተመረጹ ፍርያት፣ ብክንክን ክሳብ ደገ ገዛኹም ይብጽሑ።"
+  },
+  "signup": {
+    "badge": "ምስ ማሕበረሰብ ተጸንበሩ",
+    "title": "ሎሚ ተመዝገቡ",
+    "subtitle": "ሕኑጽ ሃብቲ ኢትዮጵያ ንምግዛእን ንምሸጥን ሕሳብኩም ፍጠሩ።",
+    "button": "ተመዝገብ",
+    "loginButton": "እቱ"
+  },
+  "auth": {
+    "loginTitle": "ናብ ነጉስ ገበያ እቱ",
+    "subtitle": "እንቋዕ ብደሓን መጻእኹም — ብደሓን ግዛእትን ሸጥን።",
+    "registerTitle": "ሕሳብኩም ፍጠሩ",
+    "registerSubtitle": "ኣብ ከባቢኹም ብደሓን ንምግዛእን ንምሸጥን ተጸንበሩ።",
+    "email": "ኢመይል",
+    "password": "መሕለፊ ቃል (Password)",
+    "name": "ምሉእ ሽም",
+    "phone": "ቁጽሪ ስልኪ (ካብ ምርጫ)",
+    "city": "ከተማ (ካብ ምርጫ)",
+    "noAccount": "ንነጉስ ገበያ ሓዲሽ ዲኹም?",
+    "createAccount": "ሕሳብ ፍጠር",
+    "haveAccount": "ድሮ ሕሳብ ኣለኩምዶ?",
+    "loginLink": "እቱ",
+    "logInBtn": "እቱ",
+    "signUpBtn": "ተመዝገብ",
+    "welcome": "እንቋዕ ብደሓን መጻእኹም!",
+    "success": "ሕሳብ ተፈጢሩ — እንቋዕ ናብ ነጉስ ገበያ ብደሓን መጻእኹም!"
+  },
+  "createListing": {
+    "title": "ንብረት ሸጥ",
+    "subtitle": "ጽፉፍ ምስልታትን እሙን መግለጺን ወስኹ — ክልቲኡ ዝሓዙ ዝርዝር ብቅልጡፍ ይሸጡ።",
+    "submit": "ዝርዝር ኣውጽእ",
+    "noPhotos": "እባካ ብውሕዱ ሓደ ምስሊ ወስኹ።",
+    "videoSection": "ቪድዮታት ፍርያት (ኣማራጺ)",
+    "maxVideos": "ዝለዓለ ተጠቃምነት ዘለዎም ቪድዮታት። ዝድገፍ ቅርጺ: MP4, MOV, WebM.",
+    "upload": "ቪድዮ ኣტን",
+    "uploadingVideos": "ቪድዮታት ይጽዕኑ ኣለዉ... {{progress}}%",
+    "publishButton": "ዝርዝር ኣውጽእ",
+    "waitForUpload": "እባካ ምጽዓን ክሳብ ዝዛዘም ተጸበዩ…",
+    "toasts": {
+      "noImages": "እባካ ብውሕዱ ሓደ ምስሊ ወስኹ።",
+      "published": "ዝርዝር ወጺኡ ኣሎ!",
+      "failed": "ዝርዝር ክܦጠር ኣይከኣለን።",
+      "uploadFailed": "ምጽዓን ኣይሰለጦን",
+      "videoUploadFailed": "ቪድዮ {{number}} ክጽዓን ኣይከኣለን: {{message}}"
+    }
+  },
+  "editListing": {
+    "title": "ዝርዝር ኣመዓራርይ",
+    "subtitle": "ሓዲሽ ምስልታት ምስቲ ናይ ቀደምኩም ይውሰኹ (ኣብ ሓደ ሓዊስካ ክሳብ 8)።",
+    "submit": "ለውጢ ኣቐመጥ",
+    "uploadProgress": "{{progress}}% ተጸዒኑ ኣሎ",
+    "emptyState": {
+      "forbiddenTitle": " ነዚ ዝርዝር ከተመዓራርዮ ኣይትኽእልን ኢኻ",
+      "forbiddenDescription": "ነቲ ዝርዝር ዝፈጠረ ሸያጢ ጥራይ እዩ ከነዓርዮ ዝኽእል።",
+      "notFoundTitle": "ዝርዝር ኣይተረኽበን",
+      "notFoundDescription": "እዚ ዝርዝር ተሰሪዙ ክኸውን ይኽእል እዩ።"
+    },
+    "toasts": {
+      "uploadingVideos": "ቪድዮታት ይጽዕኑ ኣለዉ...",
+      "videosUploaded": "ቪድዮታት ተጸዒኖም!",
+      "updateSuccess": "ዝርዝር ተሓዲሱ ኣሎ።",
+      "updateFailed": "ምሕዳስ ኣይሰለጦን"
+    }
+  },
+  "reels": {
+    "empty": {
+      "title": "ሪልስ ወይ ቀጥታዊ መደብ (Live) የለን",
+      "description": "ሸየጥቲ ገና ቪድዮታት ፍርያት ኣይኣተዉን ወይ ናብ ቀጥታዊ መደብ ኣይኣተዉን።",
+      "cta": "ሕጂ ሓደ ፍጠር"
+    },
+    "liveBadge": "ቀጥታዊ (LIVE)",
+    "liveTitleFallback": "ብቀጥታዊ ማለፍ",
+    "sellerFallback": "ሸያጢ",
+    "viewProduct": "ፍርያት ርአ",
+    "viewerCount": "ሰባት {{count}} ይርእዩ ኣለዉ",
+    "progress": "{{current}} / {{total}}",
+    "swipeHint": "ንምድህሳስ ናብ ላዕሊ ስሕብ",
+    "aria": {
+      "prev": "ናይ ቀደም",
+      "next": "ዚቕጽል",
+      "play": "ኣጻወት",
+      "pause": "ኣቋርጽ"
+    }
+  },
+  "footer": {
+    "description": "እሙን መርበብ ማርኬትፕለስ ንሩባ ቡን ኢትዮጵያ፣ መቐመጥ ጨው፣ን ንብረት ኢደ ጥበብ — ካብ ከባቢ ማሕበረሰብ ብክብርን ክንክንን ብቐጥታ ዝርከቡ።",
+    "shop": "ግዛእ",
+    "company": " ትካል",
+    "support": "ደገፍ",
+    "shopLinks": {
+      "coffee": "ቡን",
+      "spices": "መቐመጥ ጨው",
+      "handicrafts": "ስርሕ ኢደ ጥበብ",
+      "honeyOils": "መዓርን ዘይትን"
+    },
+    "companyLinks": {
+      "about": "ብዛዕባና",
+      "story": "ታሪኽና",
+      "sustainability": "ዘላቒ ተጠቃምነት",
+      "careers": "ዕድል ስርሕ"
+    },
+    "supportLinks": {
+      "help": "ማእከል ደገፍ",
+      "shipping": "ሓበሬታ መጓዓዝያ",
+      "returns": "ምምላስ",
+      "contact": "ርኸቡና"
+    },
+    "copyright": "© {{year}} ነጉስ ገበያ — ፕሪምየም ማርኬትፕለስ ኢትዮጵያ። ኩሉመሰል ዝተሓለወ እዩ።"
+  },
+  "common": {
+    "loading": "ይጽዕን ኣሎ...",
+    "notFound": "ገጽ ኣይተረኽበን",
+    "error": "ጸገም ኣጋጢሙ ኣሎ",
+    "close": "ዕጾ",
+    "save": "ኣቐመጥ",
+    "cancel": "ተወ",
+    "delete": "ሰርዝ",
+    "viewAll": "ኩሉ ርአ",
+    "items": "ንብረታት",
+    "viewDetails": "ዝርዝር ርአ",
+    "addFav": "ናብ ዝፈተኹዎም ወስኽ",
+    "removeFav": "ካብ ዝፈተኹዎም ኣውጽእ"
+  },
+  "product": {
+    "price": "ዋጋ",
+    "condition": "ኩነታት ንብረት",
+    "city": "ከተማ",
+    "negotiable": "ዝዘራረበሉ",
+    "viewCount": "ትዕዝብቲ",
+    "favorites": "ዝፈተኹዎም",
+    "seller": "ሸያጢ",
+    "contactSeller": "ንሸያጢ ርኸብ",
+    "report": "ጸብጻብ",
+    "similar": "ተመሳሰልቲ ፍርያት",
+    "noSimilar": "ተመሳሳሊ ፍርያት ኣይተረኽበን።"
+  },
+  "home": {
+    "staffPick": "ምርጫ ሰራሕተኛታት",
+    "newArrival": "ሓዲሽ ምጽኣት",
+    "viewDetails": "ዝርዝር ርአ"
+  },
+  "trending": {
+    "badge": "ብዝያዳ ዝተረአዩ",
+    "title": "በዚ እዋንዚ ፍሉጣት ዝኾኑ",
+    "empty": "ሕጂ ክፍለጥ ዘለዎ ፍርያት የለን።"
+  },
+  "discount": {
+    "badge": "ግዜያዊ ቅናሽ ዋጋ",
+    "title": "ሓዲሽ ተጠቀምቲ ይረኽቡ",
+    "percent": "ቅናሽ 10%!",
+    "description": "እዚ ቅናሽ ንዝመጹ 3 መዓልታት ኣገልግሎት ይህብ። ሎሚ ተመዝገቡን ኣብ መጀመርታ ግዛእኩም ቁጠቡን።",
+    "days": "መዓልታት",
+    "hours": "ሰዓታት",
+    "mins": "ደቓይቕ",
+    "secs": "ካልኢታት",
+    "cta": "ውህብቶ ምውሳድ"
+  },
+  "newsletter": {
+    "title": "ንጋዜጣ ሓበሬታና ተመዝገቡ",
+    "subtitle": "ሓዲሽ ሓበሬታ ፍርያትን ፍሉይ ውህብቶን ብቐጥታ ናብ ሳጹን ኢመይልኩም ረኽቡ።",
+    "placeholder": "ኣድራሻ ኢመይልኩም ኣእትዉ",
+    "subscribe": "ተመዝገብ",
+    "subscribing": "ይምዝገብ ኣሎ...",
+    "privacy": "ን ሕጊ ውልቀ-ሰባት ተሰማሚዐ",
+    "success": "ብዓወት ተመዝጊብኩም ኣለኹም!",
+    "error": "እባካ ቁኑዕ ኣድራሻ ኢመይል ኣእትዉ።",
+    "fail": "ምዝገባ ኣይሰለጦን።"
+  },
+  "instagram": {
+    "title": "ኣብ ኢንስታግራም ስዕቡና",
+    "follow": "ስዕብ"
+  },
+  "blog": {
+    "title": "ብሎግና",
+    "subtitle": "ግንዛቤ፣ ምኽሪ፣ ከምኡውን ታሪኽ ማሕበረሰብ ነጉስ ገበያ።",
+    "emptyMessage": "ሕጂ ንግዚኡ ጽሑፍ ብሎግ የለን። ድሕሪ ሒደት ግዜ ተመለሱ!",
+    "readMore": "ተወሳኺ አንበብ",
+    "defaultAuthor": "ኣማሓዳሪ",
+    "pagination": {
+      "prev": "ናይ ቀደም",
+      "next": "ዚቕጽል",
+      "pageOf": "ገጽ {{current}} / {{total}}"
+    }
+  },
+  "faq": {
+    "title": "ብብዝሒ ዝቐረቡ ሕቶታት",
+    "q1": "እንታይ ዓይነት ኣገባብ ክፍሊት ትቕበሉ?",
+    "a1": "ብባንክ ምትሕልላፍ፣ ብሞባይል ገንዘብ (ቴሌብር፣ ኤም-ፔሳ)، ከምኡውን ኣብ ገሊአን ከተማታት ከሎ ንብረት ክበጽሕ ነ ገንዘብ ብኢድ ንቕበል።",
+    "q2": "ትእዛዘይ ብኸመይ ክከታተሎ እኽእል?",
+    "a2": "ትእዛዝኩም ድሕሪ ምጽዳቑ፣ ቁጽሪ መከታተሊ ብኢመይልን ኤስኤምኤስን ንሰደልኩም። ከምኡውን ካብ ዳሽቦርድኩም ክትከታተሉዎ ትኽእሉ ኢኹም።",
+    "q3": "ፖሊሲ ምምላስኩም እንታይ እዩ?",
+    "a3": "ንዝተጐድኡ ወይ ከምቲ ዝተገለጸ ዘይኮኑ ንብረታት ናይ 7 መዓልታት ፖሊሲ ምምላስ ንህብ። ካብቲ ዝተበጽሐሉ መዓልቲ ጀሚሩ ኣብ ውሽጢ 7 መዓልታት ክትረኽቡና ኣለኩም።",
+    "q4": "ናብ ወጻኢ ሃገርዶ ትልእኩ?",
+    "a4": "ንግዚኡ እነብጽሕ ኣብ ውሽጢ ኢትዮጵያ ጥራይ እዩ። ንመጻኢ ኣብ ኣማራጺ መጓዓዝያ ወጻኢ ሃገር ንሰርሕ ኣለና።",
+    "q5": "ብኸመይ ዝተረጋገጸ ሸያጢ ክኸውን እኽእል?",
+    "a5": "ፕሮፋይልኩም ሙሉእ፣ መለለዪኹም ኣტዕኑ፣ ቁጽሪ ስልኪኹም ድማ ኣረጋግጹ። ጉጅለና ኣብ ውሽጢ 24 ሰዓታት ሕሳብኩም ኣርእዩ የረጋግጾ።"
+  },
+  "trustStrip": {
+    "secure": "ውሑስ ክፍሊት",
+    "secureDesc": "100% ዝተሓለወ",
+    "returns": "ቀሊል ምምላስ",
+    "returnsDesc": "ፖሊሲ 30 መዓልታት",
+    "quality": "መረጋገጺጽፈት",
+    "qualityDesc": "ፕሪምየም ፍርያት",
+    "delivery": "ቅልጡፍ መጓዓዝያ",
+    "deliveryDesc": "ውሽጣዊ ሃገራዊ ልኢኾ"
+  },
+  "cta": {
+    "badge": "ምስ ማሕበረሰብ ተጸንበሩ",
+    "title": "ሎሚ ተመዝገቡ",
+    "subtitle": "ምሉእ ቅሳነት ኣእምሮ ሕኑጽ ሃብቲ ኢትዮጵያ ንምግዛእን ንምሸጥን ሕሳብኩም ፍጠሩ።",
+    "signup": "ብናጻ ተመዝገብ",
+    "login": "እቱ"
+  },
+  "productGrid": {
+    "emptyTitle": "ንግዚኡ ዝርዝር የለን",
+    "emptyDescription": "ኣብ ነጉስ ገበያ ቀዳማይ ንብረት ካብ ዝዝርዝሩ ቀዳሞት ኩኑ።"
+  },
+  "admin": {
+    "title": "ዳሽቦርድ ኣልጋብ",
+    "stats": {
+      "activeUsers": "ንጡፋት ተጠቀምቲ",
+      "listings": "ዝርዝር",
+      "pendingReports": "ዝጽበዩ ዘለዉ ጸብጻባት",
+      "commission": "ኮሚሽን (10%)"
+    },
+    "tabs": {
+      "overview": "ሓፈሻዊ ኩነታት",
+      "products": "ፍርያት",
+      "orders": "ትእዛዛት",
+      "reports": "ጸብጻብ",
+      "verifications": "መረጋገጺ",
+      "withdrawals": "ሕቶ ሕጹጽ ገንዘብ",
+      "blogs": "ብሎጋት"
+    },
+    "overview": {
+      "title": "ቐረባ ግዜ ምንቅስቓስ",
+      "welcome": "እንቋዕ ናብ ፓነል ኣልጋብ ብደሓን መጻእኹም ፍርያት፣ ትእዛዛት፣ ጸብጻባት፣ መረጋገጺታት፣ ሕቶ ገንዘብ ምውጻእ፣ ከምኡውን ጽሑፋት ብሎግ ንምምሕዳር ነቶ ንላዕሊ ዘለዉ ታብታት ተጠቐሙ።"
+    },
+    "errors": {
+      "loadFailed": "ሓበሬታ ዳሽቦርድ ምጽዓን ኣይሰለጦን።",
+      "productsLoadFailed": "ፍርያት ምጽዓን ኣይሰለጦን።",
+      "ordersLoadFailed": "ትእዛዛት ምጽዓን ኣይሰለጦን።",
+      "statusUpdateFailed": "ኩነታት ምሕዳስ ኣይሰለጦን።",
+      "actionFailed": "ስጉምቲ ኣይሰለጦን።",
+      "blogSaveFailed": "ብሎግ ምዕቃብ ኣይሰለጦን።",
+      "deleteFailed": "ምስራዝ ኣይሰለጦን።"
+    },
+    "products": {
+      "title": "ፍርያት ኣልጋብ",
+      "searchPlaceholder": "ብ ኣርእስቲ ድለ...",
+      "statusAll": "ኩሉ ኩነታት",
+      "refresh": "ኣሐድስ",
+      "noProducts": "ፍርያት ኣይተረኽበን",
+      "noProductsDesc": "ምስ መምረጺኹም ዝሰማማዕ ፍርያት የለን።",
+      "uncategorized": "ዘይተመደበ",
+      "unknown": "ዘይተፈልጠ",
+      "updating": "ይሕደስ ኣሎ...",
+      "confirmStatusChange": "ኩነታት ፍርያት ናብ \"{{status}}\" ይቐየር?",
+      "statusUpdated": "ኩነታት ፍርያት ተሓዲሱ ኣሎ።",
+      "statuses": {
+        "active": "ንጡፍ ዘሎ",
+        "sold": "ተሸጢሩ",
+        "pending": "ይጽበይ ኣሎ",
+        "inactive": "ዘይንጡፍ",
+        "removed": "ተሰሪዙ",
+        "draft": "መጀመርታ ረቂቕ (Draft)"
+      },
+      "table": {
+        "product": "ፍርያት",
+        "seller": "ሸያጢ",
+        "price": "ዋጋ (ብር)",
+        "status": "ኩነታት",
+        "actions": "ስጉምቲ"
+      },
+      "pagination": {
+        "showing": "{{start}} - {{end}} ካብ {{total}} የርኢ ኣሎ",
+        "prev": "ናይ ቀደም",
+        "next": "ዚቕጽል"
+      }
+    },
+    "orders": {
+      "title": "ትእዛዛት ኣልጋብ",
+      "searchPlaceholder": "ፍርያት፣ መግዛኢ፣ ሸያጢ ድለ...",
+      "statusAll": "ኩሉ ኩነታት",
+      "refresh": "ኣሐድስ",
+      "noOrders": "ትእዛዝ ኣይተረኽበን",
+      "noOrdersDesc": "ምስ መምረጺኹም ዝሰማማዕ ትእዛዝ የለን።",
+      "na": "የለን",
+      "unknown": "ዘይተፈልጠ",
+      "updating": "ይሕደስ ኣሎ...",
+      "confirmStatusChange": "ኩነታት ትእዛዝ ናብ \"{{status}}\" ይቐየር?",
+      "statusUpdated": "ኩነታት ትእዛዝ ተሓዲሱ ኣሎ።",
+      "statuses": {
+        "pending": "ይጽበይ ኣሎ",
+        "paid": "ተኸፊሉ",
+        "shipped": "ተለኢኹ",
+        "delivered": "ተበጺሑ",
+        "completed": "ተዛዚሙ",
+        "cancelled": "ተሰሪዙ",
+        "failed": "ኣይሰለጦን",
+        "refunded": "ተመሊሱ"
+      },
+      "table": {
+        "orderId": "ቁጽሪ ትእዛዝ",
+        "product": "ፍርያት",
+        "buyer": "መግዛኢ",
+        "seller": "ሸያጢ",
+        "amount": "መጠን ገንዘብ (ብር)",
+        "status": "ኩነታት",
+        "date": "ዕለት",
+        "actions": "ስጉምቲ"
+      },
+      "pagination": {
+        "showing": "{{start}} - {{end}} ካብ {{total}} የርኢ ኣሎ",
+        "prev": "ናይ ቀደም",
+        "next": "ዚቕጽል"
+      }
+    },
+    "reports": {
+      "title": "ዝጽበዩ ዘለዉ ጸብጻባት",
+      "noReports": "ኩሉ ጽሩይ እዩ",
+      "noReportsDesc": "ዝጽበይ ዘሎ ጸብጻብ የለን።",
+      "resolve": "ፍታሕ",
+      "dismiss": "ሓድጎ",
+      "resolvedSuccess": "ጸብጻብ ተፈቲሑ ኣሎ።",
+      "dismissedSuccess": "ጸብጻብ ተሓዲጉ ኣሎ።",
+      "unknown": "ዘይተፈልጠ",
+      "deletedListing": "ዝርዝር ተሰሪዙ",
+      "table": {
+        "reporter": "ጸብጻብ ዝሃበ",
+        "listing": "ዝርዝር",
+        "reason": "ምኽንያት",
+        "actions": "ስጉምቲ"
+      }
+    },
+    "verifications": {
+      "title": "ዝጽበይ ዘሎ መረጋገጺ ሸያጢ",
+      "noRequests": "ኩሉ ተረጋጊጹ ኣሎ",
+      "noRequestsDesc": "ዝጽበይ ዘሎ ሕቶ መረጋገጺ የለን።",
+      "approve": "ፍቐድ",
+      "reject": "ነጽግ",
+      "approveSuccess": "መረጋገጺ ተፈቒዱ ኣሎ።",
+      "rejectSuccess": "መረጋገጺ ተነጺጉ ኣሎ።",
+      "open": "ክፈት",
+      "noDocument": "ሰነድ የለን",
+      "documentLabel": "ሰነድ",
+      "documentAlt": "ሰነድ",
+      "table": {
+        "name": "ሽም",
+        "email": "ኢመይል",
+        "document": "ሰነድ",
+        "actions": "ስጉምቲ"
+      }
+    },
+    "withdrawals": {
+      "title": "ሕቶ ገንዘብ ምውጻእ",
+      "noRequests": "ሕቶ ገንዘብ ምውጻእ የለን",
+      "noRequestsDesc": "ካብ ሸየጥቲ ዝመጸ ሕቶ ገንዘብ ምውጻእ የለን።",
+      "approve": "ፍቐድ",
+      "reject": "ነጽግ",
+      "approvedSuccess": "ገንዘብ ምውጻእ ተፈቒዱ ኣሎ።",
+      "rejectedSuccess": "ገንዘብ ምውጻእ ተነጺጉ ኣሎ።",
+      "unknown": "ዘይተፈልጠ",
+      "statuses": {
+        "pending": "ይጽበይ ኣሎ",
+        "approved": "ተፈቒዱ",
+        "rejected": "ተነጺጉ"
+      },
+      "table": {
+        "seller": "ሸያጢ",
+        "amount": "መጠን (ብር)",
+        "bankAccount": "ባንክ ሕሳብ",
+        "status": "ኩነታት",
+        "actions": "ስጉምቲ"
+      }
+    },
+    "blogs": {
+      "title": "ምምሕዳር ብሎግ",
+      "newPost": "ሓዲሽ ጽሑፍ",
+      "editPost": "ጽሑፍ ብሎግ ኣመዓራርይ",
+      "createPost": "ጽሑፍ ብሎግ ፍጠር",
+      "titlePlaceholder": "ኣርእስቲ",
+      "bodyPlaceholder": "ትሕዝቶ (HTML / Markdown ዝድገፍ)",
+      "excerptPlaceholder": "ሓጸርቲ ሓሳብ (ኣማራጺ)",
+      "coverImagePlaceholder": "ኣድራሻ ምስሊ መሽፈኒ (ኣማራጺ)",
+      "tagsPlaceholder": "መፍለዪ ምልክት (ብኮማ ዝፈላለዩ፣ ንኣብነት ቡን፣ ምኽሪ)",
+      "publish": "ኣውጽእ",
+      "update": "ኣሐድስ",
+      "cancel": "ተወ",
+      "noBlogs": "ብሎግ የለን",
+      "noBlogsDesc": "ቀዳማይ ብሎግኩም ኣብ ላዕሊ ፍጠሩ።",
+      "createSuccess": "ብሎግ ተፈጢሩ ኣሎ!",
+      "updateSuccess": "ብሎግ ተሓዲሱ ኣሎ።",
+      "deleteSuccess": "ብሎግ ተሰሪዙ ኣሎ።",
+      "confirmDelete": "ነዚ ጽሑፍ ብሎግ ክትሰርዞዶ?",
+      "edit": "ኣመዓራርይ",
+      "delete": "ሰርዝ",
+      "table": {
+        "title": "ኣርእስቲ",
+        "slug": "ስለግ (Slug)",
+        "tags": "መፍለዪ ምልክት",
+        "actions": "ስጉምቲ"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "እንቋዕ ብደሓን ተመለስኩም፣ {{name}}",
+    "defaultName": "ሸያጢ",
+    "subtitle": "ሓፈሻዊ ኩነታት ዝርዝርኩምን መልእኽትታትን ኣብ ነጉስ ገበያ።",
+    "uncategorized": "ዘይተመደበ",
+    "statuses": {
+      "active": "ንጡፍ ዘሎ",
+      "sold": "ተሸጢሩ",
+      "pending": "ይጽበይ ኣሎ",
+      "approved": "ተፈቒዱ",
+      "rejected": "ተነጺጉ",
+      "other": "ካልእ"
+    },
+    "quickActions": {
+      "sell": "ንብረት ሸጥ",
+      "myListings": "ዝርዝረይ",
+      "favorites": "ዝፈተኹዎም",
+      "messages": "መልእኽቲ",
+      "myOrders": "ትእዛዛተይ",
+      "sellerOrders": "ትእዛዛት ሸያጢ"
+    },
+    "live": {
+      "title": "ቀጥታዊ ምልካፍ (Live Streaming)",
+      "liveNow": "🔴 ሕጂ ኣብ ቀጥታዊ መደብ ኣለኹም",
+      "badge": "ቀጥታዊ",
+      "goLive": "ናብ ቀጥታዊ መደብ እቱ",
+      "endStream": "መደብ ኣቋርጽ",
+      "streamKey": "መፍትሕ መደብ (Stream Key)",
+      "activeNote": "ቀጥታዊ መደብኩም ይካየድ ኣሎ። ንመገዝቲ ኣብ ፍድ ሪልስ ይርአ እዩ።"
+    },
+    "earnings": {
+      "title": "እቶት",
+      "subtitle": "ካብ ዝተኸፍሉ/ዝተዛዘሙ ትእዛዛት",
+      "refresh": "ኣሐድስ",
+      "requestWithdrawal": "ገንዘብ ንምውጻእ ሕተት",
+      "withdrawalHistory": "ታሪኽ ገንዘብ ምውጻእ"
+    },
+    "periodLabels": {
+      "all": "ኩሉ ግዜ",
+      "today": "ሎሚ",
+      "week": "ዛጊት ሰሙን",
+      "month": "ዛጊት ወርሒ",
+      "3months": "3 ኣዋርሕ",
+      "6months": "6 ኣዋርሕ",
+      "year": "ዛጊት ዓመት"
+    },
+    "stats": {
+      "totalListings": "ጠቕላላ ዝርዝር",
+      "active": "ንጡፍ",
+      "sold": "ተሸጢሩ",
+      "views": "ትዕዝብቲ",
+      "favorites": "ዝፈተኹዎም"
+    },
+    "charts": {
+      "categoryTitle": "ዝርዝር ብመደብ",
+      "noCategoryData": "ሓበሬታ መደብ የለን።",
+      "statusTitle": "ዕድል ኩነታት",
+      "noStatusData": "ዕድል ንምርኣይ ዝርዝር የለን።"
+    },
+    "messages": {
+      "title": "መልእኽቲ",
+      "unread": "ዘይተነበበ",
+      "noConversations": "ክሳብ ሕጂ ዝተገብረ ዕላል የለን።",
+      "noMessages": "ዝኾነ መልእኽቲ የለን"
+    },
+    "recentListings": {
+      "title": "ቀረባ ዝርዝር",
+      "viewAll": "ኩሉ ርአ",
+      "empty": "ክሳብ ሕጂ ዝኾነ ዝርዝር ኣይፈጠርኩምን።",
+      "createFirst": "ቀዳማይ ዝርዝርኩም ፍጠሩ",
+      "noImage": "ምስሊ የለን",
+      "views": "ትዕዝብቲ",
+      "edit": "ኣመዓራርይ"
+    },
+    "tip": "ምኽሪ: ንምሸጥ ብቐሊሉ ጽፉፍ ምስልን ንጹር መግለጺን ተጠቐሙ።",
+    "modal": {
+      "stream": {
+        "title": "ቀጥታዊ ምልካፍ ጅመር",
+        "streamKeyLabel": "መፍትሕ መደብ",
+        "rtmpLabel": "RTMP URL",
+        "instructions": "⚠️ ንኣገልግሎት እዚ RTMP URL OBS ወይ ዝኾነ መደብ መለኪዒ ተጠቐሙ። መደብኩም ንመገዝቲ ኣብ ፍድ ሪልስ ክርአ እዩ።",
+        "startButton": "ብቀጥታዊ ጅመር"
+      },
+      "withdraw": {
+        "title": "ገንዘብ ንምውጻእ ሕተት",
+        "amountLabel": "መጠን (ብር) – ዘሎ: {{earnings}} ብር",
+        "amountPlaceholder": "ውሕድ {{max}}, ልዕሉ {{max}}",
+        "minimum": "ውሕድ ገንዘብ ምውጻእ: 1000 ብር",
+        "accountNameLabel": "ሽም ዋና ሕሳብ",
+        "accountNamePlaceholder": "ምሉእ ሽም ምስ ባንክ ዝሰማማዕ",
+        "accountNumberLabel": "ቁጽሪ ሕሳብ ባንክ (CBE)",
+        "accountNumberPlaceholder": "ንኣብነት 1000XXXXXXXX",
+        "submitButton": "ሕቶ ሰድድ"
+      }
+    },
+    "toasts": {
+      "live": {
+        "onlyVerified": "ዝተረጋገጹ ሸየጥቲ ጥራይ እዮም ናብ ቀጥታዊ መደብ ክኣትዉ ዝኽእሉ።",
+        "generateFailed": "መፍትሕ መደብ ክፈጥር ኣይከኣለን።",
+        "started": "ሕጂ ኣብ ቀጥታዊ መደብ ኣለኹም!",
+        "startFailed": "ቀጥታዊ መደብ ክጅምር ኣይከኣለን።",
+        "ended": "ቀጥታዊ መደብ ተዛዚሙ።",
+        "endFailed": "ቀጥታዊ መደብ ክዛዝም ኣይከኣለን።"
+      },
+      "withdraw": {
+        "invalidFields": "እባካ ኩሎም ቦታታት ምልኡ ከምኡውን ገንዘብ ብውሕዱ 1000 ብር ክኸውን ኣለዎ",
+        "exceedsEarnings": "ናብ ምውጻእ ዝሕተት ገንዘብ ካብ እቶትኩም ይበልጽ።",
+        "success": "ሕቶ ገንዘብ ምውጻእ ተሰዲዱ ኣሎ!",
+        "failed": "ሕቶ ገንዘብ ምውጻእ ክሕተት ኣይከኣለን",
+        "minimum": "ገንዘብ ምውጻእ ንምሕታት ካብ እቶትኩም ብውሕዱ 1000 ብር ክህልወኩም ኣለዎ።"
+      },
+      "earningsRefreshed": "እቶት ተሓዲሱ ኣሎ",
+      "fetchDataFailed": "ሓበሬታ ዳሽቦርድ ምጽዓን ኣይሰለጦን።",
+      "fetchEarningsFailed": "እቶት ምጽዓን ኣይሰለጦን።"
+    }
+  },
+  "favorites": {
+    "title": "ናታትኩም ዝፈተኹዎም",
+    "subtitle": "እቶም ኣብ ነጉስ ገበያ ኣቐሚጥኩምዎም ንብረታት።",
+    "empty": "ክሳብ ሕጂ ዝኾነ ንብረት ኣይኣቀመጥኩምን።",
+    "browseLink": "ማርኬትፕለስ ዳህሰሱ",
+    "noImage": "ምስሊ የለን",
+    "views": "ትዕዝብቲ",
+    "viewButton": "ርአ",
+    "removeButton": "ኣውጽእ",
+    "statuses": {
+      "active": "ንጡፍ",
+      "sold": "ተሸጢሩ",
+      "pending": "ይጽበይ ኣሎ"
+    },
+    "errors": {
+      "loadFailed": "ዝፈተኹዎም ክጽዕን ኣይከኣለን።",
+      "removeFailed": "ምውጻእ ኣይሰለጦን።"
+    },
+    "toasts": {
+      "removed": "ካብ ዝፈተኹዎም ወጺኡ ኣሎ።"
+    }
+  },
+  "login": {
+    "title": "እንቋዕ ብደሓን ተመለስኩም",
+    "subtitle": "ብደሓን ምግዛእን ምሸጥን ንምቕጻል እቱ።",
+    "leftColumnTagline": "ንሃብቲ ኢትዮጵያ ናብ ዝተኣማመነ ማርኬትፕለስ እንቋዕ ብደሓን መጻእኹም።",
+    "logoAlt": "ምልክት ነጉስ ገበያ",
+    "mobileSubtitle": "ናብ ሕሳብኩም እቱ",
+    "closeAria": "እቱ ምዕጻው",
+    "form": {
+      "emailPlaceholder": "ኣድራሻ ኢመይል",
+      "passwordPlaceholder": "መሕለፊ ቃል",
+      "emailRequired": "ኢመይል የድሊ",
+      "emailInvalid": "ቁኑዕ ኣድራሻ ኢመይል ኣእትዉ",
+      "passwordRequired": "መሕለፊ ቃል የድሊ",
+      "forgotPassword": "መሕለፊ ቃል ጠፊኡኩም?",
+      "loginButton": "ናብ ነጉስ ገበያ እቱ",
+      "loggingIn": "ይኣቱ ኣሎ...",
+      "orContinue": "ወይ ድማ ቀጽሉ",
+      "googleButton": "ብ ጉግል (Google) ቀጽል",
+      "noAccount": "ንነጉስ ገበያ ሓዲሽ ዲኹም?",
+      "signUpLink": "ሕሳብ ፍጠር"
+    },
+    "errors": {
+      "incorrectCredentials": "ጌጋ ኢመይል ወይ መሕለፊ ቃል ቃል።"
+    },
+    "toasts": {
+      "welcomeBack": "እንቋዕ ብደሓን ተመለስኩም!",
+      "redirectingGoogle": "ናብ ጉግል ይወስድ ኣሎ..."
+    }
+  },
+  "orders": {
+    "title": "ትእዛዛተይ",
+    "refresh": "ኣሐድስ",
+    "sellerLabel": "ሸያጢ",
+    "unknownProduct": "ፍርያት",
+    "unknownSeller": "ዘይተፈልጠ",
+    "viewDetails": "ዝርዝር ርአ",
+    "statuses": {
+      "completed": "ተዛዚሙ",
+      "pending": "ይጽበይ ኣሎ",
+      "cancelled": "ተሰሪዙ",
+      "failed": "ኣይሰለጦን",
+      "refunded": "ተመሊሱ"
+    },
+    "emptyState": {
+      "title": "ክሳብ ሕጂ ዝኾነ ትእዛዝ የለን",
+      "description": "ክሳብ ሕጂ ዝኾነ ትእዛዝ ኣይተኣዘዝኩም።"
+    },
+    "errors": {
+      "loadFailed": "ትእዛዛት ምጽዓን ኣይሰለጦን"
+    }
+  },
+  "myListings": {
+    "title": "ዝርዝረይ",
+    "subtitle": "ኩሉ ዝርዝርኩም ኣብ ነጉስ ገበያ ኣመሓድሩ።",
+    "sellNew": "ሓዲሽ ንብረት ሸጥ",
+    "noImage": "ምስሊ የለን",
+    "views": "ትዕዝብቲ",
+    "favorites": "ዝፈተኹዎም",
+    "editButton": "ኣመዓራርይ",
+    "deleteButton": "ሰርዝ",
+    "filterOptions": {
+      "all": "ኩሉ",
+      "active": "ንጡፍ",
+      "sold": "ተሸጢሩ",
+      "inactive": "ዘይንጡፍ"
+    },
+    "statuses": {
+      "active": "ንጡፍ",
+      "sold": "ተሸጢሩ",
+      "inactive": "ዘይንጡፍ"
+    },
+    "empty": {
+      "title": "ዝርዝር ኣይተረኽበን።",
+      "cta": "ቀዳማይ ዝርዝርኩም ፍጠሩ"
+    },
+    "pagination": {
+      "prev": "ናይ ቀደም",
+      "next": "ዚቕጽል",
+      "pageOf": "ገጽ {{current}} / {{total}}"
+    },
+    "errors": {
+      "loadFailed": "ዝርዝርኩም ክጽዕን ኣይከኣለን።",
+      "deleteFailed": "ዝርዝር ክሰርዝ ኣይከኣለን።"
+    },
+    "toasts": {
+      "deleteSuccess": "ዝርዝር ብዓወት ተሰሪዙ ኣሎ።"
+    },
+    "confirmDelete": "\"{{title}}\" ክትሰርዞ ከም ዝደለኹም ተረጋጊጹዶ?"
+  },
+  "paymentFailed": {
+    "title": "ክፍሊት ኣይሰለጦን",
+    "description": "ርክብኩም ኣይተዛዘመን።",
+    "referenceLabel": "መወከሲ (Reference)",
+    "returnHome": "ናብ ቀዳማይ ገጽ ተመለስ",
+    "toasts": {
+      "failed": "ክፍሊት ኣይሰለጦን። እባካ እንደገና ፈትኑ።"
+    }
+  },
+  "paymentSuccess": {
+    "title": "ክፍሊት ተዓዊቱ!",
+    "description": "ርክብኩም ተዛዚሙ ኣሎ።",
+    "referenceLabel": "መወከሲ (Reference)",
+    "viewOrders": "ትእዛዛት ርአ",
+    "toasts": {
+      "success": "ክፍሊት ተዓዊቱ!"
+    }
+  },
+  "productDetails": {
+    "noImage": "ምስሊ የለን",
+    "negotiable": "ዋጋ ይዘራረበሉ",
+    "removeFavorite": "ካብ ዝፈተኹዎም ኣውጽእ",
+    "addFavorite": "ናብ ዝፈተኹዎም ወስኽ",
+    "unknownSeller": "ዘይተፈልጠ ሸያጢ",
+    "descriptionLabel": "መግለጺ",
+    "editButton": "ኣመዓራርይ",
+    "deleteButton": "ሰርዝ",
+    "buyNow": "ሕጂ ግዛእ",
+    "loginToBuy": "ንምግዛእ እቱ",
+    "contactSeller": "ንሸያጢ ርኸብ",
+    "reportButton": "ነዚ ዝርዝር ጸብጻብ ሃብ",
+    "reviewsTitle": "ገምጋም",
+    "writeReview": "ገምጋም ጽሕፍ",
+    "editReview": "ገምጋም ኣመዓራርይ",
+    "writeReviewTitle": "ገምጋም ጽሕፍ",
+    "editReviewTitle": "ገምጋምኩም ኣመዓራርይ",
+    "ratingLabel": "ደርጃ",
+    "commentLabel": "ርኢቶ (ኣማራጺ)",
+    "commentPlaceholder": "ምስ እዚ ፍርያት ዘለኩም ተሞክሮ ካፈልዎ...",
+    "submitReviewButton": "ገምጋም ኣእቱ",
+    "updateReviewButton": "ገምጋም ኣሐድስ",
+    "cancelButton": "ተወ",
+    "anonymous": "መንነቱ ዘይተፈልጠ",
+    "noReviews": "ክሳብ ሕጂ ዝኾነ ገምጋም የለን። ንእዚ ፍርያት ቀዳማይ ኩኑ!",
+    "similarListings": "ተመሳሳሊ ዝርዝር",
+    "reviewCount": "({{count}} ገምጋማት)",
+    "sellerRating": "{{rating}} ★ · {{count}} ገምጋም",
+    "sellerNoReviews": "ክሳብ ሕጂ ገምጋም የለን",
+    "emptyState": {
+      "title": "ዝርዝር ኣይተረኽበን",
+      "description": "እዚ ዝርዝር ተሰሪዙ ወይ ተሸጢሩ ክኸውን ይኽእል እዩ።"
+    },
+    "statuses": {
+      "active": "ንጡፍ",
+      "sold": "ተሸጢሩ",
+      "pending": "ይጽበይ ኣሎ",
+      "inactive": "ዘይንጡፍ",
+      "removed": "ተሰሪዙ",
+      "draft": "ረቂቕ (Draft)"
+    },
+    "conditions": {
+      "new": "ሓዲሽ",
+      "likeNew": "ከም ሓዲሽ",
+      "used": "ዝተጠቐመበት",
+      "damaged": "ዝተጐድአ"
+    },
+    "confirmDelete": "ነዚ ዝርዝር ክትሰርዞዶ? እዚ ክምለስ ኣይክእልን እዩ።",
+    "toasts": {
+      "paymentConfirmed": "ክፍሊት ተረጋጊጹ! ትእዛዝ ሕጂ ተኸፊሉ ኣሎ።",
+      "paymentNotVerified": "ኩነታት ክፍሊት ከረጋግጽ ኣይከኣለን።",
+      "paymentVerificationFailed": "መረጋገጺ ክፍሊት ኣይሰለጦን።",
+      "sellerNotifiedNoPhone": "ንሸያጢ ተነጊሩ ኣሎ — ገና ቁጽሪ ስልኪ ኣይወሰኸን።",
+      "contactRevealed": "ሓበሬታ ርክብ ሸያጢ ወጺኡ ኣሎ!",
+      "contactFailed": "ንሸያጢ ክረኽቦ ኣይከኣለን።",
+      "deleteSuccess": "ዝርዝር ተሰሪዙ ኣሎ።",
+      "deleteFailed": "ዝርዝር ክሰርዝ ኣይከኣለን።",
+      "alreadySold": "እዚ ፍርያት ድሮ ተሸጢሩ እዩ።",
+      "paymentInitFailed": "ክፍሊት ክጅምር ኣይሰለጦን።",
+      "ratingRequired": "እባካ ደረጃ ምረጹ።",
+      "reviewSubmitSuccess": "ገምጋም ኣትዩ ኣሎ!",
+      "reviewSubmitFailed": "ገምጋም ከእቱ ኣይከኣለን።",
+      "reviewUpdateSuccess": "ገምጋም ተሓዲሱ ኣሎ!",
+      "reviewUpdateFailed": "ገምጋም ክሕድስ ኣይከኣለን።"
+    }
+  },
+  "profile": {
+    "title": "ፕሮፋይልኩም",
+    "loading": "ይጽዕን ኣሎ...",
+    "avatar": {
+      "save": "ምስሊ ፕሮፋይል ኣቐመጥ",
+      "uploading": "ይጽዕን ኣሎ..."
+    },
+    "personalInfo": {
+      "title": "ውልቃዊ ሓበሬታ",
+      "edit": "ኣመዓራርይ",
+      "cancel": "ተወ",
+      "saveChanges": "ለውጢ ኣቐመጥ",
+      "saving": "ይዕቀብ ኣሎ...",
+      "fullName": "ምሉእ ሽም",
+      "phone": "ስልኪ",
+      "phonePlaceholder": "ንኣብነት 0912345678",
+      "city": "ከተማ",
+      "cityPlaceholder": "ንኣብነት ኣዲስ ኣበባ",
+      "bio": "ብዛዕባኹም (Bio)",
+      "bioPlaceholder": "ብዛዕባኹም ንገሩና..."
+    },
+    "verification": {
+      "title": "መረጋገጺ መንነት",
+      "statusLabel": "ኩነታት",
+      "verifiedBadge": "ዝተረጋገጸ ሸያጢ",
+      "statuses": {
+        "verified": "ተረጋጊጹ",
+        "pending": "ንገምጋም ይጽበይ ኣሎ",
+        "rejected": "ተነጺጉ",
+        "notSubmitted": "ኣይቐረበን"
+      },
+      "rejectionReason": "ምኽንያት",
+      "verifiedMessage": "መንነትኩም ተረጋጊጹ ኣሎ። ሕጂ ኣብ ፕሮፋይልኩምን ዝርዝርኩምን ምልክት መረጋገጺ ኣለኩም።",
+      "documentTypeLabel": "ዓይነት ሰነድ",
+      "documentTypes": {
+        "nationalId": "ሃገራዊ መለለዪ ወረቐት",
+        "passport": "ፓስፖርት",
+        "driverLicense": "ፍቓድ መኮንነቲ"
+      },
+      "uploadLabel": "ሰነድ ኣტን (JPG, PNG, PDF)",
+      "submit": "ንመረጋገጺ ኣቕርብ",
+      "submitting": "ይልእኽ ኣሎ..."
+    },
+    "toasts": {
+      "profileUpdated": "ፕሮፋይል ተሓዲሱ ኣሎ!",
+      "updateFailed": "ምሕዳስ ኣይሰለጦን",
+      "avatarUpdated": "ምስሊ ፕሮፋይል ተሓዲሱ ኣሎ!",
+      "avatarUploadFailed": "ምጽዓን ኣይሰለጦን",
+      "selectDocument": "እባካ ሰነድ ምረጹ",
+      "documentSubmitted": "ሰነድ ንመረጋገጺ ቀሪቡ ኣሎ!",
+      "documentUploadFailed": "ምጽዓን ኣይሰለጦን"
+    }
+  },
+  "register": {
+    "title": "ሕሳብ ፍጠር",
+    "subtitle": "ተመዝገቡን ኣብ ውሽጢ ደቓይቕ ጉዕዞ ማርኬትፕለስኩም ጅመሩ።",
+    "leftColumnTagline": "ንሃብቲ ኢትዮጵያ ናብ ዝተኣማመነ ማርኬትፕለስ ተጸንበሩ – ብእምነት ግዛእትን ሸጥን።",
+    "logoAlt": "ምልክት ነጉስ ገበያ",
+    "mobileSubtitle": "ሕሳብኩም ፍጠሩ",
+    "closeAria": "ምዝገባ ምዕጻው",
+    "form": {
+      "namePlaceholder": "ምሉእ ሽም",
+      "nameRequired": "ሽም የድሊ",
+      "nameMinLength": "ሽም ብውሕዱ 2 ፊደላት ክህልዎ ይግባእ",
+      "nameMaxLength": "ሽም ካብ 60 ፊደላት ንታሕቲ ክኸውን ኣለዎ",
+      "emailPlaceholder": "ኣድራሻ ኢመይል",
+      "emailRequired": "ኢመይል የድሊ",
+      "emailInvalid": "ቁኑዕ ኣድራሻ ኢመይል ኣእትዉ",
+      "passwordPlaceholder": "ሓያል መሕለፊ ቃል ምረጽ",
+      "passwordRequired": "መሕለፊ ቃል የድሊ",
+      "passwordMinLength": "መሕለፊ ቃል ብውሕዱ 8 ፊደላት ክህልዎ ይግባእ",
+      "passwordNumberRequired": "መሕለፊ ቃል ሓደ ቁጽሪ ክህልዎ ይግባእ",
+      "phonePlaceholder": "ስልኪ (ኣማራጺ)",
+      "phoneInvalid": "ቁኑዕ ቁጽሪ ስልኪ ኢትዮጵያ ኣእትዉ (ንኣብነት 0912345678)",
+      "phoneHelp": "ስልኪኩም ምጽራይ ነጥቢ እምነትኩም ይውስኽ።",
+      "cityDefault": "ከተማ ምረጽ (ኣማራጺ)",
+      "termsLabel": "ተሰማሚዐ",
+      "termsLink": "ፖሊሲ ኣገልግሎት",
+      "and": "ከምኡውን",
+      "privacyLink": "ፖሊሲ ውልቀ-ሰባት",
+      "submitButton": "ሕሳብ ነጉስ ገበያ ፍጠር",
+      "creating": "ሕሳብ ይፍጠር ኣሎ...",
+      "orSignUp": "ወይ ድማ ተመዝገቡ",
+      "googleButton": "ብ ጉግል (Google) ቀጽል",
+      "alreadyAccount": "ድሮ ሕሳብ ኣለኩምዶ?",
+      "loginLink": "እቱ"
+    },
+    "passwordStrength": {
+      "weak": "ድኹም መሕለፊ ቃል",
+      "fair": " ማእከላይ መሕለፊ ቃል",
+      "strong": "ሓያል መሕለፊ ቃል"
+    },
+    "toasts": {
+      "termsRequired": "እባካ ን ፖሊሲ ኣገልግሎትን ፖሊሲ ውልቀ-ሰባትን ተሰማማዕ።",
+      "welcome": "ሕሳብ ተፈጢሩ — እንቋዕ ናብ ነጉስ ገበያ ብደሓን መጻእኹም!",
+      "createFailed": "ሕሳብኩም ክፈጥር ኣይከኣለን።",
+      "redirectingGoogle": "ናብ ጉግል ይወስድ ኣሎ..."
+    }
+  },
+  "search": {
+    "title": {
+      "withQuery": "ውጽኢት ናይ \"{{query}}\"",
+      "browse": "ዝርዝር ዳህሰስ"
+    },
+    "resultCount_one": "{{count}} ዝርዝር ተረኺቡ ኣሎ",
+    "resultCount_other": "{{count}} ዝርዝር ተረኺቦም ኣለዉ",
+    "filterButton": "ምድላይ (Filter)",
+    "showResults": "ውጽኢት ርአ",
+    "closeFilters": "ምድላይ ዕጾ",
+    "sortOptions": {
+      "newest": "ሓዲሽ ቅድሚ ኩሉ",
+      "oldest": "ኣረጊት ቅድሚ ኩሉ",
+      "priceAsc": "ዋጋ: ካብ ትሑት ናብ ልዑል",
+      "priceDesc": "ዋጋ: ካብ ልዑል ናብ ትሑት",
+      "popular": "ብዝያዳ ዝፈተዉዎም"
+    }
+  },
+  "sellerProfile": {
+    "youBadge": "ንስኻ",
+    "joined": "ዝተጸንበረ {{time}}",
+    "salesCount_one": "{{count}} መሸጣ",
+    "salesCount_other": "{{count}} መሸጣ",
+    "ratingNew": "ሓዲሽ",
+    "reviewCount_one": "({{count}} ገምጋም)",
+    "reviewCount_other": "({{count}} ገምጋማት)",
+    "trustScore": "እምነት {{score}}/5",
+    "viewAllListings": "ኩሉ ዝርዝር ርአ",
+    "chat": "ተዛረብ",
+    "closeChat": "ዕላል ዕጾ",
+    "emptyState": {
+      "title": "ሸያጢ ኣይተረኽበን",
+      "description": "እዚ ሸያጢ ተሰሪዙ ወይ ኣገልግሎቱ ደው ኢሉ ክኸውን ይኽእል እዩ።"
+    },
+    "stats": {
+      "completedSales": "ዝተዛዘሙ መሸጣታት",
+      "reviews": "ገምጋማት",
+      "avgRating": "ማእከላይ ገምጋም",
+      "trustScore": "ነጥቢ እምነት"
+    },
+    "listingsTitle": "ዝርዝር ናይ {{name}}",
+    "noListings": "ካብ እዚ ሸያጢ ንግዚኡ ንጡፍ ዝርዝር የለን።"
+  },
+  "sellerOrders": {
+    "title": "ትእዛዛት ሸያጢ",
+    "earningsLabel": "ጠቕላላ እቶት",
+    "refreshButton": "ኣሐድስ",
+    "buyerLabel": "መግዛኢ",
+    "unknownProduct": "ፍርያት",
+    "unknownBuyer": "ዘይተፈልጠ",
+    "viewDetails": "ዝርዝር ርአ",
+    "updating": "ይሕደስ ኣሎ...",
+    "confirmStatusChange": "ኩነታት ትእዛዝ ናብ \"{{status}}\" ይቐየር?",
+    "statuses": {
+      "pending": "ይጽበይ ኣሎ",
+      "paid": "ተኸፊሉ",
+      "shipped": "ተለኢኹ",
+      "delivered": "ተበጺሑ",
+      "completed": "ተዛዚሙ",
+      "cancelled": "ተሰሪዙ"
+    },
+    "emptyState": {
+      "title": "ክሳብ ሕጂ ዝኾነ ትእዛዝ የለን",
+      "description": "ክሳብ ሕጂ ዝኾነ ትእዛዝ ኣይተቐበልኩምን።"
+    },
+    "toasts": {
+      "loadFailed": "ትእዛዛት ሸያጢ ምጽዓን ኣይሰለጦን።",
+      "refreshed": "ትእዛዛት ተሓዲሶም ኣለዉ",
+      "statusUpdated": "ኩነታት ትእዛዝ ናብ {{status}} ተሓዲሱ ኣሎ",
+      "statusUpdateFailed": "ኩነታት ምሕዳስ ኣይሰለጦን።"
+    }
+  },
+  "socialLogin": {
+    "loading": "ይጽዕን ኣሎ...",
+    "defaultName": "ተጠቃሚ",
+    "toasts": {
+      "welcome": "እንቋዕ ብደሓን መጻእኹም {{name}}!",
+      "error": "ማሕበራዊ እቱ ኣይሰለጦን። እባካ እንደገና ፈትኑ።"
+    }
+  },
+  "about": {
+    "title": "ብዛዕባ ነጉስ ገበያ",
+    "paragraph1": "ነጉስ ገበያ ፕሪምየም ማርኬትፕለስ መርበብ ኢትዮጵያ እዩ፣ ኣብ ሃገር ብእምነትን ግሉጽነትን ንመገዝትን ንሸየጥትን የራኽብ። ናይ ሓቂ ፍርያት ኢትዮጵያ — ካብ ቡንን መቐመጥ ጨውን ክሳብ ሰብ-ሞያ ስርሕ ኢደ ጥበብ — ረኺብካ ብእምነት ንምድላብ ማሕበረሰብ ከባቢና ንምድጋፍ ንኣምን።",
+    "paragraph2": "መልእኽትና ንንኡሳት ንግዲ፣ ንኢደ ጥበብ ሰብ-ሞያ፣ ከምኡውን ንሓረስቶት ብምድጋፍ ቁጠባዊ ዕብደት ምምጻእ እዩ። ንኩሉ ሰብ ውሑስን እሙንን ተሞክሮ ንምርግጋጽ ፍትሓዊ ዋጋ፣ ውሑስ ክፍሊት፣ ከምኡውን ዝተረጋገጸ ፕሮፋይል ነቐድም። ኣብ ነጉስ ገበያ ዝኾነ ንግዲ ህይወት ከባቢ ንምድጋፍ ይሕግዝ ከምኡውን ንባህላዊ ሓልዎት ኢትዮጵያ ይሕልው።",
+    "paragraph3": "ንሕና ተሐጓሰቲ ኢትዮጵያውያን ጉጅለ ንኹሉ ሰብ ዝሰርሕ ማርኬትፕለስ ንምህናጽ ድሉዋት ኢና። ፍሉይ ሃብቲ ዝደሊ መገዛኢ ወይ ንሰፊሕ ተረኸብቲ ክበጽሕ ዝደሊ ሸያጢ እንተዳኣ ኴንኩም፣ ነጉስ ገበያ እሙን መሓዛኹም እዩ።",
+    "cta": "ሎሚ ምስ ማሕበረሰብና ተጸንበሩን ኣብ ዲጂታላዊ ቁጠባዊ ዕብየት ኢትዮጵያ ተሳተፍቲ ኩኑ።"
+  },
+  "contact": {
+    "title": "ርኸቡና",
+    "form": {
+      "title": "መልእኽቲ ሰድዱልና",
+      "nameLabel": "ምሉእ ሽም",
+      "namePlaceholder": "ሽምኩም ሙሉእ",
+      "emailLabel": "ኣድራሻ ኢመይል",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "መልእኽቲ",
+      "messagePlaceholder": "ብኸመይ ክንሕግዘኩም ንኽእል?",
+      "submitButton": "መልእኽቲ ሰድድ"
+    },
+    "info": {
+      "title": "ርኸቡና",
+      "emailLabel": "ኢመይል",
+      "phoneLabel": "ስልኪ",
+      "addressLabel": "ኣድራሻ",
+      "address": "ቦሌ፣ ኣዲስ ኣበባ፣ ኢትዮጵያ",
+      "hoursLabel": "ሰዓታት ስርሕ",
+      "hours": "ሰኑይ – ዓርቢ፣ ንግሆ ካብ 3:00 ሰዓት ክሳብ ምሸት 12:00 ሰዓት (ሰዓታት ሰሜናዊ ምዕራብ ኣፍሪካ)"
+    }
+  }
+}

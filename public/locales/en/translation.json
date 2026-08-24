@@ -1,0 +1,978 @@
+{
+  "topbar": {
+    "freeShipping": "Free Shipping on Orders Over 10K ETB",
+    "returns": "30-Day Money-Back Guarantee",
+    "support": "24/7 Customer Support"
+  },
+  "nav": {
+    "home": "Home",
+    "marketplace": "Marketplace",
+    "reels": "Reels",
+    "blog": "Blog",
+    "about": "About Us",
+    "contact": "Contact",
+    "searchPlaceholder": "Search treasures...",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "logout": "Log out",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "myListings": "My Listings",
+    "favorites": "Favorites",
+    "sell": "Sell",
+    "profile": "Profile",
+    "myOrders": "My Orders",
+    "sellerOrders": "Seller Orders",
+    "adminPanel": "Admin Panel"
+  },
+  "hero": {
+    "badge": "Ethiopia's Trusted Marketplace",
+    "title": "Buy & Sell Ethiopian Treasures Safely.",
+    "subtitle": "Negus Gebeya brings structure and transparency to Ethiopia's premium marketplace — moving beyond scattered groups. Connect with verified artisans and discover authentic coffee, spices, handcrafted goods, and cultural assets.",
+    "browse": "Browse Listings",
+    "sell": "Sell an Item"
+  },
+  "trust": {
+    "verified": "Verified trust scores",
+    "verifiedDesc": "Every seller's trust score is transparent — see exactly why.",
+    "ai": "AI listing assistant",
+    "aiDesc": "Get help writing a clear, honest listing in seconds.",
+    "pricing": "Fair pricing",
+    "pricingDesc": "Price suggestions based on real comparable listings."
+  },
+  "categories": {
+    "shop": "Shop by Category",
+    "title": "Find Your Treasure",
+    "subtitle": "Explore our curated collections, each telling a story of Ethiopian craftsmanship and tradition."
+  },
+  "marketplace": {
+    "badge": "Marketplace",
+    "title": "Ethiopia's Finest",
+    "subtitle": "Handpicked products from across the nation, delivered to your door with care."
+  },
+  "signup": {
+    "badge": "Join the community",
+    "title": "Sign Up Today",
+    "subtitle": "Create your account to start buying & selling authentic Ethiopian treasures.",
+    "button": "Sign Up",
+    "loginButton": "Log In"
+  },
+  "auth": {
+    "loginTitle": "Log in to Negus Gebeya",
+    "loginSubtitle": "Welcome back — buy and sell safely.",
+    "registerTitle": "Create your account",
+    "registerSubtitle": "Join to buy and sell locally, safely.",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full name",
+    "phone": "Phone (optional)",
+    "city": "City (optional)",
+    "noAccount": "New to Negus Gebeya?",
+    "createAccount": "Create an account",
+    "haveAccount": "Already have an account?",
+    "loginLink": "Log in",
+    "logInBtn": "Log in",
+    "signUpBtn": "Sign up",
+    "welcome": "Welcome back!",
+    "success": "Account created — welcome to Negus Gebeya!"
+  },
+  "createListing": {
+    "title": "Sell an item",
+    "subtitle": "Add clear photos and an honest description — listings with both sell faster.",
+    "submit": "Publish listing",
+    "noPhotos": "Please add at least one photo.",
+    "videoSection": "Product Videos (optional)",
+    "maxVideos": "of max videos used. Supported formats: MP4, MOV, WebM.",
+    "upload": "Upload Video",
+    "uploadingVideos": "Uploading videos... {{progress}}%",
+    "publishButton": "Publish listing",
+    "waitForUpload": "Please wait for upload to finish…",
+    "toasts": {
+      "noImages": "Please add at least one photo.",
+      "published": "Listing published!",
+      "failed": "Failed to create listing.",
+      "uploadFailed": "Upload failed",
+      "videoUploadFailed": "Video {{number}} upload failed: {{message}}"
+    }
+  },
+  "editListing": {
+    "title": "Edit listing",
+    "subtitle": "New photos are added alongside your existing ones (up to 8 total).",
+    "submit": "Save changes",
+    "uploadProgress": "{{progress}}% uploaded",
+    "emptyState": {
+      "forbiddenTitle": "You can't edit this listing",
+      "forbiddenDescription": "Only the seller who created a listing can edit it.",
+      "notFoundTitle": "Listing not found",
+      "notFoundDescription": "This listing may have been removed."
+    },
+    "toasts": {
+      "uploadingVideos": "Uploading videos...",
+      "videosUploaded": "Videos uploaded!",
+      "updateSuccess": "Listing updated.",
+      "updateFailed": "Update failed"
+    }
+  },
+  "reels": {
+    "empty": {
+      "title": "No reels or live streams",
+      "description": "Sellers haven't uploaded product videos or gone live yet.",
+      "cta": "Create one now"
+    },
+    "liveBadge": "LIVE",
+    "liveTitleFallback": "Live Stream",
+    "sellerFallback": "Seller",
+    "viewProduct": "View Product",
+    "viewerCount": "{{count}} watching",
+    "progress": "{{current}} / {{total}}",
+    "swipeHint": "Swipe up to explore",
+    "aria": {
+      "prev": "Previous",
+      "next": "Next",
+      "play": "Play",
+      "pause": "Pause"
+    }
+  },
+  "footer": {
+    "description": "Your trusted online marketplace for authentic Ethiopian coffee, spices, and handcrafted goods — sourced directly from local communities with respect and care.",
+    "shop": "Shop",
+    "company": "Company",
+    "support": "Support",
+    "shopLinks": {
+      "coffee": "Coffee",
+      "spices": "Spices",
+      "handicrafts": "Handicrafts",
+      "honeyOils": "Honey & Oils"
+    },
+    "companyLinks": {
+      "about": "About Us",
+      "story": "Our Story",
+      "sustainability": "Sustainability",
+      "careers": "Careers"
+    },
+    "supportLinks": {
+      "help": "Help Center",
+      "shipping": "Shipping Info",
+      "returns": "Returns",
+      "contact": "Contact"
+    },
+    "copyright": "© {{year}} Negus Gebeya — Ethiopia's Premium Marketplace. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "notFound": "Page not found",
+    "error": "Something went wrong",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "viewAll": "View All",
+    "items": "items",
+    "viewDetails": "View Details",
+    "addFav": "Add to favorites",
+    "removeFav": "Remove from favorites"
+  },
+  "product": {
+    "price": "Price",
+    "condition": "Condition",
+    "city": "City",
+    "negotiable": "Negotiable",
+    "viewCount": "Views",
+    "favorites": "Favorites",
+    "seller": "Seller",
+    "contactSeller": "Contact Seller",
+    "report": "Report",
+    "similar": "Similar Products",
+    "noSimilar": "No similar products found."
+  },
+  "home": {
+    "staffPick": "Staff Pick",
+    "newArrival": "New Arrival",
+    "viewDetails": "View Details"
+  },
+  "trending": {
+    "badge": "Most Viewed",
+    "title": "Trending Now",
+    "empty": "No trending products right now."
+  },
+  "discount": {
+    "badge": "LIMITED TIME OFFER",
+    "title": "New users get",
+    "percent": "10% off!",
+    "description": "Offer valid for the next 3 days. Sign up now and save on your first purchase.",
+    "days": "Days",
+    "hours": "Hours",
+    "mins": "Mins",
+    "secs": "Secs",
+    "cta": "Claim Offer"
+  },
+  "newsletter": {
+    "title": "Subscribe To Our Newsletter",
+    "subtitle": "Get the latest updates on new products and exclusive offers straight to your inbox.",
+    "placeholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing...",
+    "privacy": "I agree to the Privacy Policy",
+    "success": "Subscribed successfully!",
+    "error": "Please enter a valid email address.",
+    "fail": "Failed to subscribe."
+  },
+  "instagram": {
+    "title": "Follow Us On Instagram",
+    "follow": "Follow"
+  },
+  "blog": {
+    "title": "Our Blog",
+    "subtitle": "Insights, tips, and stories from the Negus Gebeya community.",
+    "emptyMessage": "No blog posts yet. Check back soon!",
+    "readMore": "Read More",
+    "defaultAuthor": "Admin",
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next",
+      "pageOf": "Page {{current}} of {{total}}"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "What payment methods do you accept?",
+    "a1": "We accept payments via bank transfer, mobile money (TeleBirr, M-Pesa), and cash on delivery in select cities.",
+    "q2": "How can I track my order?",
+    "a2": "After your order is confirmed, we'll send you a tracking number via email and SMS. You can also track it from your dashboard.",
+    "q3": "What is your return policy?",
+    "a3": "We offer a 7‑day return policy for items that are damaged or not as described. You must contact us within 7 days of delivery.",
+    "q4": "Do you ship internationally?",
+    "a4": "Currently, we ship within Ethiopia only. We are working on international shipping options for the future.",
+    "q5": "How do I become a verified seller?",
+    "a5": "Complete your profile, upload your ID, and verify your phone number. Our team will review and verify your account within 24 hours."
+  },
+  "trustStrip": {
+    "secure": "Secure Checkout",
+    "secureDesc": "100% Protected",
+    "returns": "Easy Returns",
+    "returnsDesc": "30-Day Policy",
+    "quality": "Quality Guarantee",
+    "qualityDesc": "Premium Products",
+    "delivery": "Fast Delivery",
+    "deliveryDesc": "Worldwide Shipping"
+  },
+  "cta": {
+    "badge": "Join the community",
+    "title": "Sign Up Today",
+    "subtitle": "Create your account to start buying and selling authentic Ethiopian treasures with total peace of mind.",
+    "signup": "Sign Up Free",
+    "login": "Log In"
+  },
+  "productGrid": {
+    "emptyTitle": "No listings yet",
+    "emptyDescription": "Be the first to list something on Negus Gebeya."
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "stats": {
+      "activeUsers": "Active Users",
+      "listings": "Listings",
+      "pendingReports": "Pending Reports",
+      "commission": "Commission (10%)"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "products": "Products",
+      "orders": "Orders",
+      "reports": "Reports",
+      "verifications": "Verifications",
+      "withdrawals": "Withdrawals",
+      "blogs": "Blogs"
+    },
+    "overview": {
+      "title": "Recent Activity",
+      "welcome": "Welcome to the admin panel. Use the tabs above to manage products, orders, reports, verifications, withdrawals, and blog posts."
+    },
+    "errors": {
+      "loadFailed": "Failed to load dashboard data.",
+      "productsLoadFailed": "Failed to load products.",
+      "ordersLoadFailed": "Failed to load orders.",
+      "statusUpdateFailed": "Failed to update status.",
+      "actionFailed": "Action failed.",
+      "blogSaveFailed": "Failed to save blog.",
+      "deleteFailed": "Failed to delete."
+    },
+    "products": {
+      "title": "Manage Products",
+      "searchPlaceholder": "Search by title...",
+      "statusAll": "All Statuses",
+      "refresh": "Refresh",
+      "noProducts": "No products found",
+      "noProductsDesc": "No products match your filters.",
+      "uncategorized": "Uncategorized",
+      "unknown": "Unknown",
+      "updating": "Updating...",
+      "confirmStatusChange": "Change product status to \"{{status}}\"?",
+      "statusUpdated": "Product status updated.",
+      "statuses": {
+        "active": "Active",
+        "sold": "Sold",
+        "pending": "Pending",
+        "inactive": "Inactive",
+        "removed": "Removed",
+        "draft": "Draft"
+      },
+      "table": {
+        "product": "Product",
+        "seller": "Seller",
+        "price": "Price (ETB)",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "pagination": {
+        "showing": "Showing {{start}} - {{end}} of {{total}}",
+        "prev": "Previous",
+        "next": "Next"
+      }
+    },
+    "orders": {
+      "title": "Manage Orders",
+      "searchPlaceholder": "Search product, buyer, seller...",
+      "statusAll": "All Statuses",
+      "refresh": "Refresh",
+      "noOrders": "No orders found",
+      "noOrdersDesc": "No orders match your filters.",
+      "na": "N/A",
+      "unknown": "Unknown",
+      "updating": "Updating...",
+      "confirmStatusChange": "Change order status to \"{{status}}\"?",
+      "statusUpdated": "Order status updated.",
+      "statuses": {
+        "pending": "Pending",
+        "paid": "Paid",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "failed": "Failed",
+        "refunded": "Refunded"
+      },
+      "table": {
+        "orderId": "Order ID",
+        "product": "Product",
+        "buyer": "Buyer",
+        "seller": "Seller",
+        "amount": "Amount (ETB)",
+        "status": "Status",
+        "date": "Date",
+        "actions": "Actions"
+      },
+      "pagination": {
+        "showing": "Showing {{start}} - {{end}} of {{total}}",
+        "prev": "Previous",
+        "next": "Next"
+      }
+    },
+    "reports": {
+      "title": "Pending Reports",
+      "noReports": "All clear",
+      "noReportsDesc": "No pending reports.",
+      "resolve": "Resolve",
+      "dismiss": "Dismiss",
+      "resolvedSuccess": "Report resolved.",
+      "dismissedSuccess": "Report dismissed.",
+      "unknown": "Unknown",
+      "deletedListing": "Deleted listing",
+      "table": {
+        "reporter": "Reporter",
+        "listing": "Listing",
+        "reason": "Reason",
+        "actions": "Actions"
+      }
+    },
+    "verifications": {
+      "title": "Pending Seller Verifications",
+      "noRequests": "All verified",
+      "noRequestsDesc": "No pending verification requests.",
+      "approve": "Approve",
+      "reject": "Reject",
+      "approveSuccess": "Verification approved.",
+      "rejectSuccess": "Verification rejected.",
+      "open": "Open",
+      "noDocument": "No document",
+      "documentLabel": "Document",
+      "documentAlt": "Document",
+      "table": {
+        "name": "Name",
+        "email": "Email",
+        "document": "Document",
+        "actions": "Actions"
+      }
+    },
+    "withdrawals": {
+      "title": "Withdrawal Requests",
+      "noRequests": "No withdrawals",
+      "noRequestsDesc": "No withdrawal requests from sellers.",
+      "approve": "Approve",
+      "reject": "Reject",
+      "approvedSuccess": "Withdrawal approved.",
+      "rejectedSuccess": "Withdrawal rejected.",
+      "unknown": "Unknown",
+      "statuses": {
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "table": {
+        "seller": "Seller",
+        "amount": "Amount (ETB)",
+        "bankAccount": "Bank Account",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    },
+    "blogs": {
+      "title": "Blog Management",
+      "newPost": "New Post",
+      "editPost": "Edit Blog Post",
+      "createPost": "Create Blog Post",
+      "titlePlaceholder": "Title",
+      "bodyPlaceholder": "Body (HTML / Markdown supported)",
+      "excerptPlaceholder": "Excerpt (optional)",
+      "coverImagePlaceholder": "Cover Image URL (optional)",
+      "tagsPlaceholder": "Tags (comma separated, e.g. coffee, tips)",
+      "publish": "Publish",
+      "update": "Update",
+      "cancel": "Cancel",
+      "noBlogs": "No blogs yet",
+      "noBlogsDesc": "Create your first blog post above.",
+      "createSuccess": "Blog created!",
+      "updateSuccess": "Blog updated!",
+      "deleteSuccess": "Blog deleted.",
+      "confirmDelete": "Delete this blog post?",
+      "edit": "Edit",
+      "delete": "Delete",
+      "table": {
+        "title": "Title",
+        "slug": "Slug",
+        "tags": "Tags",
+        "actions": "Actions"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {{name}}",
+    "defaultName": "Seller",
+    "subtitle": "Overview of your listings and messages on Negus Gebeya.",
+    "uncategorized": "Uncategorized",
+    "statuses": {
+      "active": "Active",
+      "sold": "Sold",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "other": "Other"
+    },
+    "quickActions": {
+      "sell": "Sell an Item",
+      "myListings": "My Listings",
+      "favorites": "Favorites",
+      "messages": "Messages",
+      "myOrders": "My Orders",
+      "sellerOrders": "Seller Orders"
+    },
+    "live": {
+      "title": "Live Streaming",
+      "liveNow": "🔴 Live Now",
+      "badge": "LIVE",
+      "goLive": "Go Live",
+      "endStream": "End Stream",
+      "streamKey": "Stream Key",
+      "activeNote": "Your live stream is active. It will appear in the Reels feed for buyers."
+    },
+    "earnings": {
+      "title": "Earnings",
+      "subtitle": "From paid/completed orders",
+      "refresh": "Refresh",
+      "requestWithdrawal": "Request Withdrawal",
+      "withdrawalHistory": "Withdrawal History"
+    },
+    "periodLabels": {
+      "all": "All Time",
+      "today": "Today",
+      "week": "This Week",
+      "month": "This Month",
+      "3months": "3 Months",
+      "6months": "6 Months",
+      "year": "This Year"
+    },
+    "stats": {
+      "totalListings": "Total Listings",
+      "active": "Active",
+      "sold": "Sold",
+      "views": "Views",
+      "favorites": "Favorites"
+    },
+    "charts": {
+      "categoryTitle": "Listings by Category",
+      "noCategoryData": "No category data available.",
+      "statusTitle": "Status Distribution",
+      "noStatusData": "No listings to show distribution."
+    },
+    "messages": {
+      "title": "Messages",
+      "unread": "unread",
+      "noConversations": "No conversations yet.",
+      "noMessages": "No messages"
+    },
+    "recentListings": {
+      "title": "Recent Listings",
+      "viewAll": "View All",
+      "empty": "You haven't created any listings yet.",
+      "createFirst": "Create your first listing",
+      "noImage": "No image",
+      "views": "views",
+      "edit": "Edit"
+    },
+    "tip": "Tip: Use high-quality photos and clear descriptions to sell faster.",
+    "modal": {
+      "stream": {
+        "title": "Start Live Stream",
+        "streamKeyLabel": "Stream Key",
+        "rtmpLabel": "RTMP URL",
+        "instructions": "⚠️ Use OBS or any streaming software to broadcast to this RTMP URL. Your stream will appear in the Reels feed for buyers.",
+        "startButton": "Start Live"
+      },
+      "withdraw": {
+        "title": "Request Withdrawal",
+        "amountLabel": "Amount (ETB) – Available: {{earnings}} ETB",
+        "amountPlaceholder": "Minimum {{max}}, max {{max}}",
+        "minimum": "Minimum withdrawal: 1000 ETB",
+        "accountNameLabel": "Account Holder Name",
+        "accountNamePlaceholder": "Full name as per CBE",
+        "accountNumberLabel": "CBE Account Number",
+        "accountNumberPlaceholder": "e.g. 1000XXXXXXXX",
+        "submitButton": "Submit Request"
+      }
+    },
+    "toasts": {
+      "live": {
+        "onlyVerified": "Only verified sellers can go live.",
+        "generateFailed": "Failed to generate stream key.",
+        "started": "You are now live!",
+        "startFailed": "Failed to start stream.",
+        "ended": "Stream ended.",
+        "endFailed": "Failed to end stream."
+      },
+      "withdraw": {
+        "invalidFields": "Please fill all fields and amount must be ≥ 1000 ETB",
+        "exceedsEarnings": "Withdrawal amount exceeds your available earnings.",
+        "success": "Withdrawal request sent!",
+        "failed": "Failed to request withdrawal",
+        "minimum": "You need at least 1000 ETB in earnings to request a withdrawal."
+      },
+      "earningsRefreshed": "Earnings updated",
+      "fetchDataFailed": "Failed to load dashboard data.",
+      "fetchEarningsFailed": "Failed to load earnings."
+    }
+  },
+  "favorites": {
+    "title": "Your Favorites",
+    "subtitle": "Items you've saved on Negus Gebeya.",
+    "empty": "You haven't saved any items yet.",
+    "browseLink": "Browse the marketplace",
+    "noImage": "No image",
+    "views": "views",
+    "viewButton": "View",
+    "removeButton": "Remove",
+    "statuses": {
+      "active": "Active",
+      "sold": "Sold",
+      "pending": "Pending"
+    },
+    "errors": {
+      "loadFailed": "Could not load your favorites.",
+      "removeFailed": "Could not remove favorite."
+    },
+    "toasts": {
+      "removed": "Removed from favorites."
+    }
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Log in to continue buying and selling safely.",
+    "leftColumnTagline": "Welcome back to the trusted marketplace for Ethiopian treasures.",
+    "logoAlt": "Negus Gebeya Logo",
+    "mobileSubtitle": "Log in to your account",
+    "closeAria": "Close login",
+    "form": {
+      "emailPlaceholder": "Email Address",
+      "passwordPlaceholder": "Password",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "passwordRequired": "Password is required",
+      "forgotPassword": "Forgot password?",
+      "loginButton": "Log In to Negus Gebeya",
+      "loggingIn": "Logging in...",
+      "orContinue": "Or continue with",
+      "googleButton": "Continue with Google",
+      "noAccount": "New to Negus Gebeya?",
+      "signUpLink": "Create an account"
+    },
+    "errors": {
+      "incorrectCredentials": "Incorrect email or password."
+    },
+    "toasts": {
+      "welcomeBack": "Welcome back!",
+      "redirectingGoogle": "Redirecting to Google..."
+    }
+  },
+  "orders": {
+    "title": "My Orders",
+    "refresh": "Refresh",
+    "sellerLabel": "Seller",
+    "unknownProduct": "Product",
+    "unknownSeller": "Unknown",
+    "viewDetails": "View Details",
+    "statuses": {
+      "completed": "Completed",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "failed": "Failed",
+      "refunded": "Refunded"
+    },
+    "emptyState": {
+      "title": "No orders yet",
+      "description": "You haven't placed any orders."
+    },
+    "errors": {
+      "loadFailed": "Failed to load orders"
+    }
+  },
+  "myListings": {
+    "title": "My Listings",
+    "subtitle": "Manage all your listings on Negus Gebeya.",
+    "sellNew": "Sell New Item",
+    "noImage": "No image",
+    "views": "views",
+    "favorites": "favorites",
+    "editButton": "Edit",
+    "deleteButton": "Delete",
+    "filterOptions": {
+      "all": "All",
+      "active": "Active",
+      "sold": "Sold",
+      "inactive": "Inactive"
+    },
+    "statuses": {
+      "active": "Active",
+      "sold": "Sold",
+      "inactive": "Inactive"
+    },
+    "empty": {
+      "title": "No listings found.",
+      "cta": "Create your first listing"
+    },
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next",
+      "pageOf": "Page {{current}} of {{total}}"
+    },
+    "errors": {
+      "loadFailed": "Could not load your listings.",
+      "deleteFailed": "Could not delete listing."
+    },
+    "toasts": {
+      "deleteSuccess": "Listing deleted successfully."
+    },
+    "confirmDelete": "Are you sure you want to delete \"{{title}}\"?"
+  },
+  "paymentFailed": {
+    "title": "Payment Failed",
+    "description": "Your transaction was not completed.",
+    "referenceLabel": "Reference",
+    "returnHome": "Return to Home",
+    "toasts": {
+      "failed": "Payment failed. Please try again."
+    }
+  },
+  "paymentSuccess": {
+    "title": "Payment Successful!",
+    "description": "Your transaction has been completed.",
+    "referenceLabel": "Reference",
+    "viewOrders": "View Orders",
+    "toasts": {
+      "success": "Payment successful!"
+    }
+  },
+  "productDetails": {
+    "noImage": "No image",
+    "negotiable": "Price is negotiable",
+    "removeFavorite": "Remove from favorites",
+    "addFavorite": "Add to favorites",
+    "unknownSeller": "Unknown Seller",
+    "descriptionLabel": "Description",
+    "editButton": "Edit",
+    "deleteButton": "Delete",
+    "buyNow": "Buy Now",
+    "loginToBuy": "Log in to Buy",
+    "contactSeller": "Contact seller",
+    "reportButton": "Report this listing",
+    "reviewsTitle": "Reviews",
+    "writeReview": "Write a Review",
+    "editReview": "Edit Review",
+    "writeReviewTitle": "Write a Review",
+    "editReviewTitle": "Edit Your Review",
+    "ratingLabel": "Rating",
+    "commentLabel": "Comment (optional)",
+    "commentPlaceholder": "Share your experience with this product...",
+    "submitReviewButton": "Submit Review",
+    "updateReviewButton": "Update Review",
+    "cancelButton": "Cancel",
+    "anonymous": "Anonymous",
+    "noReviews": "No reviews yet. Be the first to review this product!",
+    "similarListings": "Similar listings",
+    "reviewCount": "({{count}} reviews)",
+    "sellerRating": "{{rating}} ★ · {{count}} review(s)",
+    "sellerNoReviews": "No reviews yet",
+    "emptyState": {
+      "title": "Listing not found",
+      "description": "This listing may have been removed or sold."
+    },
+    "statuses": {
+      "active": "Active",
+      "sold": "Sold",
+      "pending": "Pending",
+      "inactive": "Inactive",
+      "removed": "Removed",
+      "draft": "Draft"
+    },
+    "conditions": {
+      "new": "New",
+      "likeNew": "Like New",
+      "used": "Used",
+      "damaged": "Damaged"
+    },
+    "confirmDelete": "Delete this listing? This cannot be undone.",
+    "toasts": {
+      "paymentConfirmed": "Payment confirmed! Order is now paid.",
+      "paymentNotVerified": "Payment status could not be verified.",
+      "paymentVerificationFailed": "Payment verification failed.",
+      "sellerNotifiedNoPhone": "Seller notified — they haven't added a phone number yet.",
+      "contactRevealed": "Seller contact info revealed!",
+      "contactFailed": "Failed to contact seller.",
+      "deleteSuccess": "Listing deleted.",
+      "deleteFailed": "Failed to delete listing.",
+      "alreadySold": "This product is already sold.",
+      "paymentInitFailed": "Payment initialization failed.",
+      "ratingRequired": "Please select a rating.",
+      "reviewSubmitSuccess": "Review submitted!",
+      "reviewSubmitFailed": "Failed to submit review.",
+      "reviewUpdateSuccess": "Review updated!",
+      "reviewUpdateFailed": "Failed to update review."
+    }
+  },
+  "profile": {
+    "title": "Your Profile",
+    "loading": "Loading...",
+    "avatar": {
+      "save": "Save Avatar",
+      "uploading": "Uploading..."
+    },
+    "personalInfo": {
+      "title": "Personal Information",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "saveChanges": "Save Changes",
+      "saving": "Saving...",
+      "fullName": "Full Name",
+      "phone": "Phone",
+      "phonePlaceholder": "e.g. 0912345678",
+      "city": "City",
+      "cityPlaceholder": "e.g. Addis Ababa",
+      "bio": "Bio",
+      "bioPlaceholder": "Tell us about yourself..."
+    },
+    "verification": {
+      "title": "Identity Verification",
+      "statusLabel": "Status",
+      "verifiedBadge": "Verified Seller",
+      "statuses": {
+        "verified": "Verified",
+        "pending": "Pending Review",
+        "rejected": "Rejected",
+        "notSubmitted": "Not submitted"
+      },
+      "rejectionReason": "Reason",
+      "verifiedMessage": "Your identity has been verified. You now have a verified badge on your profile and listings.",
+      "documentTypeLabel": "Document Type",
+      "documentTypes": {
+        "nationalId": "National ID",
+        "passport": "Passport",
+        "driverLicense": "Driver's License"
+      },
+      "uploadLabel": "Upload Document (JPG, PNG, PDF)",
+      "submit": "Submit for Verification",
+      "submitting": "Submitting..."
+    },
+    "toasts": {
+      "profileUpdated": "Profile updated!",
+      "updateFailed": "Update failed",
+      "avatarUpdated": "Avatar updated!",
+      "avatarUploadFailed": "Upload failed",
+      "selectDocument": "Please select a document",
+      "documentSubmitted": "Document submitted for verification!",
+      "documentUploadFailed": "Upload failed"
+    }
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Sign up and start your marketplace journey in minutes.",
+    "leftColumnTagline": "Join the trusted marketplace for Ethiopian treasures – buy and sell with confidence.",
+    "logoAlt": "Negus Gebeya Logo",
+    "mobileSubtitle": "Create your account",
+    "closeAria": "Close registration",
+    "form": {
+      "namePlaceholder": "Full Name",
+      "nameRequired": "Name is required",
+      "nameMinLength": "Name must be at least 2 characters",
+      "nameMaxLength": "Name must be under 60 characters",
+      "emailPlaceholder": "Email Address",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "passwordPlaceholder": "Choose a Strong Password",
+      "passwordRequired": "Password is required",
+      "passwordMinLength": "Password must be at least 8 characters",
+      "passwordNumberRequired": "Password must contain at least one number",
+      "phonePlaceholder": "Phone (optional)",
+      "phoneInvalid": "Enter a valid Ethiopian phone number (e.g. 0912345678)",
+      "phoneHelp": "Verifying your phone boosts your trust score.",
+      "cityDefault": "Select City (optional)",
+      "termsLabel": "I agree to the",
+      "termsLink": "Terms of Service",
+      "and": "and",
+      "privacyLink": "Privacy Policy",
+      "submitButton": "Create Negus Gebeya Account",
+      "creating": "Creating account...",
+      "orSignUp": "Or sign up with",
+      "googleButton": "Continue with Google",
+      "alreadyAccount": "Already have an account?",
+      "loginLink": "Log In"
+    },
+    "passwordStrength": {
+      "weak": "Weak password",
+      "fair": "Fair password",
+      "strong": "Strong password"
+    },
+    "toasts": {
+      "termsRequired": "Please agree to the Terms of Service and Privacy Policy.",
+      "welcome": "Account created — welcome to Negus Gebeya!",
+      "createFailed": "Could not create your account.",
+      "redirectingGoogle": "Redirecting to Google..."
+    }
+  },
+  "search": {
+    "title": {
+      "withQuery": "Results for \"{{query}}\"",
+      "browse": "Browse listings"
+    },
+    "resultCount_one": "{{count}} listing found",
+    "resultCount_other": "{{count}} listings found",
+    "filterButton": "Filters",
+    "showResults": "Show results",
+    "closeFilters": "Close filters",
+    "sortOptions": {
+      "newest": "Newest first",
+      "oldest": "Oldest first",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "popular": "Most favorited"
+    }
+  },
+  "sellerProfile": {
+    "youBadge": "You",
+    "joined": "Joined {{time}}",
+    "salesCount_one": "{{count}} sale",
+    "salesCount_other": "{{count}} sales",
+    "ratingNew": "New",
+    "reviewCount_one": "({{count}} review)",
+    "reviewCount_other": "({{count}} reviews)",
+    "trustScore": "Trust {{score}}/5",
+    "viewAllListings": "View all listings",
+    "chat": "Chat",
+    "closeChat": "Close Chat",
+    "emptyState": {
+      "title": "Seller not found",
+      "description": "This seller may have been removed or deactivated."
+    },
+    "stats": {
+      "completedSales": "Completed Sales",
+      "reviews": "Reviews",
+      "avgRating": "Avg Rating",
+      "trustScore": "Trust Score"
+    },
+    "listingsTitle": "{{name}}'s Listings",
+    "noListings": "No active listings from this seller yet."
+  },
+  "sellerOrders": {
+    "title": "Seller Orders",
+    "earningsLabel": "Total Earnings",
+    "refreshButton": "Refresh",
+    "buyerLabel": "Buyer",
+    "unknownProduct": "Product",
+    "unknownBuyer": "Unknown",
+    "viewDetails": "View Details",
+    "updating": "Updating...",
+    "confirmStatusChange": "Change order status to \"{{status}}\"?",
+    "statuses": {
+      "pending": "Pending",
+      "paid": "Paid",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "emptyState": {
+      "title": "No orders yet",
+      "description": "You haven't received any orders."
+    },
+    "toasts": {
+      "loadFailed": "Failed to load seller orders.",
+      "refreshed": "Orders updated",
+      "statusUpdated": "Order status updated to {{status}}",
+      "statusUpdateFailed": "Failed to update status."
+    }
+  },
+  "socialLogin": {
+    "loading": "Logging you in...",
+    "defaultName": "User",
+    "toasts": {
+      "welcome": "Welcome {{name}}!",
+      "error": "Social login failed. Please try again."
+    }
+  },
+  "about": {
+    "title": "About Negus Gebeya",
+    "paragraph1": "Negus Gebeya is Ethiopia's premier online marketplace, connecting buyers and sellers across the country with trust and transparency. We believe in empowering local communities by providing a platform where authentic Ethiopian products — from coffee and spices to handcrafted goods — can be discovered and traded with confidence.",
+    "paragraph2": "Our mission is to foster economic growth by supporting small businesses, artisans, and farmers. We prioritize fair pricing, secure payments, and verified profiles to ensure a safe and reliable experience for everyone. Every transaction on Negus Gebeya helps sustain local livelihoods and celebrates Ethiopia's rich cultural heritage.",
+    "paragraph3": "We are a team of passionate Ethiopians dedicated to building a marketplace that works for all. Whether you're a buyer looking for unique treasures or a seller wanting to reach a wider audience, Negus Gebeya is your trusted partner.",
+    "cta": "Join our community today and be part of Ethiopia's growing digital economy."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "title": "Send us a message",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "How can we help?",
+      "submitButton": "Send Message"
+    },
+    "info": {
+      "title": "Get in touch",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "addressLabel": "Address",
+      "address": "Bole, Addis Ababa, Ethiopia",
+      "hoursLabel": "Working Hours",
+      "hours": "Monday – Friday, 9:00 AM – 6:00 PM (EAT)"
+    }
+  }
+}

@@ -1,0 +1,978 @@
+{
+  "topbar": {
+    "freeShipping": "ከ10 ሺህ ብር በላይ ለሆኑ ትዕዛዞች ነፃ መላኪያ",
+    "returns": "የ30 ቀናት የገንዘብ መመለሻ ዋስትና",
+    "support": "24/7 የደንበኞች ድጋፍ"
+  },
+  "nav": {
+    "home": "መነሻ",
+    "marketplace": "ገበያ",
+    "reels": "Reels",
+    "blog": "ብሎግ",
+    "about": "ስለ እኛ",
+    "contact": "አግኙን",
+    "searchPlaceholder": "ውድ ሀብቶችን ይፈልጉ...",
+    "login": "ግባ",
+    "signup": "ተመዝገብ",
+    "logout": "ውጣ",
+    "dashboard": "ዳሽቦርድ",
+    "admin": "አድሚን",
+    "myListings": "የእኔ ዝርዝሮች",
+    "favorites": "ተወዳጆች",
+    "sell": "ሽጥ",
+    "profile": "መገለጫ",
+    "myOrders": "የእኔ ትዕዛዞች",
+    "sellerOrders": "የሻጭ ትዕዛዞች",
+    "adminPanel": "አድሚን ፓነል"
+  },
+  "hero": {
+    "badge": "የኢትዮጵያ ታማኝ ገበያ",
+    "title": "የኢትዮጵያ ውድ ሀብቶችን በደህንነት ይግዙ እና ይሽጡ።",
+    "subtitle": "ነጉስ ገበያ ለኢትዮጵያ ፕሪሚየም ገበያ አደረጃጀትና ግልጽነት ያመጣል — ከተበታተኑ ቡድኖች ባለፈ። ከተረጋገጡ የእጅ ጥበብ ባለሙያዎች ጋር ይገናኙ እንዲሁም ትክክለኛ ቡና፣ ቅመማ ቅመም፣ በእጅ የተሰሩ ዕቃዎችን እና የባህል ንብረቶችን ያግኙ።",
+    "browse": "ዝርዝሮችን ያስሱ",
+    "sell": "ዕቃ ይሽጡ"
+  },
+  "trust": {
+    "verified": "ግልጽ የታማኝነት ነጥቦች",
+    "verifiedDesc": "የእያንዳንዱ ሻጭ የታማኝነት ነጥብ ግልጽ ነው — ለምን እንደሆነ በትክክል ይመልከቱ።",
+    "ai": "የ AI ዝርዝር ረዳት",
+    "aiDesc": "ግልጽና ታማኝ ዝርዝር በሰከንዶች ውስጥ እንዲጽፉ እርዳታ ያግኙ።",
+    "pricing": "ፍትሃዊ ዋጋ አሰጣጥ",
+    "pricingDesc": "በእውነተኛ ተመሳሳይ ዝርዝሮች ላይ የተመሰረቱ የዋጋ ጥቆማዎች።"
+  },
+  "categories": {
+    "shop": "በምድብ ይግዙ",
+    "title": "ውድ ሀብትዎን ያግኙ",
+    "subtitle": "እያንዳንዱ የኢትዮጵያ የእጅ ጥበብና ትውፊት ታሪክ የሚናገር የተመረጡ ስብስቦቻችንን ያስሱ።"
+  },
+  "marketplace": {
+    "badge": "ገበያ",
+    "title": "የኢትዮጵያ ምርጥ",
+    "subtitle": "ከመላ ሀገሪቱ የተመረጡ ምርቶች፣ በጥንቃቄ ወደ በርዎ ደርሰው ይመጣሉ።"
+  },
+  "signup": {
+    "badge": "ማህበረሰቡን ይቀላቀሉ",
+    "title": "ዛሬ ይመዝገቡ",
+    "subtitle": "እውነተኛ የኢትዮጵያ ውድ ሀብቶችን መግዛትና መሸጥ ለመጀመር መለያዎን ይፍጠሩ።",
+    "button": "ተመዝገብ",
+    "loginButton": "ግባ"
+  },
+  "auth": {
+    "loginTitle": "ወደ ነጉስ ገበያ ይግቡ",
+    "loginSubtitle": "እንኳን ደህና መጡ — በደህንነት ይግዙ እና ይሽጡ።",
+    "registerTitle": "መለያዎን ይፍጠሩ",
+    "registerSubtitle": "በአካባቢዎ በደህንነት ለመግዛትና ለመሸጥ ይቀላቀሉ።",
+    "email": "ኢሜይል",
+    "password": "የይለፍ ቃል",
+    "name": "ሙሉ ስም",
+    "phone": "ስልክ (አማራጭ)",
+    "city": "ከተማ (አማራጭ)",
+    "noAccount": "ለነጉስ ገበያ አዲስ ነዎት?",
+    "createAccount": "መለያ ይፍጠሩ",
+    "haveAccount": "መለያ አለዎት?",
+    "loginLink": "ግባ",
+    "logInBtn": "ግባ",
+    "signUpBtn": "ተመዝገብ",
+    "welcome": "እንኳን ደህና መጡ!",
+    "success": "መለያ ተፈጥሯል — እንኳን ወደ ነጉስ ገበያ በደህና መጡ!"
+  },
+  "createListing": {
+    "title": "ዕቃ ይሽጡ",
+    "subtitle": "ግልጽ ፎቶዎችንና ታማኝ መግለጫ ያክሉ — ሁለቱም ያላቸው ዝርዝሮች በፍጥነት ይሸጣሉ።",
+    "submit": "ዝርዝር አትም",
+    "noPhotos": "እባክዎ ቢያንስ አንድ ፎቶ ያክሉ።",
+    "videoSection": "የምርት ቪዲዮዎች (አማራጭ)",
+    "maxVideos": "ከፍተኛ ቪዲዮዎች ጥቅም ላይ ውለዋል። የሚደገፉ ፎርማቶች፦ MP4, MOV, WebM.",
+    "upload": "ቪዲዮ ስቀል",
+    "uploadingVideos": "ቪዲዮዎች እየተጫኑ ነው... {{progress}}%",
+    "publishButton": "ዝርዝር አትም",
+    "waitForUpload": "እባክዎ ስቀላው እስኪጠናቀቅ ይጠብቁ…",
+    "toasts": {
+      "noImages": "እባክዎ ቢያንስ አንድ ፎቶ ያክሉ።",
+      "published": "ዝርዝሩ ታትሟል!",
+      "failed": "ዝርዝር መፍጠር አልተሳካም።",
+      "uploadFailed": "ስቀላ አልተሳካም",
+      "videoUploadFailed": "ቪዲዮ {{number}} ስቀላ አልተሳካም፦ {{message}}"
+    }
+  },
+  "editListing": {
+    "title": "ዝርዝር አርትዕ",
+    "subtitle": "አዳዲስ ፎቶዎች ካሉት ፎቶዎችዎ ጎን ይታከላሉ (እስከ 8 በድምሩ)።",
+    "submit": "ለውጦችን አስቀምጥ",
+    "uploadProgress": "{{progress}}% ተጭኗል",
+    "emptyState": {
+      "forbiddenTitle": "ይህን ዝርዝር ማርትዕ አይችሉም",
+      "forbiddenDescription": "ዝርዝሩን የፈጠረው ሻጭ ብቻ ሊያርትዕ ይችላል።",
+      "notFoundTitle": "ዝርዝር አልተገኘም",
+      "notFoundDescription": "ይህ ዝርዝር ተነስቶ ሊሆን ይችላል።"
+    },
+    "toasts": {
+      "uploadingVideos": "ቪዲዮዎች እየተጫኑ ነው...",
+      "videosUploaded": "ቪዲዮዎች ተጭነዋል!",
+      "updateSuccess": "ዝርዝር ተዘምኗል።",
+      "updateFailed": "ማዘመን አልተሳካም"
+    }
+  },
+  "reels": {
+    "empty": {
+      "title": "ምንም ሪልስ ወይም ላይቭ ስትሪሞች የሉም",
+      "description": "ሻጮች እስካሁን የምርት ቪዲዮ አልሰቀሉም ወይም ላይቭ አላደረጉም።",
+      "cta": "አሁን አንድ ይፍጠሩ"
+    },
+    "liveBadge": "ላይቭ",
+    "liveTitleFallback": "ላይቭ ስትሪም",
+    "sellerFallback": "ሻጭ",
+    "viewProduct": "ምርቱን ይመልከቱ",
+    "viewerCount": "{{count}} እየተመለከቱ ነው",
+    "progress": "{{current}} / {{total}}",
+    "swipeHint": "ለማሰስ ወደ ላይ ያንሸራትቱ",
+    "aria": {
+      "prev": "ቀዳሚ",
+      "next": "ቀጣይ",
+      "play": "አጫውት",
+      "pause": "አቁም"
+    }
+  },
+  "footer": {
+    "description": "ትክክለኛ የኢትዮጵያ ቡና፣ ቅመማ ቅመም እና በእጅ የተሰሩ ዕቃዎችን የሚያገኙበት ታማኝ የመስመር ላይ ገበያዎ — በአክብሮትና በጥንቃቄ በቀጥታ ከአካባቢ ማህበረሰቦች የተገኘ።",
+    "shop": "ግዢ",
+    "company": "ኩባንያ",
+    "support": "ድጋፍ",
+    "shopLinks": {
+      "coffee": "ቡና",
+      "spices": "ቅመማ ቅመም",
+      "handicrafts": "የእጅ ጥበብ",
+      "honeyOils": "ማርና ዘይቶች"
+    },
+    "companyLinks": {
+      "about": "ስለ እኛ",
+      "story": "ታሪካችን",
+      "sustainability": "ዘላቂነት",
+      "careers": "የስራ እድሎች"
+    },
+    "supportLinks": {
+      "help": "የእገዛ ማዕከል",
+      "shipping": "የመላኪያ መረጃ",
+      "returns": "ተመላሾች",
+      "contact": "አግኙን"
+    },
+    "copyright": "© {{year}} ነጉስ ገበያ — የኢትዮጵያ ፕሪሚየም ገበያ። ሁሉም መብቶች የተጠበቁ ናቸው።"
+  },
+  "common": {
+    "loading": "በመጫን ላይ...",
+    "notFound": "ገጽ አልተገኘም",
+    "error": "የሆነ ችግር ተፈጥሯል",
+    "close": "ዝጋ",
+    "save": "አስቀምጥ",
+    "cancel": "ሰርዝ",
+    "delete": "አጥፋ",
+    "viewAll": "ሁሉንም ይመልከቱ",
+    "items": "ዕቃዎች",
+    "viewDetails": "ዝርዝሮችን ይመልከቱ",
+    "addFav": "ወደ ተወዳጆች ጨምር",
+    "removeFav": "ከተወዳጆች አስወግድ"
+  },
+  "product": {
+    "price": "ዋጋ",
+    "condition": "ሁኔታ",
+    "city": "ከተማ",
+    "negotiable": "ድርድር የሚደረግበት",
+    "viewCount": "እይታዎች",
+    "favorites": "ተወዳጆች",
+    "seller": "ሻጭ",
+    "contactSeller": "ሻጭን ያግኙ",
+    "report": "አመልክት",
+    "similar": "ተመሳሳይ ምርቶች",
+    "noSimilar": "ተመሳሳይ ምርቶች አልተገኙም።"
+  },
+  "home": {
+    "staffPick": "የቡድናችን ምርጫ",
+    "newArrival": "አዲስ የመጣ",
+    "viewDetails": "ዝርዝሮችን ይመልከቱ"
+  },
+  "trending": {
+    "badge": "በጣም የታዩ",
+    "title": "አሁን ተወዳጅ",
+    "empty": "በአሁኑ ጊዜ ምንም ተወዳጅ ምርቶች የሉም።"
+  },
+  "discount": {
+    "badge": "የተወሰነ ጊዜ ቅናሽ",
+    "title": "አዲስ ተጠቃሚዎች ያገኛሉ",
+    "percent": "10% ቅናሽ!",
+    "description": "ቅናሹ ለቀጣዮቹ 3 ቀናት የሚሰራ ነው። አሁን ይመዝገቡ እና በመጀመሪያ ግዢዎ ላይ ይቆጥቡ።",
+    "days": "ቀናት",
+    "hours": "ሰዓታት",
+    "mins": "ደቂቃዎች",
+    "secs": "ሰከንዶች",
+    "cta": "ቅናሹን ይውሰዱ"
+  },
+  "newsletter": {
+    "title": "የኢሜይል ደብዳቤያችንን ይመዝገቡ",
+    "subtitle": "ስለ አዳዲስ ምርቶች እና ልዩ ቅናሾች ወቅታዊ መረጃ በቀጥታ ወደ ኢሜይልዎ ያግኙ።",
+    "placeholder": "የኢሜይል አድራሻዎን ያስገቡ",
+    "subscribe": "ተመዝገብ",
+    "subscribing": "በመመዝገብ ላይ...",
+    "privacy": "ከግላዊነት ፖሊሲው ጋር እስማማለሁ",
+    "success": "በተሳካ ሁኔታ ተመዝግበዋል!",
+    "error": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ።",
+    "fail": "መመዝገብ አልተሳካም።"
+  },
+  "instagram": {
+    "title": "በኢንስታግራም ይከተሉን",
+    "follow": "ተከተል"
+  },
+  "blog": {
+    "title": "ብሎጋችን",
+    "subtitle": "ግንዛቤዎች፣ ምክሮች እና ታሪኮች ከነጉስ ገበያ ማህበረሰብ።",
+    "emptyMessage": "እስካሁን ምንም የብሎግ ጽሁፎች የሉም። በቅርቡ ይመልከቱ!",
+    "readMore": "ተጨማሪ ያንብቡ",
+    "defaultAuthor": "አድሚን",
+    "pagination": {
+      "prev": "ቀዳሚ",
+      "next": "ቀጣይ",
+      "pageOf": "ገጽ {{current}} ከ {{total}}"
+    }
+  },
+  "faq": {
+    "title": "በተደጋጋሚ የሚጠየቁ ጥያቄዎች",
+    "q1": "የትኞቹን የክፍያ ዘዴዎች ትቀበላላችሁ?",
+    "a1": "በባንክ ዝውውር፣ በሞባይል ገንዘብ (ቴሌብር፣ M-Pesa) እና በተመረጡ ከተሞች ላይ ገንዘብ በመላኪያ ጊዜ ክፍያዎችን እንቀበላለን።",
+    "q2": "ትዕዛዜን እንዴት መከታተል እችላለሁ?",
+    "a2": "ትዕዛዝዎ ከተረጋገጠ በኋላ የመከታተያ ቁጥር በኢሜይልና በኤስኤምኤስ እንልክልዎታለን። ከዳሽቦርድዎም መከታተል ይችላሉ።",
+    "q3": "የመመለሻ ፖሊሲያችሁ ምንድን ነው?",
+    "a3": "የተበላሹ ወይም እንደተገለጹት ላልሆኑ ዕቃዎች የ7 ቀናት የመመለሻ ፖሊሲ እናቀርባለን። ከመላኪያ በኋላ በ7 ቀናት ውስጥ ማነጋገር አለብዎት።",
+    "q4": "ወደ ውጭ ሀገር ትልካላችሁ?",
+    "a4": "በአሁኑ ጊዜ በኢትዮጵያ ውስጥ ብቻ እንልካለን። ለወደፊት የአለም አቀፍ መላኪያ አማራጮችን በመስራት ላይ ነን።",
+    "q5": "እንዴት የተረጋገጠ ሻጭ መሆን እችላለሁ?",
+    "a5": "መገለጫዎን ያጠናቅቁ፣ መታወቂያዎን ይስቀሉ እና ስልክ ቁጥርዎን ያረጋግጡ። ቡድናችን በ24 ሰዓት ውስጥ መለያዎን ይገመግማል እና ያረጋግጣል።"
+  },
+  "trustStrip": {
+    "secure": "ደህንነቱ የተጠበቀ ክፍያ",
+    "secureDesc": "100% የተጠበቀ",
+    "returns": "ቀላል መመለሻ",
+    "returnsDesc": "የ30 ቀናት ፖሊሲ",
+    "quality": "የጥራት ዋስትና",
+    "qualityDesc": "ፕሪሚየም ምርቶች",
+    "delivery": "ፈጣን መላኪያ",
+    "deliveryDesc": "የአለም አቀፍ መላኪያ"
+  },
+  "cta": {
+    "badge": "ማህበረሰቡን ይቀላቀሉ",
+    "title": "ዛሬ ይመዝገቡ",
+    "subtitle": "እውነተኛ የኢትዮጵያ ውድ ሀብቶችን ሙሉ በሙሉ ተረጋግተው ለመግዛትና ለመሸጥ መለያዎን ይፍጠሩ።",
+    "signup": "በነፃ ይመዝገቡ",
+    "login": "ግባ"
+  },
+  "productGrid": {
+    "emptyTitle": "እስካሁን ምንም ዝርዝሮች የሉም",
+    "emptyDescription": "በነጉስ ገበያ ላይ የመጀመሪያውን ዕቃ የሚያስቀምጡ ይሁኑ።"
+  },
+  "admin": {
+    "title": "የአድሚን ዳሽቦርድ",
+    "stats": {
+      "activeUsers": "ንቁ ተጠቃሚዎች",
+      "listings": "ዝርዝሮች",
+      "pendingReports": "በመጠባበቅ ላይ ያሉ ሪፖርቶች",
+      "commission": "ኮሚሽን (10%)"
+    },
+    "tabs": {
+      "overview": "አጠቃላይ እይታ",
+      "products": "ምርቶች",
+      "orders": "ትዕዛዞች",
+      "reports": "ሪፖርቶች",
+      "verifications": "ማረጋገጫዎች",
+      "withdrawals": "ገንዘብ ማውጫዎች",
+      "blogs": "ብሎጎች"
+    },
+    "overview": {
+      "title": "የቅርብ ጊዜ እንቅስቃሴ",
+      "welcome": "ወደ አድሚን ፓነል እንኳን ደህና መጡ። ምርቶችን፣ ትዕዛዞችን፣ ሪፖርቶችን፣ ማረጋገጫዎችን፣ ገንዘብ ማውጫዎችን እና የብሎግ ጽሁፎችን ለማስተዳደር ከላይ ያሉትን ትሮች ይጠቀሙ።"
+    },
+    "errors": {
+      "loadFailed": "የዳሽቦርድ መረጃ መጫን አልተሳካም።",
+      "productsLoadFailed": "ምርቶች መጫን አልተሳካም።",
+      "ordersLoadFailed": "ትዕዛዞች መጫን አልተሳካም።",
+      "statusUpdateFailed": "ሁኔታ ማዘመን አልተሳካም።",
+      "actionFailed": "ተግባሩ አልተሳካም።",
+      "blogSaveFailed": "ብሎግ ማስቀመጥ አልተሳካም።",
+      "deleteFailed": "ማጥፋት አልተሳካም።"
+    },
+    "products": {
+      "title": "ምርቶችን አስተዳድር",
+      "searchPlaceholder": "በርዕስ ይፈልጉ...",
+      "statusAll": "ሁሉም ሁኔታዎች",
+      "refresh": "አድስ",
+      "noProducts": "ምንም ምርቶች አልተገኙም",
+      "noProductsDesc": "ማጣሪያዎችዎን የሚያሟላ ምርት የለም።",
+      "uncategorized": "ያልተመደበ",
+      "unknown": "ያልታወቀ",
+      "updating": "በማዘመን ላይ...",
+      "confirmStatusChange": "የምርት ሁኔታን ወደ \"{{status}}\" ይቀይሩ?",
+      "statusUpdated": "የምርት ሁኔታ ተዘምኗል።",
+      "statuses": {
+        "active": "ንቁ",
+        "sold": "ተሽጧል",
+        "pending": "በመጠባበቅ ላይ",
+        "inactive": "ንቁ ያልሆነ",
+        "removed": "ተነስቷል",
+        "draft": "ረቂቅ"
+      },
+      "table": {
+        "product": "ምርት",
+        "seller": "ሻጭ",
+        "price": "ዋጋ (ብር)",
+        "status": "ሁኔታ",
+        "actions": "ተግባራት"
+      },
+      "pagination": {
+        "showing": "{{start}} - {{end}} ከ {{total}} እያሳየ ነው",
+        "prev": "ቀዳሚ",
+        "next": "ቀጣይ"
+      }
+    },
+    "orders": {
+      "title": "ትዕዛዞችን አስተዳድር",
+      "searchPlaceholder": "ምርት፣ ገዢ፣ ሻጭ ይፈልጉ...",
+      "statusAll": "ሁሉም ሁኔታዎች",
+      "refresh": "አድስ",
+      "noOrders": "ምንም ትዕዛዞች አልተገኙም",
+      "noOrdersDesc": "ማጣሪያዎችዎን የሚያሟላ ትዕዛዝ የለም።",
+      "na": "የለም",
+      "unknown": "ያልታወቀ",
+      "updating": "በማዘመን ላይ...",
+      "confirmStatusChange": "የትዕዛዝ ሁኔታን ወደ \"{{status}}\" ይቀይሩ?",
+      "statusUpdated": "የትዕዛዝ ሁኔታ ተዘምኗል።",
+      "statuses": {
+        "pending": "በመጠባበቅ ላይ",
+        "paid": "ተከፍሏል",
+        "shipped": "ተልኳል",
+        "delivered": "ደርሷል",
+        "completed": "ተጠናቋል",
+        "cancelled": "ተሰርዟል",
+        "failed": "አልተሳካም",
+        "refunded": "ተመላሽ ተደርጓል"
+      },
+      "table": {
+        "orderId": "የትዕዛዝ መለያ",
+        "product": "ምርት",
+        "buyer": "ገዢ",
+        "seller": "ሻጭ",
+        "amount": "መጠን (ብር)",
+        "status": "ሁኔታ",
+        "date": "ቀን",
+        "actions": "ተግባራት"
+      },
+      "pagination": {
+        "showing": "{{start}} - {{end}} ከ {{total}} እያሳየ ነው",
+        "prev": "ቀዳሚ",
+        "next": "ቀጣይ"
+      }
+    },
+    "reports": {
+      "title": "በመጠባበቅ ላይ ያሉ ሪፖርቶች",
+      "noReports": "ሁሉም ጥሩ ነው",
+      "noReportsDesc": "ምንም በመጠባበቅ ላይ ያሉ ሪፖርቶች የሉም።",
+      "resolve": "ፍታ",
+      "dismiss": "አሰናብት",
+      "resolvedSuccess": "ሪፖርቱ ተፈትቷል።",
+      "dismissedSuccess": "ሪፖርቱ ተሰናብቷል።",
+      "unknown": "ያልታወቀ",
+      "deletedListing": "የተሰረዘ ዝርዝር",
+      "table": {
+        "reporter": "አመልካች",
+        "listing": "ዝርዝር",
+        "reason": "ምክንያት",
+        "actions": "ተግባራት"
+      }
+    },
+    "verifications": {
+      "title": "በመጠባበቅ ላይ ያሉ የሻጭ ማረጋገጫዎች",
+      "noRequests": "ሁሉም ተረጋግጠዋል",
+      "noRequestsDesc": "ምንም በመጠባበቅ ላይ ያሉ የማረጋገጫ ጥያቄዎች የሉም።",
+      "approve": "አጽድቅ",
+      "reject": "ውድቅ አድርግ",
+      "approveSuccess": "ማረጋገጫው ጸድቋል።",
+      "rejectSuccess": "ማረጋገጫው ውድቅ ተደርጓል።",
+      "open": "ክፈት",
+      "noDocument": "ሰነድ የለም",
+      "documentLabel": "ሰነድ",
+      "documentAlt": "ሰነድ",
+      "table": {
+        "name": "ስም",
+        "email": "ኢሜይል",
+        "document": "ሰነድ",
+        "actions": "ተግባራት"
+      }
+    },
+    "withdrawals": {
+      "title": "የገንዘብ ማውጫ ጥያቄዎች",
+      "noRequests": "ምንም ገንዘብ ማውጫዎች የሉም",
+      "noRequestsDesc": "ከሻጮች ምንም የገንዘብ ማውጫ ጥያቄዎች የሉም።",
+      "approve": "አጽድቅ",
+      "reject": "ውድቅ አድርግ",
+      "approvedSuccess": "ገንዘብ ማውጫው ጸድቋል።",
+      "rejectedSuccess": "ገንዘብ ማውጫው ውድቅ ተደርጓል።",
+      "unknown": "ያልታወቀ",
+      "statuses": {
+        "pending": "በመጠባበቅ ላይ",
+        "approved": "ጸድቋል",
+        "rejected": "ውድቅ ተደርጓል"
+      },
+      "table": {
+        "seller": "ሻጭ",
+        "amount": "መጠን (ብር)",
+        "bankAccount": "የባንክ አካውንት",
+        "status": "ሁኔታ",
+        "actions": "ተግባራት"
+      }
+    },
+    "blogs": {
+      "title": "የብሎግ አስተዳደር",
+      "newPost": "አዲስ ጽሁፍ",
+      "editPost": "የብሎግ ጽሁፍ አርትዕ",
+      "createPost": "የብሎግ ጽሁፍ ፍጠር",
+      "titlePlaceholder": "ርዕስ",
+      "bodyPlaceholder": "ይዘት (HTML / Markdown ይደገፋል)",
+      "excerptPlaceholder": "ማጠቃለያ (አማራጭ)",
+      "coverImagePlaceholder": "የሽፋን ምስል URL (አማራጭ)",
+      "tagsPlaceholder": "መለያዎች (በኮማ ተለያይተው፣ ለምሳሌ coffee, tips)",
+      "publish": "አትም",
+      "update": "አዘምን",
+      "cancel": "ሰርዝ",
+      "noBlogs": "እስካሁን ምንም ብሎጎች የሉም",
+      "noBlogsDesc": "የመጀመሪያ የብሎግ ጽሁፍዎን ከላይ ይፍጠሩ።",
+      "createSuccess": "ብሎግ ተፈጥሯል!",
+      "updateSuccess": "ብሎግ ተዘምኗል!",
+      "deleteSuccess": "ብሎግ ተሰርዟል።",
+      "confirmDelete": "ይህን የብሎግ ጽሁፍ ማጥፋት ይፈልጋሉ?",
+      "edit": "አርትዕ",
+      "delete": "አጥፋ",
+      "table": {
+        "title": "ርዕስ",
+        "slug": "Slug",
+        "tags": "መለያዎች",
+        "actions": "ተግባራት"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "እንኳን ደህና መጡ, {{name}}",
+    "defaultName": "ሻጭ",
+    "subtitle": "በነጉስ ገበያ ላይ ስላሉት ዝርዝሮችዎ እና መልዕክቶችዎ አጠቃላይ እይታ።",
+    "uncategorized": "ያልተመደበ",
+    "statuses": {
+      "active": "ንቁ",
+      "sold": "ተሽጧል",
+      "pending": "በመጠባበቅ ላይ",
+      "approved": "ጸድቋል",
+      "rejected": "ውድቅ ተደርጓል",
+      "other": "ሌላ"
+    },
+    "quickActions": {
+      "sell": "ዕቃ ይሽጡ",
+      "myListings": "የእኔ ዝርዝሮች",
+      "favorites": "ተወዳጆች",
+      "messages": "መልዕክቶች",
+      "myOrders": "የእኔ ትዕዛዞች",
+      "sellerOrders": "የሻጭ ትዕዛዞች"
+    },
+    "live": {
+      "title": "ቀጥታ ስርጭት",
+      "liveNow": "🔴 አሁን ቀጥታ ላይ",
+      "badge": "ላይቭ",
+      "goLive": "ቀጥታ ጀምር",
+      "endStream": "ስርጭት አቁም",
+      "streamKey": "የስትሪም ቁልፍ",
+      "activeNote": "ቀጥታ ስርጭትዎ ንቁ ነው። ለገዢዎች በሪልስ ፍሬም ላይ ይታያል።"
+    },
+    "earnings": {
+      "title": "ገቢዎች",
+      "subtitle": "ከተከፈሉ/ከተጠናቀቁ ትዕዛዞች",
+      "refresh": "አድስ",
+      "requestWithdrawal": "ገንዘብ ማውጣት ይጠይቁ",
+      "withdrawalHistory": "የገንዘብ ማውጫ ታሪክ"
+    },
+    "periodLabels": {
+      "all": "ሁሉም ጊዜ",
+      "today": "ዛሬ",
+      "week": "በዚህ ሳምንት",
+      "month": "በዚህ ወር",
+      "3months": "3 ወራት",
+      "6months": "6 ወራት",
+      "year": "በዚህ አመት"
+    },
+    "stats": {
+      "totalListings": "ጠቅላላ ዝርዝሮች",
+      "active": "ንቁ",
+      "sold": "ተሽጧል",
+      "views": "እይታዎች",
+      "favorites": "ተወዳጆች"
+    },
+    "charts": {
+      "categoryTitle": "በምድብ የተከፋፈሉ ዝርዝሮች",
+      "noCategoryData": "ምንም የምድብ መረጃ የለም።",
+      "statusTitle": "የሁኔታ ስርጭት",
+      "noStatusData": "ስርጭትን ለማሳየት ምንም ዝርዝሮች የሉም።"
+    },
+    "messages": {
+      "title": "መልዕክቶች",
+      "unread": "ያልተነበቡ",
+      "noConversations": "እስካሁን ምንም ውይይቶች የሉም።",
+      "noMessages": "ምንም መልዕክቶች የሉም"
+    },
+    "recentListings": {
+      "title": "የቅርብ ጊዜ ዝርዝሮች",
+      "viewAll": "ሁሉንም ይመልከቱ",
+      "empty": "እስካሁን ምንም ዝርዝር አልፈጠሩም።",
+      "createFirst": "የመጀመሪያ ዝርዝርዎን ይፍጠሩ",
+      "noImage": "ምስል የለም",
+      "views": "እይታዎች",
+      "edit": "አርትዕ"
+    },
+    "tip": "ምክር፦ በፍጥነት ለመሸጥ ከፍተኛ ጥራት ያላቸው ፎቶዎችን እና ግልጽ መግለጫዎችን ይጠቀሙ።",
+    "modal": {
+      "stream": {
+        "title": "ቀጥታ ስርጭት ጀምር",
+        "streamKeyLabel": "የስትሪም ቁልፍ",
+        "rtmpLabel": "RTMP URL",
+        "instructions": "⚠️ ወደዚህ RTMP URL ለማሰራጨት OBS ወይም ማንኛውንም የስርጭት ሶፍትዌር ይጠቀሙ። ስርጭትዎ ለገዢዎች በሪልስ ፍሬም ላይ ይታያል።",
+        "startButton": "ቀጥታ ጀምር"
+      },
+      "withdraw": {
+        "title": "ገንዘብ ማውጣት ይጠይቁ",
+        "amountLabel": "መጠን (ብር) – ያለዎት፦ {{earnings}} ብር",
+        "amountPlaceholder": "ዝቅተኛ {{max}}, ከፍተኛ {{max}}",
+        "minimum": "ዝቅተኛ የገንዘብ ማውጫ፦ 1000 ብር",
+        "accountNameLabel": "የአካውንት ባለቤት ስም",
+        "accountNamePlaceholder": "ሙሉ ስም እንደ CBE",
+        "accountNumberLabel": "የ CBE አካውንት ቁጥር",
+        "accountNumberPlaceholder": "ለምሳሌ 1000XXXXXXXX",
+        "submitButton": "ጥያቄ አስገባ"
+      }
+    },
+    "toasts": {
+      "live": {
+        "onlyVerified": "የተረጋገጡ ሻጮች ብቻ ቀጥታ ማሰራጨት ይችላሉ።",
+        "generateFailed": "የስትሪም ቁልፍ ማመንጨት አልተሳካም።",
+        "started": "አሁን ቀጥታ ላይ ነዎት!",
+        "startFailed": "ስርጭት መጀመር አልተሳካም።",
+        "ended": "ስርጭት አብቅቷል።",
+        "endFailed": "ስርጭት ማቆም አልተሳካም።"
+      },
+      "withdraw": {
+        "invalidFields": "እባክዎ ሁሉንም መስኮች ይሙሉ እና መጠኑ ≥ 1000 ብር መሆን አለበት",
+        "exceedsEarnings": "የገንዘብ ማውጫ መጠን ካለዎት ገቢ ይበልጣል።",
+        "success": "የገንዘብ ማውጫ ጥያቄ ተልኳል!",
+        "failed": "ገንዘብ ማውጣት መጠየቅ አልተሳካም",
+        "minimum": "ገንዘብ ማውጫ ለመጠየቅ ቢያንስ 1000 ብር ገቢ ሊኖርዎት ይገባል።"
+      },
+      "earningsRefreshed": "ገቢዎች ተዘምነዋል",
+      "fetchDataFailed": "የዳሽቦርድ መረጃ መጫን አልተሳካም።",
+      "fetchEarningsFailed": "ገቢዎች መጫን አልተሳካም።"
+    }
+  },
+  "favorites": {
+    "title": "የእርስዎ ተወዳጆች",
+    "subtitle": "በነጉስ ገበያ ላይ ያስቀመጧቸው ዕቃዎች።",
+    "empty": "እስካሁን ምንም ዕቃ አላስቀመጡም።",
+    "browseLink": "ገበያውን ያስሱ",
+    "noImage": "ምስል የለም",
+    "views": "እይታዎች",
+    "viewButton": "ይመልከቱ",
+    "removeButton": "አስወግድ",
+    "statuses": {
+      "active": "ንቁ",
+      "sold": "ተሽጧል",
+      "pending": "በመጠባበቅ ላይ"
+    },
+    "errors": {
+      "loadFailed": "ተወዳጆችዎን መጫን አልተቻለም።",
+      "removeFailed": "ተወዳጅን ማስወገድ አልተቻለም።"
+    },
+    "toasts": {
+      "removed": "ከተወዳጆች ተወግዷል።"
+    }
+  },
+  "login": {
+    "title": "እንኳን በደህና ተመለሱ",
+    "subtitle": "በደህንነት መግዛትና መሸጥ ለመቀጠል ይግቡ።",
+    "leftColumnTagline": "እንኳን ወደ ታማኝ የኢትዮጵያ ውድ ሀብቶች ገበያ በደህና ተመለሱ።",
+    "logoAlt": "የነጉስ ገበያ አርማ",
+    "mobileSubtitle": "ወደ መለያዎ ይግቡ",
+    "closeAria": "መግቢያ ዝጋ",
+    "form": {
+      "emailPlaceholder": "ኢሜይል አድራሻ",
+      "passwordPlaceholder": "የይለፍ ቃል",
+      "emailRequired": "ኢሜይል ያስፈልጋል",
+      "emailInvalid": "ትክክለኛ ኢሜይል አድራሻ ያስገቡ",
+      "passwordRequired": "የይለፍ ቃል ያስፈልጋል",
+      "forgotPassword": "የይለፍ ቃል ረሱ?",
+      "loginButton": "ወደ ነጉስ ገበያ ግባ",
+      "loggingIn": "በመግባት ላይ...",
+      "orContinue": "ወይም በዚህ ይቀጥሉ",
+      "googleButton": "በGoogle ይቀጥሉ",
+      "noAccount": "ለነጉስ ገበያ አዲስ ነዎት?",
+      "signUpLink": "መለያ ይፍጠሩ"
+    },
+    "errors": {
+      "incorrectCredentials": "ትክክል ያልሆነ ኢሜይል ወይም የይለፍ ቃል።"
+    },
+    "toasts": {
+      "welcomeBack": "እንኳን ደህና መጡ!",
+      "redirectingGoogle": "ወደ Google በማዘዋወር ላይ..."
+    }
+  },
+  "orders": {
+    "title": "የእኔ ትዕዛዞች",
+    "refresh": "አድስ",
+    "sellerLabel": "ሻጭ",
+    "unknownProduct": "ምርት",
+    "unknownSeller": "ያልታወቀ",
+    "viewDetails": "ዝርዝሮችን ይመልከቱ",
+    "statuses": {
+      "completed": "ተጠናቋል",
+      "pending": "በመጠባበቅ ላይ",
+      "cancelled": "ተሰርዟል",
+      "failed": "አልተሳካም",
+      "refunded": "ተመላሽ ተደርጓል"
+    },
+    "emptyState": {
+      "title": "እስካሁን ምንም ትዕዛዝ የለም",
+      "description": "ምንም ትዕዛዝ አላስገቡም።"
+    },
+    "errors": {
+      "loadFailed": "ትዕዛዞች መጫን አልተሳካም"
+    }
+  },
+  "myListings": {
+    "title": "የእኔ ዝርዝሮች",
+    "subtitle": "በነጉስ ገበያ ላይ ያሉ ሁሉንም ዝርዝሮችዎን ያስተዳድሩ።",
+    "sellNew": "አዲስ ዕቃ ሽጥ",
+    "noImage": "ምስል የለም",
+    "views": "እይታዎች",
+    "favorites": "ተወዳጆች",
+    "editButton": "አርትዕ",
+    "deleteButton": "አጥፋ",
+    "filterOptions": {
+      "all": "ሁሉም",
+      "active": "ንቁ",
+      "sold": "ተሽጧል",
+      "inactive": "ንቁ ያልሆነ"
+    },
+    "statuses": {
+      "active": "ንቁ",
+      "sold": "ተሽጧል",
+      "inactive": "ንቁ ያልሆነ"
+    },
+    "empty": {
+      "title": "ምንም ዝርዝር አልተገኘም።",
+      "cta": "የመጀመሪያ ዝርዝርዎን ይፍጠሩ"
+    },
+    "pagination": {
+      "prev": "ቀዳሚ",
+      "next": "ቀጣይ",
+      "pageOf": "ገጽ {{current}} ከ {{total}}"
+    },
+    "errors": {
+      "loadFailed": "ዝርዝሮችዎን መጫን አልተቻለም።",
+      "deleteFailed": "ዝርዝርን ማጥፋት አልተቻለም።"
+    },
+    "toasts": {
+      "deleteSuccess": "ዝርዝሩ በተሳካ ሁኔታ ተሰርዟል።"
+    },
+    "confirmDelete": "\"{{title}}\"ን ማጥፋት ይፈልጋሉ?"
+  },
+  "paymentFailed": {
+    "title": "ክፍያ አልተሳካም",
+    "description": "ግብይትዎ አልተጠናቀቀም።",
+    "referenceLabel": "ማጣቀሻ",
+    "returnHome": "ወደ መነሻ ተመለስ",
+    "toasts": {
+      "failed": "ክፍያ አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+    }
+  },
+  "paymentSuccess": {
+    "title": "ክፍያ ተሳክቷል!",
+    "description": "ግብይትዎ ተጠናቅቋል።",
+    "referenceLabel": "ማጣቀሻ",
+    "viewOrders": "ትዕዛዞችን ይመልከቱ",
+    "toasts": {
+      "success": "ክፍያ ተሳክቷል!"
+    }
+  },
+  "productDetails": {
+    "noImage": "ምስል የለም",
+    "negotiable": "ዋጋው ድርድር የሚደረግበት ነው",
+    "removeFavorite": "ከተወዳጆች አስወግድ",
+    "addFavorite": "ወደ ተወዳጆች ጨምር",
+    "unknownSeller": "ያልታወቀ ሻጭ",
+    "descriptionLabel": "መግለጫ",
+    "editButton": "አርትዕ",
+    "deleteButton": "አጥፋ",
+    "buyNow": "አሁን ግዛ",
+    "loginToBuy": "ለመግዛት ይግቡ",
+    "contactSeller": "ሻጭን አግኙ",
+    "reportButton": "ይህን ዝርዝር አመልክት",
+    "reviewsTitle": "ግምገማዎች",
+    "writeReview": "ግምገማ ይጻፉ",
+    "editReview": "ግምገማ አርትዕ",
+    "writeReviewTitle": "ግምገማ ይጻፉ",
+    "editReviewTitle": "ግምገማዎን አርትዕ",
+    "ratingLabel": "ደረጃ",
+    "commentLabel": "አስተያየት (አማራጭ)",
+    "commentPlaceholder": "ስለዚህ ምርት ያለዎትን ልምድ ያካፍሉ...",
+    "submitReviewButton": "ግምገማ አስገባ",
+    "updateReviewButton": "ግምገማ አዘምን",
+    "cancelButton": "ሰርዝ",
+    "anonymous": "ስም የሌለው",
+    "noReviews": "እስካሁን ምንም ግምገማ የለም። ይህን ምርት የመጀመሪያ የሚገመግም ይሁኑ!",
+    "similarListings": "ተመሳሳይ ዝርዝሮች",
+    "reviewCount": "({{count}} ግምገማዎች)",
+    "sellerRating": "{{rating}} ★ · {{count}} ግምገማ(ዎች)",
+    "sellerNoReviews": "እስካሁን ምንም ግምገማ የለም",
+    "emptyState": {
+      "title": "ዝርዝር አልተገኘም",
+      "description": "ይህ ዝርዝር ተነስቶ ወይም ተሽጦ ሊሆን ይችላል።"
+    },
+    "statuses": {
+      "active": "ንቁ",
+      "sold": "ተሽጧል",
+      "pending": "በመጠባበቅ ላይ",
+      "inactive": "ንቁ ያልሆነ",
+      "removed": "ተነስቷል",
+      "draft": "ረቂቅ"
+    },
+    "conditions": {
+      "new": "አዲስ",
+      "likeNew": "እንደ አዲስ",
+      "used": "ያገለገለ",
+      "damaged": "የተበላሸ"
+    },
+    "confirmDelete": "ይህን ዝርዝር ማጥፋት ይፈልጋሉ? ይህ መልሶ ሊቀር አይችልም።",
+    "toasts": {
+      "paymentConfirmed": "ክፍያ ተረጋግጧል! ትዕዛዙ አሁን ተከፍሏል።",
+      "paymentNotVerified": "የክፍያ ሁኔታ ማረጋገጥ አልተቻለም።",
+      "paymentVerificationFailed": "የክፍያ ማረጋገጫ አልተሳካም።",
+      "sellerNotifiedNoPhone": "ሻጭ ተነግሮታል — እስካሁን ስልክ ቁጥር አላከሉም።",
+      "contactRevealed": "የሻጭ የመገናኛ መረጃ ተገልጧል!",
+      "contactFailed": "ሻጭን ማግኘት አልተሳካም።",
+      "deleteSuccess": "ዝርዝሩ ተሰርዟል።",
+      "deleteFailed": "ዝርዝር ማጥፋት አልተሳካም።",
+      "alreadySold": "ይህ ምርት አስቀድሞ ተሽጧል።",
+      "paymentInitFailed": "ክፍያ ማስጀመር አልተሳካም።",
+      "ratingRequired": "እባክዎ ደረጃ ይምረጡ።",
+      "reviewSubmitSuccess": "ግምገማ ገብቷል!",
+      "reviewSubmitFailed": "ግምገማ ማስገባት አልተሳካም።",
+      "reviewUpdateSuccess": "ግምገማ ተዘምኗል!",
+      "reviewUpdateFailed": "ግምገማ ማዘመን አልተሳካም።"
+    }
+  },
+  "profile": {
+    "title": "የእርስዎ መገለጫ",
+    "loading": "በመጫን ላይ...",
+    "avatar": {
+      "save": "አቫታር አስቀምጥ",
+      "uploading": "በመጫን ላይ..."
+    },
+    "personalInfo": {
+      "title": "የግል መረጃ",
+      "edit": "አርትዕ",
+      "cancel": "ሰርዝ",
+      "saveChanges": "ለውጦችን አስቀምጥ",
+      "saving": "በማስቀመጥ ላይ...",
+      "fullName": "ሙሉ ስም",
+      "phone": "ስልክ",
+      "phonePlaceholder": "ለምሳሌ 0912345678",
+      "city": "ከተማ",
+      "cityPlaceholder": "ለምሳሌ አዲስ አበባ",
+      "bio": "ስለ እርስዎ",
+      "bioPlaceholder": "ስለ እራስዎ ይንገሩን..."
+    },
+    "verification": {
+      "title": "የማንነት ማረጋገጫ",
+      "statusLabel": "ሁኔታ",
+      "verifiedBadge": "የተረጋገጠ ሻጭ",
+      "statuses": {
+        "verified": "ተረጋግጧል",
+        "pending": "በግምገማ ላይ",
+        "rejected": "ውድቅ ተደርጓል",
+        "notSubmitted": "አልገባም"
+      },
+      "rejectionReason": "ምክንያት",
+      "verifiedMessage": "ማንነትዎ ተረጋግጧል። አሁን በመገለጫዎና ዝርዝሮችዎ ላይ የተረጋገጠ ባጅ አለዎት።",
+      "documentTypeLabel": "የሰነድ አይነት",
+      "documentTypes": {
+        "nationalId": "ብሔራዊ መታወቂያ",
+        "passport": "ፓስፖርት",
+        "driverLicense": "የመንጃ ፈቃድ"
+      },
+      "uploadLabel": "ሰነድ ስቀል (JPG, PNG, PDF)",
+      "submit": "ለማረጋገጫ አስገባ",
+      "submitting": "በማስገባት ላይ..."
+    },
+    "toasts": {
+      "profileUpdated": "መገለጫ ተዘምኗል!",
+      "updateFailed": "ማዘመን አልተሳካም",
+      "avatarUpdated": "አቫታር ተዘምኗል!",
+      "avatarUploadFailed": "ስቀላ አልተሳካም",
+      "selectDocument": "እባክዎ ሰነድ ይምረጡ",
+      "documentSubmitted": "ሰነድ ለማረጋገጫ ገብቷል!",
+      "documentUploadFailed": "ስቀላ አልተሳካም"
+    }
+  },
+  "register": {
+    "title": "መለያ ፍጠር",
+    "subtitle": "ይመዝገቡ እና በደቂቃዎች ውስጥ የገበያ ጉዞዎን ይጀምሩ።",
+    "leftColumnTagline": "ለኢትዮጵያ ውድ ሀብቶች ታማኝ ገበያ ይቀላቀሉ – በመተማመን ይግዙ እና ይሽጡ።",
+    "logoAlt": "የነጉስ ገበያ አርማ",
+    "mobileSubtitle": "መለያዎን ይፍጠሩ",
+    "closeAria": "ምዝገባ ዝጋ",
+    "form": {
+      "namePlaceholder": "ሙሉ ስም",
+      "nameRequired": "ስም ያስፈልጋል",
+      "nameMinLength": "ስም ቢያንስ 2 ፊደላት ሊኖረው ይገባል",
+      "nameMaxLength": "ስም ከ60 ፊደላት በታች መሆን አለበት",
+      "emailPlaceholder": "ኢሜይል አድራሻ",
+      "emailRequired": "ኢሜይል ያስፈልጋል",
+      "emailInvalid": "ትክክለኛ ኢሜይል አድራሻ ያስገቡ",
+      "passwordPlaceholder": "ጠንካራ የይለፍ ቃል ይምረጡ",
+      "passwordRequired": "የይለፍ ቃል ያስፈልጋል",
+      "passwordMinLength": "የይለፍ ቃል ቢያንስ 8 ፊደላት ሊኖረው ይገባል",
+      "passwordNumberRequired": "የይለፍ ቃል ቢያንስ አንድ ቁጥር ሊኖረው ይገባል",
+      "phonePlaceholder": "ስልክ (አማራጭ)",
+      "phoneInvalid": "ትክክለኛ የኢትዮጵያ ስልክ ቁጥር ያስገቡ (ለምሳሌ 0912345678)",
+      "phoneHelp": "ስልክዎን ማረጋገጥ የታማኝነት ነጥብዎን ይጨምራል።",
+      "cityDefault": "ከተማ ይምረጡ (አማራጭ)",
+      "termsLabel": "እስማማለሁ ከ",
+      "termsLink": "የአገልግሎት ውል",
+      "and": "እና",
+      "privacyLink": "የግላዊነት ፖሊሲ",
+      "submitButton": "የነጉስ ገበያ መለያ ፍጠር",
+      "creating": "መለያ በመፍጠር ላይ...",
+      "orSignUp": "ወይም በዚህ ይመዝገቡ",
+      "googleButton": "በGoogle ይቀጥሉ",
+      "alreadyAccount": "መለያ አለዎት?",
+      "loginLink": "ግባ"
+    },
+    "passwordStrength": {
+      "weak": "ደካማ የይለፍ ቃል",
+      "fair": "መካከለኛ የይለፍ ቃል",
+      "strong": "ጠንካራ የይለፍ ቃል"
+    },
+    "toasts": {
+      "termsRequired": "እባክዎ ከአገልግሎት ውሉ እና የግላዊነት ፖሊሲው ጋር ይስማሙ።",
+      "welcome": "መለያ ተፈጥሯል — እንኳን ወደ ነጉስ ገበያ በደህና መጡ!",
+      "createFailed": "መለያዎን መፍጠር አልተቻለም።",
+      "redirectingGoogle": "ወደ Google በማዘዋወር ላይ..."
+    }
+  },
+  "search": {
+    "title": {
+      "withQuery": "ለ \"{{query}}\" ውጤቶች",
+      "browse": "ዝርዝሮችን ያስሱ"
+    },
+    "resultCount_one": "{{count}} ዝርዝር ተገኝቷል",
+    "resultCount_other": "{{count}} ዝርዝሮች ተገኝተዋል",
+    "filterButton": "ማጣሪያዎች",
+    "showResults": "ውጤቶችን አሳይ",
+    "closeFilters": "ማጣሪያዎችን ዝጋ",
+    "sortOptions": {
+      "newest": "አዲሱ መጀመሪያ",
+      "oldest": "አሮጌው መጀመሪያ",
+      "priceAsc": "ዋጋ፦ ከዝቅተኛ ወደ ከፍተኛ",
+      "priceDesc": "ዋጋ፦ ከከፍተኛ ወደ ዝቅተኛ",
+      "popular": "በጣም የተወደዱ"
+    }
+  },
+  "sellerProfile": {
+    "youBadge": "እርስዎ",
+    "joined": "የተቀላቀሉት {{time}}",
+    "salesCount_one": "{{count}} ሽያጭ",
+    "salesCount_other": "{{count}} ሽያጮች",
+    "ratingNew": "አዲስ",
+    "reviewCount_one": "({{count}} ግምገማ)",
+    "reviewCount_other": "({{count}} ግምገማዎች)",
+    "trustScore": "ታማኝነት {{score}}/5",
+    "viewAllListings": "ሁሉንም ዝርዝሮች ይመልከቱ",
+    "chat": "ውይይት",
+    "closeChat": "ውይይት ዝጋ",
+    "emptyState": {
+      "title": "ሻጭ አልተገኘም",
+      "description": "ይህ ሻጭ ተነስቶ ወይም ተሰናክሎ ሊሆን ይችላል።"
+    },
+    "stats": {
+      "completedSales": "የተጠናቀቁ ሽያጮች",
+      "reviews": "ግምገማዎች",
+      "avgRating": "አማካይ ደረጃ",
+      "trustScore": "የታማኝነት ነጥብ"
+    },
+    "listingsTitle": "የ{{name}} ዝርዝሮች",
+    "noListings": "እስካሁን ከዚህ ሻጭ ንቁ ዝርዝር የለም።"
+  },
+  "sellerOrders": {
+    "title": "የሻጭ ትዕዛዞች",
+    "earningsLabel": "ጠቅላላ ገቢ",
+    "refreshButton": "አድስ",
+    "buyerLabel": "ገዢ",
+    "unknownProduct": "ምርት",
+    "unknownBuyer": "ያልታወቀ",
+    "viewDetails": "ዝርዝሮችን ይመልከቱ",
+    "updating": "በማዘመን ላይ...",
+    "confirmStatusChange": "የትዕዛዝ ሁኔታን ወደ \"{{status}}\" ይቀይሩ?",
+    "statuses": {
+      "pending": "በመጠባበቅ ላይ",
+      "paid": "ተከፍሏል",
+      "shipped": "ተልኳል",
+      "delivered": "ደርሷል",
+      "completed": "ተጠናቋል",
+      "cancelled": "ተሰርዟል"
+    },
+    "emptyState": {
+      "title": "እስካሁን ምንም ትዕዛዝ የለም",
+      "description": "ምንም ትዕዛዝ አልደረሰዎትም።"
+    },
+    "toasts": {
+      "loadFailed": "የሻጭ ትዕዛዞችን መጫን አልተሳካም።",
+      "refreshed": "ትዕዛዞች ተዘምነዋል",
+      "statusUpdated": "የትዕዛዝ ሁኔታ ወደ {{status}} ተዘምኗል",
+      "statusUpdateFailed": "ሁኔታ ማዘመን አልተሳካም።"
+    }
+  },
+  "socialLogin": {
+    "loading": "እየገቡ ነው...",
+    "defaultName": "ተጠቃሚ",
+    "toasts": {
+      "welcome": "እንኳን ደህና መጡ {{name}}!",
+      "error": "በGoogle መግባት አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+    }
+  },
+  "about": {
+    "title": "ስለ ነጉስ ገበያ",
+    "paragraph1": "ነጉስ ገበያ በመላ ሀገሪቱ ገዢዎችንና ሻጮችን በታማኝነትና በግልጽነት የሚያገናኝ የኢትዮጵያ ግንባር ቀደም የመስመር ላይ ገበያ ነው። ከቡናና ቅመማ ቅመም እስከ በእጅ የተሰሩ ዕቃዎች ድረስ ትክክለኛ የኢትዮጵያ ምርቶች በመተማመን የሚገኙበትና የሚነገዱበት መድረክ በማቅረብ የአካባቢ ማህበረሰቦችን ማብቃት እናምናለን።",
+    "paragraph2": "ተልእኳችን ትናንሽ ንግዶችን፣ የእጅ ጥበብ ባለሙያዎችን እና አርሶ አደሮችን በመደገፍ የኢኮኖሚ እድገትን ማጎልበት ነው። ለሁሉም ደህንነቱ የተጠበቀና አስተማማኝ ተሞክሮ ለማረጋገጥ ፍትሃዊ ዋጋ አሰጣጥ፣ ደህንነቱ የተጠበቀ ክፍያ እና የተረጋገጡ መገለጫዎችን እናስቀድማለን። በነጉስ ገበያ ላይ የሚደረግ እያንዳንዱ ግብይት የአካባቢ ኑሮን ለማስቀጠልና የኢትዮጵያን ሀብታም ባህላዊ ቅርስ ለማክበር ይረዳል።",
+    "paragraph3": "እኛ ለሁሉም የሚሰራ ገበያ ለመገንባት ቆርጠው የተነሱ የኢትዮጵያውያን ቡድን ነን። ልዩ ውድ ሀብቶችን የሚፈልጉ ገዢ ወይም ሰፊ ተመልካቾችን ለመድረስ የሚፈልጉ ሻጭ ቢሆኑ፣ ነጉስ ገበያ የእርስዎ ታማኝ አጋር ነው።",
+    "cta": "ዛሬ ማህበረሰባችንን ይቀላቀሉ እና የኢትዮጵያ እያደገ ያለ ዲጂታል ኢኮኖሚ አካል ይሁኑ።"
+  },
+  "contact": {
+    "title": "አግኙን",
+    "form": {
+      "title": "መልዕክት ላኩልን",
+      "nameLabel": "ሙሉ ስም",
+      "namePlaceholder": "ሙሉ ስምዎ",
+      "emailLabel": "ኢሜይል አድራሻ",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "መልዕክት",
+      "messagePlaceholder": "እንዴት ልንረዳዎት እንችላለን?",
+      "submitButton": "መልዕክት ላክ"
+    },
+    "info": {
+      "title": "ያግኙን",
+      "emailLabel": "ኢሜይል",
+      "phoneLabel": "ስልክ",
+      "addressLabel": "አድራሻ",
+      "address": "ቦሌ, አዲስ አበባ, ኢትዮጵያ",
+      "hoursLabel": "የስራ ሰዓታት",
+      "hours": "ሰኞ – አርብ, 9:00 ጥዋት – 6:00 ማታ (EAT)"
+    }
+  }
+}

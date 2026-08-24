@@ -1,0 +1,976 @@
+{
+  "topbar": {
+    "freeShipping": "10sha booraappe bolla oosuwaa zaaranchchaassibaa aadhdhiis",
+    "returns": "30 gallassi giddo miishsha zaarissiyoogaa",
+    "support": "Wodene maaddiyaagee gakkana"
+  },
+  "nav": {
+    "home": "Ha Oosuwaa",
+    "marketplace": "Markeetipelesi",
+    "reels": "Riilisi",
+    "blog": "Biroogu",
+    "about": "Nu gishshaa",
+    "contact": "Nuuni gaytite",
+    "searchPlaceholder": "Ayfiyaa koyyite...",
+    "login": "Gel",
+    "signup": "Maayettite",
+    "logout": "Key",
+    "dashboard": "Daashiboordi",
+    "admin": "Admin",
+    "myListings": "Ta ayfiyaa",
+    "favorites": "Ta siiqidaagee",
+    "sell": "Bayzi",
+    "profile": "Porofayili",
+    "myOrders": "Ta oosuwaa",
+    "sellerOrders": "Bayziyaa oosuwaa",
+    "adminPanel": "Admin Paaneli"
+  },
+  "hero": {
+    "badge": "Itoophiyaa Amanettida Markeetipelesi",
+    "title": "Itoophiyaa ayfiyaa sarotetti oottidi bayzite.",
+    "subtitle": "Negus Gebeya - Itoophiyaa markeetipelesi koshshaa gujjirissiyaa…",
+    "browse": "Ayfiyaa xeellite",
+    "sell": "Miishsha bayzi"
+  },
+  "trust": {
+    "verified": "Amanettiyaagee",
+    "verifiedDesc": "Bayziyaa amanettiyaagee beettide.",
+    "ai": "AI Ayfiyaa Maaddiyaa",
+    "aiDesc": "Ayfiyaa sijaantte maaddissiyaa.",
+    "pricing": "Pireesiyaa leeluwaa",
+    "pricingDesc": "Leeluwaa pireesiyaa."
+  },
+  "categories": {
+    "shop": "Mala mala shamyite",
+    "title": "Ne ayfiyaa demmite",
+    "subtitle": "Nu shamyidabaa xeellite."
+  },
+  "marketplace": {
+    "badge": "Markeetipelesi",
+    "title": "Itoophiyaa Lo'o Shamyida",
+    "subtitle": "Morkke biittaappe shamyidaabaa."
+  },
+  "signup": {
+    "badge": "Kuyyeedda shamyite",
+    "title": "Ha'oyni maayettite",
+    "subtitle": "Ne ashiyaa maayettite."
+  },
+  "auth": {
+    "loginTitle": "Negus Gebeyaa Gel",
+    "subtitle": "Galatakka gelite.",
+    "registerTitle": "Ne ashiyaa maayettite",
+    "registerSubtitle": "Ne matayni gelite.",
+    "email": "Imeeyili",
+    "password": "Paaswoordi",
+    "name": "Suntsiyaa",
+    "phone": "Bilkiya",
+    "city": "Katamaa",
+    "noAccount": "Negus Gebeyayyo ogee?",
+    "createAccount": "Ashiyaa kessi",
+    "haveAccount": "Ashiyaa de'ees?",
+    "loginLink": "Gel",
+    "logInBtn": "Gel",
+    "signUpBtn": "Maayettite",
+    "welcome": "Galatakka gelite!",
+    "success": "Ashiyaa kessiis!"
+  },
+  "createListing": {
+    "title": "Miishsha bayzi",
+    "subtitle": "Soo be'issiyaa yootite.",
+    "submit": "Kessi",
+    "noPhotos": "Photo issi gujjite.",
+    "videoSection": "Videoyaa (Koyyi)",
+    "maxVideos": "Video shamyida.",
+    "upload": "Video kessi",
+    "uploadingVideos": "Video keessiis... {{progress}}%",
+    "publishButton": "Kessi",
+    "waitForUpload": "Nabbabissiyaa...",
+    "toasts": {
+      "noImages": "Photo issi gujjite.",
+      "published": "Kessiis!",
+      "failed": "Baysana danddayibeenna.",
+      "uploadFailed": "Kessibeenna",
+      "videoUploadFailed": "Video {{number}} kessibeenna: {{message}}"
+    }
+  },
+  "editListing": {
+    "title": "Ayfiyaa goyssite",
+    "subtitle": "Photo gujjite.",
+    "submit": "Laammiyaa godo",
+    "uploadProgress": "{{progress}}% kessiis",
+    "emptyState": {
+      "forbiddenTitle": "Ha ayfiyaa laammana danddayikkootta",
+      "forbiddenDescription": "A kessida bayziyaa xallay laammana.",
+      "notFoundTitle": "Ayfiyaa demmibeennay",
+      "notFoundDescription": "Ha ayfiyaa xayssinos."
+    },
+    "toasts": {
+      "uploadingVideos": "Video kessiis...",
+      "videosUploaded": "Video kessiis!",
+      "updateSuccess": "Laammiis.",
+      "updateFailed": "Laammibeenna"
+    }
+  },
+  "reels": {
+    "empty": {
+      "title": "Riilisi woy Layvi de'ennay",
+      "description": "Bayziyaa videoyaa kessibeenna.",
+      "cta": "Issi oottite"
+    },
+    "liveBadge": "LAYVI",
+    "liveTitleFallback": "Layvi kessite",
+    "sellerFallback": "Bayziyaa",
+    "viewProduct": "Miishsha xeellite",
+    "viewerCount": "{{count}} ashi xeellino",
+    "progress": "{{current}} / {{total}}",
+    "swipeHint": "Bolla yisse",
+    "aria": {
+      "prev": "Kase",
+      "next": "Kaalliya",
+      "play": "Tikkite",
+      "pause": "Woshshite"
+    }
+  },
+  "footer": {
+    "description": "Negus Gebeya - buni, shomushi, oosuwaa ayfiyaa.",
+    "shop": "Shamyite",
+    "company": "Kalluu",
+    "support": "Maaddiyaa",
+    "shopLinks": {
+      "coffee": "Buni",
+      "spices": "Shomushi",
+      "handicrafts": "Oosuwaa",
+      "honeyOils": "Maa, zayti"
+    },
+    "companyLinks": {
+      "about": "Nu gishshaa",
+      "story": "Nu oosuwaa",
+      "sustainability": "Wursetti",
+      "careers": "Oosuwaa"
+    },
+    "supportLinks": {
+      "help": "Maaddiyaa",
+      "shipping": "Gafissiyaa",
+      "returns": "Zaarissiyaa",
+      "contact": "Gaytite"
+    },
+    "copyright": "© {{year}} Negus Gebeya — Itoophiyaa markeetipelesi. Wursetti gujjis."
+  },
+  "common": {
+    "loading": "Shamyi noo...",
+    "notFound": "Gaacaa demmibeennay",
+    "error": "Gakkidabay de'ees",
+    "close": "Woshshite",
+    "save": "Godo",
+    "cancel": "Aappite",
+    "delete": "Xayssite",
+    "viewAll": "Wursetti xeellite",
+    "items": "Miishshaa",
+    "viewDetails": "Aha xeellite",
+    "addFav": "Siiqidabaa gujjite",
+    "removeFav": "Siiqidabaa kessite"
+  },
+  "product": {
+    "price": "Pireesiyaa",
+    "condition": "Ayfiyaa ahaa",
+    "city": "Katamaa",
+    "negotiable": "Laammiya",
+    "viewCount": "Xeellida",
+    "favorites": "Siiqida",
+    "seller": "Bayziyaa",
+    "contactSeller": "Bayziyaa gaytite",
+    "report": "Yootite",
+    "similar": "Mala",
+    "noSimilar": "Mala demmibeennay."
+  },
+  "home": {
+    "staffPick": "Oosanchchiya shamyida",
+    "newArrival": "Ha'oyni yiida",
+    "viewDetails": "Aha xeellite"
+  },
+  "trending": {
+    "badge": "Ashi xeellida",
+    "title": "Ha'oyni erissida",
+    "empty": "Ashi erissidabay de'ennay."
+  },
+  "discount": {
+    "badge": "Guuthiyaa pireesiyaa",
+    "title": "Ha'oyni oychchiya",
+    "percent": "10% Guuthiyaa!",
+    "description": "Ha guuthiyaa 3 gallassi de'ees.",
+    "days": "Gallassi",
+    "hours": "Saa'iyaa",
+    "mins": "Deqiqiyaa",
+    "secs": "Sekondii",
+    "cta": "Ayfiyaa demmite"
+  },
+  "newsletter": {
+    "title": "Nu gajaraa nabbabite",
+    "subtitle": "Ayfiyaa erissite.",
+    "placeholder": "Imeeyili eettite",
+    "subscribe": "Maayettite",
+    "subscribing": "Maayettis...",
+    "privacy": "Amanettiyaagee",
+    "success": "Maayettis!",
+    "error": "Imeeyili xooshaa eettite.",
+    "fail": "Maayettibeenna."
+  },
+  "instagram": {
+    "title": "Instagiramu kaallite",
+    "follow": "Kaallite"
+  },
+  "blog": {
+    "title": "Biroogu",
+    "subtitle": "Negus Gebeya oosuwaa.",
+    "emptyMessage": "Biroogu de'ennay.",
+    "readMore": "Aha nabbabite",
+    "defaultAuthor": "Oosanchchi",
+    "pagination": {
+      "prev": "Kase",
+      "next": "Kaalliya",
+      "pageOf": "Gaacaa {{current}} / {{total}}"
+    }
+  },
+  "faq": {
+    "title": "Oychchida oychchiyaa",
+    "q1": "Ay eeytissiyoo?",
+    "a1": "Baankiwaa, teelibiri, eeytissiyoo.",
+    "q2": "Ta oosuwaa xeellana?",
+    "a2": "Daashiboordiyaappe xeellite.",
+    "q3": "Zaarissiyaa maataa?",
+    "a3": "7 gallassi.",
+    "q4": "Biittaappe kessiyoo?",
+    "a4": "Itoophiyaa xallaa.",
+    "q5": "Bayziyaara oona?",
+    "a5": "Porofayili gujjite."
+  },
+  "trustStrip": {
+    "secure": "Amanettiya",
+    "secureDesc": "100% Amanettiya",
+    "returns": "Maaddiyaa",
+    "returnsDesc": "30 gallassi",
+    "quality": "Lo'o",
+    "qualityDesc": "Pireemiyami",
+    "delivery": "Saro",
+    "deliveryDesc": "Biittaappe"
+  },
+  "cta": {
+    "badge": "Maayettite",
+    "title": "Ha'oyni maayettite",
+    "subtitle": "Negus Gebeyaa gelite.",
+    "signup": "Baashi maayettite",
+    "login": "Gel"
+  },
+  "productGrid": {
+    "emptyTitle": "Ayfiyaa de'ennay",
+    "emptyDescription": "Kessite."
+  },
+  "admin": {
+    "title": "Admin Paaneli",
+    "stats": {
+      "activeUsers": "Oosanchcha",
+      "listings": "Ayfiyaa",
+      "pendingReports": "Yootiyaa",
+      "commission": "Komishini (10%)"
+    },
+    "tabs": {
+      "overview": "Wursettaa",
+      "products": "Miishshaa",
+      "orders": "Oosuwaa",
+      "reports": "Yootiyaa",
+      "verifications": "Amanettiya",
+      "withdrawals": "Miishsha kessiya",
+      "blogs": "Biroogu"
+    },
+    "overview": {
+      "title": "Ha'oyni oosuwaa",
+      "welcome": "Admin paaneliwaa gelita. Galatakka!"
+    },
+    "errors": {
+      "loadFailed": "Kessibeenna.",
+      "productsLoadFailed": "Miishshaa kessibeenna.",
+      "ordersLoadFailed": "Oosuwaa kessibeenna.",
+      "statusUpdateFailed": "Laammibeenna.",
+      "actionFailed": "Oosibeenna.",
+      "blogSaveFailed": "Biroogu godibeenna.",
+      "deleteFailed": "Xayssibeenna."
+    },
+    "products": {
+      "title": "Admin Miishshaa",
+      "searchPlaceholder": "Suntsiyaa koyyite...",
+      "statusAll": "Wursettaa",
+      "refresh": "Ha'oyni",
+      "noProducts": "Miishshaa demmibeennay",
+      "noProductsDesc": "Mala de'ennay.",
+      "uncategorized": "Malaarays",
+      "unknown": "Eeribeenna",
+      "updating": "Laammi noo...",
+      "confirmStatusChange": "\"{{status}}\" laammana?",
+      "statusUpdated": "Laammiis.",
+      "statuses": {
+        "active": "De'ees",
+        "sold": "Bayzides",
+        "pending": "Nabbabis",
+        "inactive": "De'ennay",
+        "removed": "Xayssis",
+        "draft": "Kassida"
+      },
+      "table": {
+        "product": "Miishsha",
+        "seller": "Bayziyaa",
+        "price": "Pireesiyaa",
+        "status": "Hala",
+        "actions": "Oosuwaa"
+      },
+      "pagination": {
+        "showing": "{{start}} - {{end}} of {{total}}",
+        "prev": "Kase",
+        "next": "Kaalliya"
+      }
+    },
+    "orders": {
+      "title": "Admin Oosuwaa",
+      "searchPlaceholder": "Koyyite...",
+      "statusAll": "Wursettaa",
+      "refresh": "Ha'oyni",
+      "noOrders": "Oosuwaa de'ennay",
+      "noOrdersDesc": "De'ennay.",
+      "na": "N/A",
+      "unknown": "Eeribeenna",
+      "updating": "Laammi noo...",
+      "confirmStatusChange": "\"{{status}}\" laammana?",
+      "statusUpdated": "Laammiis.",
+      "statuses": {
+        "pending": "Nabbabis",
+        "paid": "Eeytis",
+        "shipped": "Gafis",
+        "delivered": "Gakis",
+        "completed": "Wursis",
+        "cancelled": "Aappis",
+        "failed": "Oosibeenna",
+        "refunded": "Zaaris"
+      },
+      "table": {
+        "orderId": "Oosuwaa ID",
+        "product": "Miishsha",
+        "buyer": "Shamyiya",
+        "seller": "Bayziyaa",
+        "amount": "Meeysha",
+        "status": "Hala",
+        "date": "Gallassi",
+        "actions": "Oosuwaa"
+      },
+      "pagination": {
+        "showing": "{{start}} - {{end}} of {{total}}",
+        "prev": "Kase",
+        "next": "Kaalliya"
+      }
+    },
+    "reports": {
+      "title": "Yootiyaa",
+      "noReports": "Wursetti lo'o",
+      "noReportsDesc": "Yootiyaa de'ennay.",
+      "resolve": "Paxxite",
+      "dismiss": "Bissu",
+      "resolvedSuccess": "Paxxiss",
+      "dismissedSuccess": "Bissis",
+      "unknown": "Eeribeenna",
+      "deletedListing": "Xayssis",
+      "table": {
+        "reporter": "Yootiya",
+        "listing": "Ayfiyaa",
+        "reason": "Gaasuwaa",
+        "actions": "Oosuwaa"
+      }
+    },
+    "verifications": {
+      "title": "Amanettiya",
+      "noRequests": "Wursetti lo'o",
+      "noRequestsDesc": "Koyyibeenna.",
+      "approve": "Eeytis",
+      "reject": "Aappis",
+      "approveSuccess": "Eeytis",
+      "rejectSuccess": "Aappis",
+      "open": "Yeggete",
+      "noDocument": "Kaaldhe de'ennay",
+      "documentLabel": "Kaaldhe",
+      "documentAlt": "Kaaldhe",
+      "table": {
+        "name": "Suntsiyaa",
+        "email": "Imeeyili",
+        "document": "Kaaldhe",
+        "actions": "Oosuwaa"
+      }
+    },
+    "withdrawals": {
+      "title": "Miishsha kessiya",
+      "noRequests": "De'ennay",
+      "noRequestsDesc": "De'ennay.",
+      "approve": "Eeytis",
+      "reject": "Aappis",
+      "approvedSuccess": "Eeytis",
+      "rejectedSuccess": "Aappis",
+      "unknown": "Eeribeenna",
+      "statuses": {
+        "pending": "Nabbabis",
+        "approved": "Eeytis",
+        "rejected": "Aappis"
+      },
+      "table": {
+        "seller": "Bayziyaa",
+        "amount": "Meeysha",
+        "bankAccount": "Baanki Ashi",
+        "status": "Hala",
+        "actions": "Oosuwaa"
+      }
+    },
+    "blogs": {
+      "title": "Biroogu Oosuwaa",
+      "newPost": "Ha'oyniiroo",
+      "editPost": "Laammiro",
+      "createPost": "Kessiro",
+      "titlePlaceholder": "Suntsiyaa",
+      "bodyPlaceholder": "Aha",
+      "excerptPlaceholder": "Guuthiyaa",
+      "coverImagePlaceholder": "Photo",
+      "tagsPlaceholder": "Tagi",
+      "publish": "Kessi",
+      "update": "Laammi",
+      "cancel": "Aappite",
+      "noBlogs": "Biroogu de'ennay",
+      "noBlogsDesc": "Kessite.",
+      "createSuccess": "Kessis!",
+      "updateSuccess": "Laammiis.",
+      "deleteSuccess": "Xayssis.",
+      "confirmDelete": "Xayssana?",
+      "edit": "Laammi",
+      "delete": "Xayssite",
+      "table": {
+        "title": "Suntsiyaa",
+        "slug": "Slug",
+        "tags": "Tagi",
+        "actions": "Oosuwaa"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Galatakka gelite, {{name}}",
+    "defaultName": "Bayziyaa",
+    "subtitle": "Ne oosuwaa Negus Gebeya.",
+    "uncategorized": "Malaarays",
+    "statuses": {
+      "active": "De'ees",
+      "sold": "Bayzides",
+      "pending": "Nabbabis",
+      "approved": "Eeytis",
+      "rejected": "Aappis",
+      "other": "Mala"
+    },
+    "quickActions": {
+      "sell": "Bayzi",
+      "myListings": "Ta ayfiyaa",
+      "favorites": "Ta siiqida",
+      "messages": "Yootiyaa",
+      "myOrders": "Ta oosuwaa",
+      "sellerOrders": "Bayziyaa oosuwaa"
+    },
+    "live": {
+      "title": "Layvi Stiriimingi",
+      "liveNow": "🔴 Ha'oyni Layvi de'ees",
+      "badge": "Layvi",
+      "goLive": "Layvi Gel",
+      "endStream": "Wursite",
+      "streamKey": "Stiriimi Kiyoo",
+      "activeNote": "Layvi de'ees."
+    },
+    "earnings": {
+      "title": "Miishsha",
+      "subtitle": "Eeytissiyoo",
+      "refresh": "Ha'oyni",
+      "requestWithdrawal": "Miishsha kessite",
+      "withdrawalHistory": "Oosuwaa"
+    },
+    "periodLabels": {
+      "all": "Wursettaa",
+      "today": "Ha'oyni",
+      "week": "Shoolo",
+      "month": "Akaatsi",
+      "3months": "3 Akaatsi",
+      "6months": "6 Akaatsi",
+      "year": "Laata"
+    },
+    "stats": {
+      "totalListings": "Wursettaa ayfiyaa",
+      "active": "De'ees",
+      "sold": "Bayzides",
+      "views": "Xeellida",
+      "favorites": "Siiqida"
+    },
+    "charts": {
+      "categoryTitle": "Mala",
+      "noCategoryData": "De'ennay.",
+      "statusTitle": "Hala",
+      "noStatusData": "De'ennay."
+    },
+    "messages": {
+      "title": "Yootiyaa",
+      "unread": "Nabbabibeenna",
+      "noConversations": "De'ennay.",
+      "noMessages": "De'ennay"
+    },
+    "recentListings": {
+      "title": "Ha'oyni ayfiyaa",
+      "viewAll": "Wursetti xeellite",
+      "empty": "De'ennay.",
+      "createFirst": "Kessi",
+      "noImage": "Photo de'ennay",
+      "views": "Xeellida",
+      "edit": "Laammi"
+    },
+    "tip": "Maaddiyaa: Lo'o photo kessite.",
+    "modal": {
+      "stream": {
+        "title": "Layvi Kessi",
+        "streamKeyLabel": "Kiyoo",
+        "rtmpLabel": "RTMP URL",
+        "instructions": "⚠️ OBS eettite.",
+        "startButton": "Kessi"
+      },
+      "withdraw": {
+        "title": "Miishsha kessite",
+        "amountLabel": "Meeysha – De'ees: {{earnings}} Birr",
+        "amountPlaceholder": "Min {{max}}",
+        "minimum": "Min: 1000 Birr",
+        "accountNameLabel": "Suntsiyaa",
+        "accountNamePlaceholder": "Baanki suntsiyaa",
+        "accountNumberLabel": "Baanki Ashi (CBE)",
+        "accountNumberPlaceholder": "1000XXXXXXXX",
+        "submitButton": "Kessi"
+      }
+    },
+    "toasts": {
+      "live": {
+        "onlyVerified": "Amanettiya ashi xallaa.",
+        "generateFailed": "Kessibeenna.",
+        "started": "Layvi kessis!",
+        "startFailed": "Oosibeenna.",
+        "ended": "Wursis.",
+        "endFailed": "Oosibeenna."
+      },
+      "withdraw": {
+        "invalidFields": "1000 Birr eettite",
+        "exceedsEarnings": "Bolla bidenna.",
+        "success": "Kessis!",
+        "failed": "Oosibeenna",
+        "minimum": "1000 Birr eettite."
+      },
+      "earningsRefreshed": "Ha'oyniis",
+      "fetchDataFailed": "Kessibeenna.",
+      "fetchEarningsFailed": "Kessibeenna."
+    }
+  },
+  "favorites": {
+    "title": "Ta Siiqida",
+    "subtitle": "Negus Gebeya siiqida.",
+    "empty": "De'ennay.",
+    "browseLink": "Markeetipelesi xeellite",
+    "noImage": "Photo de'ennay",
+    "views": "Xeellida",
+    "viewButton": "Xeellite",
+    "removeButton": "Kessite",
+    "statuses": {
+      "active": "De'ees",
+      "sold": "Bayzides",
+      "pending": "Nabbabis"
+    },
+    "errors": {
+      "loadFailed": "Kessibeenna.",
+      "removeFailed": "Kessibeenna."
+    },
+    "toasts": {
+      "removed": "Kessis."
+    }
+  },
+  "login": {
+    "title": "Galatakka gelite",
+    "subtitle": "Gelite.",
+    "leftColumnTagline": "Negus Gebeya gelite.",
+    "logoAlt": "Negus Gebeya Logo",
+    "mobileSubtitle": "Gelite",
+    "closeAria": "Woshshite",
+    "form": {
+      "emailPlaceholder": "Imeeyili",
+      "passwordPlaceholder": "Paaswoordi",
+      "emailRequired": "Imeeyili koshshees",
+      "emailInvalid": "Lo'o imeeyili",
+      "passwordRequired": "Paaswoordi koshshees",
+      "forgotPassword": "Paaswoordi awubee?",
+      "loginButton": "Gel",
+      "loggingIn": "Gel noo...",
+      "orContinue": "Woyka",
+      "googleButton": "Google eettite",
+      "noAccount": "Negus Gebeyayyo ogee?",
+      "signUpLink": "Ashiyaa kessi"
+    },
+    "errors": {
+      "incorrectCredentials": "Geyga imeeyili woy paaswoordi."
+    },
+    "toasts": {
+      "welcomeBack": "Galatakka gelite!",
+      "redirectingGoogle": "Google bnoo..."
+    }
+  },
+  "orders": {
+    "title": "Ta Oosuwaa",
+    "refresh": "Ha'oyni",
+    "sellerLabel": "Bayziyaa",
+    "unknownProduct": "Miishsha",
+    "unknownSeller": "Eeribeenna",
+    "viewDetails": "Aha xeellite",
+    "statuses": {
+      "completed": "Wursis",
+      "pending": "Nabbabis",
+      "cancelled": "Aappis",
+      "failed": "Oosibeenna",
+      "refunded": "Zaaris"
+    },
+    "emptyState": {
+      "title": "Oosuwaa de'ennay",
+      "description": "De'ennay."
+    },
+    "errors": {
+      "loadFailed": "Kessibeenna"
+    }
+  },
+  "myListings": {
+    "title": "Ta Ayfiyaa",
+    "subtitle": "Negus Gebeya ta ayfiyaa.",
+    "sellNew": "Ha'oyni bayzi",
+    "noImage": "Photo de'ennay",
+    "views": "Xeellida",
+    "favorites": "Siiqida",
+    "editButton": "Laammi",
+    "deleteButton": "Xayssite",
+    "filterOptions": {
+      "all": "Wursettaa",
+      "active": "De'ees",
+      "sold": "Bayzides",
+      "inactive": "De'ennay"
+    },
+    "statuses": {
+      "active": "De'ees",
+      "sold": "Bayzides",
+      "inactive": "De'ennay"
+    },
+    "empty": {
+      "title": "Ayfiyaa de'ennay.",
+      "cta": "Kessi"
+    },
+    "pagination": {
+      "prev": "Kase",
+      "next": "Kaalliya",
+      "pageOf": "{{current}} / {{total}}"
+    },
+    "errors": {
+      "loadFailed": "Kessibeenna.",
+      "deleteFailed": "Xayssibeenna."
+    },
+    "toasts": {
+      "deleteSuccess": "Xayssis."
+    },
+    "confirmDelete": "\"{{title}}\" Xayssana?"
+  },
+  "paymentFailed": {
+    "title": "Eeytissoos",
+    "description": "Oosibeenna.",
+    "referenceLabel": "Reference",
+    "returnHome": "Gaacaa bide",
+    "toasts": {
+      "failed": "Oosibeenna."
+    }
+  },
+  "paymentSuccess": {
+    "title": "Eeytis!",
+    "description": "Lo'o.",
+    "referenceLabel": "Reference",
+    "viewOrders": "Oosuwaa xeellite",
+    "toasts": {
+      "success": "Lo'o!"
+    }
+  },
+  "productDetails": {
+    "noImage": "Photo de'ennay",
+    "negotiable": "Laammiya",
+    "removeFavorite": "Kessite",
+    "addFavorite": "Gujite",
+    "unknownSeller": "Eeribeenna",
+    "descriptionLabel": "Aha",
+    "editButton": "Laammi",
+    "deleteButton": "Xayssite",
+    "buyNow": "Ha'oyni shamyite",
+    "loginToBuy": "Shamyana gelite",
+    "contactSeller": "Bayziyaa gaytite",
+    "reportButton": "Yootite",
+    "reviewsTitle": "Xeellida",
+    "writeReview": "Yootite",
+    "editReview": "Laammi",
+    "writeReviewTitle": "Yootite",
+    "editReviewTitle": "Laammi",
+    "ratingLabel": "Dareeja",
+    "commentLabel": "Yootiya",
+    "commentPlaceholder": "Yootite...",
+    "submitReviewButton": "Kessi",
+    "updateReviewButton": "Laammi",
+    "cancelButton": "Aappite",
+    "anonymous": "Eeribeenna",
+    "noReviews": "De'ennay.",
+    "similarListings": "Mala",
+    "reviewCount": "({{count}})",
+    "sellerRating": "{{rating}} ★ · {{count}}",
+    "sellerNoReviews": "De'ennay",
+    "emptyState": {
+      "title": "De'ennay",
+      "description": "De'ennay."
+    },
+    "statuses": {
+      "active": "De'ees",
+      "sold": "Bayzides",
+      "pending": "Nabbabis",
+      "inactive": "De'ennay",
+      "removed": "Xayssis",
+      "draft": "Kassida"
+    },
+    "conditions": {
+      "new": "Ha'oyni",
+      "likeNew": "Mala",
+      "used": "Eettida",
+      "damaged": "Gakkida"
+    },
+    "confirmDelete": "Xayssana?",
+    "toasts": {
+      "paymentConfirmed": "Eeytis!",
+      "paymentNotVerified": "Eeribeenna.",
+      "paymentVerificationFailed": "Oosibeenna.",
+      "sellerNotifiedNoPhone": "Yootis.",
+      "contactRevealed": "Lo'o!",
+      "contactFailed": "Oosibeenna.",
+      "deleteSuccess": "Xayssis.",
+      "deleteFailed": "Oosibeenna.",
+      "alreadySold": "Bayzides.",
+      "paymentInitFailed": "Oosibeenna.",
+      "ratingRequired": "Dareeja eettite.",
+      "reviewSubmitSuccess": "Lo'o!",
+      "reviewSubmitFailed": "Oosibeenna.",
+      "reviewUpdateSuccess": "Lo'o!",
+      "reviewUpdateFailed": "Oosibeenna."
+    }
+  },
+  "profile": {
+    "title": "Porofayili",
+    "loading": "Shamyi noo...",
+    "avatar": {
+      "save": "Photo godo",
+      "uploading": "Kessi noo..."
+    },
+    "personalInfo": {
+      "title": "Asha",
+      "edit": "Laammi",
+      "cancel": "Aappite",
+      "saveChanges": "Godo",
+      "saving": "God noo...",
+      "fullName": "Suntsiyaa",
+      "phone": "Bilkiya",
+      "phonePlaceholder": "0912345678",
+      "city": "Katamaa",
+      "cityPlaceholder": "Addis Ababa",
+      "bio": "Bio",
+      "bioPlaceholder": "Yootite..."
+    },
+    "verification": {
+      "title": "Amanettiya",
+      "statusLabel": "Hala",
+      "verifiedBadge": "Amanettiya Bayziyaa",
+      "statuses": {
+        "verified": "Amanettides",
+        "pending": "Nabbabis",
+        "rejected": "Aappis",
+        "notSubmitted": "Kessibeenna"
+      },
+      "rejectionReason": "Gaasuwaa",
+      "verifiedMessage": "Lo'o.",
+      "documentTypeLabel": "Kaaldhe",
+      "documentTypes": {
+        "nationalId": "ID",
+        "passport": "Paaspoorti",
+        "driverLicense": "Liisinsi"
+      },
+      "uploadLabel": "Kaaldhe kessi",
+      "submit": "Kessi",
+      "submitting": "Kessi noo..."
+    },
+    "toasts": {
+      "profileUpdated": "Lo'o!",
+      "updateFailed": "Oosibeenna",
+      "avatarUpdated": "Lo'o!",
+      "avatarUploadFailed": "Oosibeenna",
+      "selectDocument": "Kaaldhe eettite",
+      "documentSubmitted": "Lo'o!",
+      "documentUploadFailed": "Oosibeenna"
+    }
+  },
+  "register": {
+    "title": "Ashiyaa kessi",
+    "subtitle": "Ashiyaa kessiis.",
+    "leftColumnTagline": "Negus Gebeya gelite.",
+    "logoAlt": "Negus Gebeya Logo",
+    "mobileSubtitle": "Ashiyaa kessi",
+    "closeAria": "Woshshite",
+    "form": {
+      "namePlaceholder": "Suntsiyaa",
+      "nameRequired": "Suntsiyaa koshshees",
+      "nameMinLength": "Min 2",
+      "nameMaxLength": "Max 60",
+      "emailPlaceholder": "Imeeyili",
+      "emailRequired": "Imeeyili koshshees",
+      "emailInvalid": "Lo'o imeeyili",
+      "passwordPlaceholder": "Paaswoordi",
+      "passwordRequired": "Paaswoordi koshshees",
+      "passwordMinLength": "Min 8",
+      "passwordNumberRequired": "Ashi koshshees",
+      "phonePlaceholder": "Bilkiya",
+      "phoneInvalid": "Lo'o bilkiya",
+      "phoneHelp": "Bilkiya koshshees.",
+      "cityDefault": "Katamaa",
+      "termsLabel": "Lo'o",
+      "termsLink": "Tirmi",
+      "and": "ne",
+      "privacyLink": "Pirivasi",
+      "submitButton": "Ashiyaa kessi",
+      "creating": "Kessi noo...",
+      "orSignUp": "Woyka",
+      "googleButton": "Google eettite",
+      "alreadyAccount": "Ashiyaa de'ees?",
+      "loginLink": "Gel"
+    },
+    "passwordStrength": {
+      "weak": "Goobay",
+      "fair": "Mala",
+      "strong": "Ashi"
+    },
+    "toasts": {
+      "termsRequired": "Tirmi eettite.",
+      "welcome": "Galatakka gelite!",
+      "createFailed": "Oosibeenna.",
+      "redirectingGoogle": "Google bnoo..."
+    }
+  },
+  "search": {
+    "title": {
+      "withQuery": "\"{{query}}\" kayttiis",
+      "browse": "Xeellite"
+    },
+    "resultCount_one": "{{count}} de'ees",
+    "resultCount_other": "{{count}} de'ees",
+    "filterButton": "Koyyite",
+    "showResults": "Xeellite",
+    "closeFilters": "Woshshite",
+    "sortOptions": {
+      "newest": "Ha'oyni",
+      "oldest": "Aarssi",
+      "priceAsc": "Pireesiyaa: Guutha",
+      "priceDesc": "Pireesiyaa: Bolla",
+      "popular": "Siiqida"
+    }
+  },
+  "sellerProfile": {
+    "youBadge": "Ne",
+    "joined": "{{time}} yiida",
+    "salesCount_one": "{{count}} bayzida",
+    "salesCount_other": "{{count}} bayzida",
+    "ratingNew": "Ha'oyni",
+    "reviewCount_one": "({{count}})",
+    "reviewCount_other": "({{count}})",
+    "trustScore": "Amanettiya {{score}}/5",
+    "viewAllListings": "Wursettaa xeellite",
+    "chat": "Yootite",
+    "closeChat": "Woshshite",
+    "emptyState": {
+      "title": "De'ennay",
+      "description": "De'ennay."
+    },
+    "stats": {
+      "completedSales": "Bayzida",
+      "reviews": "Xeellida",
+      "avgRating": "Dareeja",
+      "trustScore": "Amanettiya"
+    },
+    "listingsTitle": "{{name}} ayfiyaa",
+    "noListings": "De'ennay."
+  },
+  "sellerOrders": {
+    "title": "Bayziyaa Oosuwaa",
+    "earningsLabel": "Wursettaa",
+    "refreshButton": "Ha'oyni",
+    "buyerLabel": "Shamyiya",
+    "unknownProduct": "Miishsha",
+    "unknownBuyer": "Eeribeenna",
+    "viewDetails": "Aha xeellite",
+    "updating": "Laammi noo...",
+    "confirmStatusChange": "\"{{status}}\" laammana?",
+    "statuses": {
+      "pending": "Nabbabis",
+      "paid": "Eeytis",
+      "shipped": "Gafis",
+      "delivered": "Gakis",
+      "completed": "Wursis",
+      "cancelled": "Aappis"
+    },
+    "emptyState": {
+      "title": "Oosuwaa de'ennay",
+      "description": "De'ennay."
+    },
+    "toasts": {
+      "loadFailed": "Oosibeenna.",
+      "refreshed": "Lo'o",
+      "statusUpdated": "Lo'o {{status}}",
+      "statusUpdateFailed": "Oosibeenna."
+    }
+  },
+  "socialLogin": {
+    "loading": "Shamyi noo...",
+    "defaultName": "Eeytissiya",
+    "toasts": {
+      "welcome": "Galatakka gelite {{name}}!",
+      "error": "Oosibeenna."
+    }
+  },
+  "about": {
+    "title": "Negus Gebeya Gishshaa",
+    "paragraph1": "Negus Gebeya - Itoophiyaa markeetipelesi.",
+    "paragraph2": "Lo'o oosuwaa oottiis.",
+    "paragraph3": "Galatakka gelite.",
+    "cta": "Maayettite."
+  },
+  "contact": {
+    "title": "Nuuni Gaytite",
+    "form": {
+      "title": "Yootiya kessi",
+      "nameLabel": "Suntsiyaa",
+      "namePlaceholder": "Suntsiyaa",
+      "emailLabel": "Imeeyili",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Yootiya",
+      "messagePlaceholder": "Maaddana?",
+      "submitButton": "Kessi"
+    },
+    "info": {
+      "title": "Gaytite",
+      "emailLabel": "Imeeyili",
+      "phoneLabel": "Bilkiya",
+      "addressLabel": "Adireesi",
+      "address": "Bole, Addis Ababa, Ethiopia",
+      "hoursLabel": "Saa'iyaa",
+      "hours": "Sanuyi – Arbi"
+    }
+  }
+}

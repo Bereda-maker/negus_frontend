@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fdfaf5;
+  --foreground: #0a1428;
+
+  /* Brand palette (see PieChart colors in Dashboard + gradient stops
+     used across Home/Login/Register for where these values come from) */
+  --color-primary: #0a1428;
+  --color-primary-light: #1a2d4f;
+  --color-gold: #c9973b;
+  --color-gold-light: #e0b563;
+  --color-gold-dark: #a87b2a;
+
+  --color-cream: #fdfaf5;
+  --color-warm-bg: #f7f0e7;
+  --color-surface: #ffffff;
+  --color-border: #e8dfd4;
+
+  --color-text-primary: #0a1428;
+  --color-text-secondary: #5a4f45;
+  --color-text-tertiary: #9a8f82;
+
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-playfair: var(--font-playfair);
+
+  /* Brand colors, exposed as Tailwind utilities: bg-primary, text-gold, etc. */
+  --color-primary: var(--color-primary);
+  --color-primary-light: var(--color-primary-light);
+  --color-gold: var(--color-gold);
+  --color-gold-light: var(--color-gold-light);
+  --color-gold-dark: var(--color-gold-dark);
+  --color-cream: var(--color-cream);
+  --color-warm-bg: var(--color-warm-bg);
+  --color-surface: var(--color-surface);
+  --color-border: var(--color-border);
+  --color-textPrimary: var(--color-text-primary);
+  --color-textSecondary: var(--color-text-secondary);
+  --color-textTertiary: var(--color-text-tertiary);
+  --color-success: var(--color-success);
+  --color-warning: var(--color-warning);
+  --color-danger: var(--color-danger);
+
+  /* Radii used throughout as rounded-card / rounded-button / rounded-pill */
+  --radius-card: 1rem;
+  --radius-button: 0.625rem;
+  --radius-pill: 9999px;
+
+  /* Shadows used as shadow-card / shadow-cardHover */
+  --shadow-card: 0 2px 10px rgba(10, 20, 40, 0.06);
+  --shadow-cardHover: 0 8px 24px rgba(10, 20, 40, 0.12);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* ---- Shared component classes referenced across the app ---- */
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--color-gold);
+  color: white;
+  border-radius: var(--radius-button);
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+.btn-primary:hover {
+  background-color: var(--color-gold-dark);
+}
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--color-warm-bg);
+  color: var(--color-primary);
+  border-radius: var(--radius-button);
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+.btn-secondary:hover {
+  background-color: var(--color-border);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-button);
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+.btn-outline:hover {
+  border-color: var(--color-gold);
+  background-color: var(--color-warm-bg);
+}
+
+.input-field {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-button);
+  padding: 0.625rem 0.875rem;
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.input-field:focus {
+  outline: none;
+  border-color: var(--color-gold);
+  box-shadow: 0 0 0 3px rgba(201, 151, 59, 0.15);
+}
