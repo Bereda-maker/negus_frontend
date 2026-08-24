@@ -23,6 +23,25 @@ const STATUS_STYLES: Record<string, string> = {
 
 const ALL_STATUSES = ['pending', 'paid', 'shipped', 'delivered', 'completed', 'cancelled', 'failed', 'refunded'];
 
+// Shape of the payment gateway payload. Adjust to match your backend response
+// (e.g. Chapa/Stripe webhook data) if you have a more precise contract.
+interface PaymentData {
+  status?: string;
+  [key: string]: unknown;
+}
+
+// Type guard: proves `value` is an object that has a readable `status` field,
+// without claiming to know the full shape of paymentData.
+function hasStatus(value: unknown): value is PaymentData & { status: string | number } {
+  return (
+    typeof value === 'object' &&
+    value !== null &&
+    'status' in value &&
+    (typeof (value as Record<string, unknown>).status === 'string' ||
+      typeof (value as Record<string, unknown>).status === 'number')
+  );
+}
+
 function OrderDetailsContent() {
   const params = useParams<{ id: string }>();
   const id = params.id;
@@ -35,7 +54,7 @@ function OrderDetailsContent() {
   const fetchOrder = useCallback(async () => {
     try {
       const res = await api.get(`/orders/${id}`);
-      setOrder(res.data.data);
+      setOrder(res.data.data as Order);
     } catch (err) {
       const message = isAxiosError(err) ? err.response?.data?.message : undefined;
       toast.error(message || 'Order not found.');
@@ -56,7 +75,7 @@ function OrderDetailsContent() {
     const interval = setInterval(async () => {
       try {
         const res = await api.get(`/orders/${id}`);
-        const newOrder = res.data.data;
+        const newOrder = res.data.data as Order;
         if (newOrder.status !== 'pending') {
           setOrder(newOrder);
           clearInterval(interval);
@@ -176,9 +195,12 @@ function OrderDetailsContent() {
               <p className="text-sm text-textSecondary">
                 Transaction Ref: <span className="font-mono text-gold">{order.txRef}</span>
               </p>
-              {order.paymentData && (
+              {hasStatus(order.paymentData) && (
                 <p className="text-sm text-textSecondary">
-                  Payment Status: <span className="font-medium text-green-600">Completed</span>
+                  Payment Status:{' '}
+                  <span className="font-medium text-green-600">
+                    {String(order.paymentData.status)}
+                  </span>
                 </p>
               )}
             </div>
