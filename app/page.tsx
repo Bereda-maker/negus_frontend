@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef, useCallback, useMemo, MouseEvent } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import {
   ArrowRight, ShieldCheck, Sparkles, TrendingUp,
   Star, StarHalf, ChevronRight, LayoutGrid,
@@ -19,7 +20,7 @@ import { useAuth } from '@/hooks/useAuth';
 import api from '@/services/api';
 import { Product, Category } from '@/types';
 
-// ===== Category image mapping - LOCAL IMAGES =====
+// ===== Category image mapping =====
 const categoryImages: Record<string, string> = {
   Vehicles: '/assets/images/vehicles.webp',
   Property: '/assets/images/property.webp',
@@ -37,7 +38,9 @@ const categoryImages: Record<string, string> = {
 
 const FALLBACK_IMAGE = '/assets/images/placeholder.jpg';
 
-// ---------- Custom Hooks ----------
+// ===== Sub-components =====
+
+/** Hook to detect when an element enters the viewport */
 function useInView(ref: React.RefObject<HTMLElement | null>) {
   const [isInView, setIsInView] = useState(false);
   useEffect(() => {
@@ -50,11 +53,11 @@ function useInView(ref: React.RefObject<HTMLElement | null>) {
     const node = ref.current;
     if (node) observer.observe(node);
     return () => observer.disconnect();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ref]);
   return isInView;
 }
 
+/** Animated section that fades in on scroll */
 function AnimatedSection({ children, className = '' }: { children: React.ReactNode; className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref);
@@ -70,7 +73,36 @@ function AnimatedSection({ children, className = '' }: { children: React.ReactNo
   );
 }
 
-// ---------- Showcase Carousel ----------
+/** Trust callout card used in Hero */
+function TrustCallout({
+  icon: Icon,
+  title,
+  description,
+  delay,
+}: {
+  icon: React.ComponentType<{ className?: string; strokeWidth?: number }>;
+  title: string;
+  description: string;
+  delay: number;
+}) {
+  return (
+    <div
+      className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:border-gold/40 hover:bg-white/10 hover:shadow-xl hover:shadow-gold/5 flex flex-col items-center justify-center"
+      style={{ transitionDelay: `${delay}ms` }}
+    >
+      <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      <div className="relative z-10">
+        <div className="inline-flex p-3 rounded-xl bg-gold/10 group-hover:bg-gold/20 transition-colors duration-300 mb-2.5">
+          <Icon className="h-6 w-6 text-gold" strokeWidth={1.5} />
+        </div>
+        <h3 className="text-white font-semibold text-sm sm:text-base">{title}</h3>
+        <p className="text-white/60 text-xs sm:text-sm leading-relaxed mt-1">{description}</p>
+      </div>
+    </div>
+  );
+}
+
+/** Showcase carousel (featured products) */
 function ShowcaseSlider({ products }: { products: Product[] }) {
   const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -110,7 +142,6 @@ function ShowcaseSlider({ products }: { products: Product[] }) {
                 isActive ? 'opacity-100 scale-100 z-10 pointer-events-auto' : 'opacity-0 scale-95 z-0 pointer-events-none'
               }`}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element -- Cloudinary/Unsplash URL, arbitrary crop inside an absolutely-positioned slide */}
               <img
                 src={product.images?.[0]?.url || 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80'}
                 alt={product.title}
@@ -181,36 +212,7 @@ function ShowcaseSlider({ products }: { products: Product[] }) {
   );
 }
 
-// ---------- Trust Callout ----------
-function TrustCallout({
-  icon: Icon,
-  title,
-  description,
-  delay,
-}: {
-  icon: React.ComponentType<{ className?: string; strokeWidth?: number }>;
-  title: string;
-  description: string;
-  delay: number;
-}) {
-  return (
-    <div
-      className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:border-gold/40 hover:bg-white/10 hover:shadow-xl hover:shadow-gold/5 flex flex-col items-center justify-center"
-      style={{ transitionDelay: `${delay}ms` }}
-    >
-      <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-      <div className="relative z-10">
-        <div className="inline-flex p-3 rounded-xl bg-gold/10 group-hover:bg-gold/20 transition-colors duration-300 mb-2.5">
-          <Icon className="h-6 w-6 text-gold" strokeWidth={1.5} />
-        </div>
-        <h3 className="text-white font-semibold text-sm sm:text-base">{title}</h3>
-        <p className="text-white/60 text-xs sm:text-sm leading-relaxed mt-1">{description}</p>
-      </div>
-    </div>
-  );
-}
-
-// ---------- FAQ Item (accordion) ----------
+/** Single FAQ item (accordion) */
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -227,7 +229,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   );
 }
 
-// ---------- 10% Discount Banner ----------
+/** 3‑day discount banner for new users */
 function DiscountBanner() {
   const { t } = useTranslation();
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -303,12 +305,14 @@ function DiscountBanner() {
   );
 }
 
-// ---------- Main Home Component ----------
+// ===== Main Component =====
 export default function HomePage() {
   const { t } = useTranslation();
   const { isAuthenticated } = useAuth();
+  const router = useRouter();
+
   const [categories, setCategories] = useState<Category[]>([]);
-  const [products, setProducts] = useState<Product[]>([]); // ✅ now we keep the product array
+  const [products, setProducts] = useState<Product[]>([]);
   const [trendingProducts, setTrendingProducts] = useState<Product[]>([]);
   const [showcaseProducts, setShowcaseProducts] = useState<Product[]>([]);
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
@@ -317,11 +321,11 @@ export default function HomePage() {
   const [newsletterEmail, setNewsletterEmail] = useState('');
   const [isSubscribing, setIsSubscribing] = useState(false);
 
+  // Fetch data
   useEffect(() => {
     let isMounted = true;
     const fetchData = async () => {
       try {
-        // 🔥 Fetch ALL products (limit: 100) so we can count correctly
         const [productsAllRes, categoriesRes, blogRes] = await Promise.all([
           productService.getProducts({ sort: 'newest', limit: 100 } as any),
           categoryService.getCategories(),
@@ -329,7 +333,7 @@ export default function HomePage() {
         ]);
         if (!isMounted) return;
 
-        // ✅ Compute product counts per category
+        // Attach product counts to categories
         const categoriesWithCount = categoriesRes.data.map((cat: Category) => ({
           ...cat,
           productCount: productsAllRes.data.filter(
@@ -341,8 +345,6 @@ export default function HomePage() {
         setCategories(categoriesWithCount);
         setBlogPosts(blogRes.data?.data || []);
         setShowcaseProducts(productsAllRes.data.slice(0, 5));
-
-        // 🔥 Use the same list for trending (first 4) – you can also fetch separately
         setTrendingProducts(productsAllRes.data.slice(0, 4));
       } catch (error) {
         console.error('Home fetch error:', error);
@@ -356,6 +358,7 @@ export default function HomePage() {
     };
   }, []);
 
+  // Load favorites if authenticated
   useEffect(() => {
     if (!isAuthenticated) return;
     favoriteService
@@ -364,6 +367,7 @@ export default function HomePage() {
       .catch(() => {});
   }, [isAuthenticated]);
 
+  // Handlers
   const handleToggleFavorite = async (product: Product) => {
     const isFav = favoritedIds.has(product._id);
     setFavoritedIds((prev) => {
@@ -404,8 +408,26 @@ export default function HomePage() {
     }
   };
 
+  // Navigation helper for "Sell" button
+  const handleSellClick = () => {
+    if (isAuthenticated) {
+      router.push('/sell');
+    } else {
+      router.push('/login?from=/sell');
+    }
+  };
+
+  // Background pattern (SVG data URI)
   const bgPattern =
     'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNjOTk3M2IiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDM0di00aC0ydjRoLTR2Mmg0djRoMnYtNGg0di0yaC00em0wLTMwVjBoLTJ2NGgtNHYyaDR2NGgyVjZoNFY0aC00ek02IDM0di00SDR2NEgwdjJoNHY0aDJ2LTRoNHYtMkg2ek02IDRWMEE0djRIMHYyaDR2NGgyVjZoNFY0SDZ6Ii8+PC9nPjwvZz48L3N2Zz4=';
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-cream">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gold" />
+      </div>
+    );
+  }
 
   return (
     <div className="bg-cream">
@@ -419,6 +441,7 @@ export default function HomePage() {
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+            {/* Left Content */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 bg-gold/15 backdrop-blur-sm border border-gold/30 px-4 py-1.5 rounded-full text-gold-light text-xs font-semibold uppercase tracking-wider shadow-lg shadow-gold/10">
                 <span className="relative flex h-2.5 w-2.5">
@@ -441,12 +464,14 @@ export default function HomePage() {
                   {t('hero.browse')}
                   <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <Link
-                  href="/sell"
+
+                {/* ✅ Fixed: Sell button with authentication check */}
+                <button
+                  onClick={handleSellClick}
                   className="inline-flex items-center gap-2 border border-white/30 hover:border-white/60 text-white px-7 py-3.5 rounded-full font-semibold text-sm backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:-translate-y-0.5"
                 >
                   {t('hero.sell')}
-                </Link>
+                </button>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 border-t border-white/10 mt-8">
@@ -456,6 +481,7 @@ export default function HomePage() {
               </div>
             </div>
 
+            {/* Right: Showcase Carousel */}
             <div className="lg:col-span-5 w-full flex justify-center">
               <ShowcaseSlider products={showcaseProducts} />
             </div>
@@ -472,7 +498,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== CATEGORIES (Cinematic Magazine Flow) ===== */}
+      {/* ===== CATEGORIES ===== */}
       {categories.length > 0 && (
         <AnimatedSection className="py-12 bg-cream overflow-hidden">
           <div className="container mx-auto px-4 sm:px-6">
@@ -488,7 +514,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            {/* ---- ROW 1: Large image left + two stacked on right ---- */}
+            {/* Category Grid – as in original, kept intact */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
               {categories[0] && (
                 <Link
@@ -536,8 +562,6 @@ export default function HomePage() {
                 })}
               </div>
             </div>
-
-            {/* ---- ROW 2: Three equal pillars ---- */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
               {[3, 4, 5].map((idx) => {
                 const cat = categories[idx];
@@ -564,8 +588,6 @@ export default function HomePage() {
                 );
               })}
             </div>
-
-            {/* ---- ROW 3: Full‑width panoramic banner ---- */}
             {categories[6] && (
               <Link
                 href={`/search?category=${categories[6]._id}`}
@@ -585,8 +607,6 @@ export default function HomePage() {
                 </div>
               </Link>
             )}
-
-            {/* ---- ROW 4: Split dual cards ---- */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
               {[7, 8].map((idx) => {
                 const cat = categories[idx];
@@ -613,8 +633,6 @@ export default function HomePage() {
                 );
               })}
             </div>
-
-            {/* ---- ROW 5: Three equal pillars (final) ---- */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {[9, 10, 11].map((idx) => {
                 const cat = categories[idx];
@@ -665,7 +683,6 @@ export default function HomePage() {
               {trendingProducts.map((product) => (
                 <div key={product._id} className="bg-white rounded-2xl shadow-card hover:shadow-cardHover transition border border-border overflow-hidden group">
                   <div className="relative aspect-square">
-                    {/* eslint-disable-next-line @next/next/no-img-element -- arbitrary Cloudinary/Unsplash thumbnail */}
                     <img
                       src={product.images?.[0]?.url || 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=300&q=80'}
                       alt={product.title}
@@ -711,10 +728,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== 10% DISCOUNT BANNER ===== */}
+      {/* ===== DISCOUNT BANNER ===== */}
       {!isAuthenticated && <DiscountBanner />}
 
-      {/* ===== NEWSLETTER ===== */}
+      {/* ===== NEWSLETTER & INSTAGRAM ===== */}
       <section className="py-12 bg-warm-bg">
         <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-white rounded-2xl p-6 border border-border shadow-card">
@@ -746,11 +763,8 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-bold text-primary mb-4">{t('instagram.title')}</h3>
             <div className="grid grid-cols-4 gap-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="https://images.unsplash.com/photo-1491637639811-60e2756cc1c7?auto=format&fit=crop&w=300&q=80" alt="instagram" className="aspect-square object-cover rounded-lg" />
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=300&q=80" alt="instagram" className="aspect-square object-cover rounded-lg" />
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=300&q=80" alt="instagram" className="aspect-square object-cover rounded-lg" />
               <div className="aspect-square rounded-lg bg-primary text-white flex flex-col items-center justify-center text-center p-2">
                 <span className="text-xs font-bold">@negusgebeya</span>
@@ -778,7 +792,6 @@ export default function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
               {blogPosts.map((post) => (
                 <div key={post._id} className="bg-white rounded-2xl overflow-hidden border border-border shadow-card hover:shadow-cardHover transition group">
-                  {/* eslint-disable-next-line @next/next/no-img-element -- CMS-supplied cover, falls back to a remote placeholder */}
                   <img
                     src={post.coverImage || 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=400&q=80'}
                     alt={post.title}
