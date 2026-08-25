@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, ChangeEvent, FormEvent } from 'react';
+import { useEffect, useState, ChangeEvent, FormEvent, useRef } from 'react';
 import { isAxiosError } from 'axios';
 import toast from 'react-hot-toast';
 import { useTranslation } from 'react-i18next';
@@ -10,7 +10,7 @@ import Button from '@/components/ui/Button';
 import Avatar from '@/components/ui/Avatar';
 import Input from '@/components/ui/Input';
 import RequireAuth from '@/components/common/RequireAuth';
-import { Camera, CheckCircle, XCircle, Clock } from 'lucide-react';
+import { Camera, CheckCircle, XCircle, Clock, Upload, X } from 'lucide-react';
 import '@/i18n';
 
 interface ProfileFormData {
@@ -40,6 +40,8 @@ function ProfileContent() {
   const [isUploadingDoc, setIsUploadingDoc] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
 
+  const docInputRef = useRef<HTMLInputElement>(null);
+
   useEffect(() => {
     if (user) {
       setFormData({
@@ -68,6 +70,11 @@ function ProfileContent() {
   const handleDocChange = (e: ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) setDocFile(file);
+  };
+
+  const handleClearDoc = () => {
+    setDocFile(null);
+    if (docInputRef.current) docInputRef.current.value = '';
   };
 
   const handleSubmit = async (e: FormEvent) => {
@@ -120,6 +127,7 @@ function ProfileContent() {
       const res = await api.post('/users/verification', uploadData);
       setVerification(res.data.data);
       setDocFile(null);
+      if (docInputRef.current) docInputRef.current.value = '';
       toast.success(t('profile.toasts.documentSubmitted'));
     } catch (err) {
       const message = isAxiosError(err) ? err.response?.data?.message : undefined;
@@ -145,7 +153,6 @@ function ProfileContent() {
 
   const { status, rejectionReason } = verification;
 
-  // Helper to get translated status label and icon
   const getStatusDisplay = () => {
     switch (status) {
       case 'verified':
@@ -326,14 +333,59 @@ function ProfileContent() {
                   <option value="driverLicense">{t('profile.verification.documentTypes.driverLicense')}</option>
                 </select>
               </div>
+
               <div>
                 <label className="block text-sm font-medium text-textSecondary mb-1">
                   {t('profile.verification.uploadLabel')}
                 </label>
-                <input type="file" accept="image/*,.pdf" onChange={handleDocChange} className="w-full" disabled={isUploadingDoc} />
+                <div className="flex items-center gap-3">
+                  {/* Hidden file input */}
+                  <input
+                    ref={docInputRef}
+                    id="doc-upload"
+                    type="file"
+                    accept="image/*,.pdf"
+                    onChange={handleDocChange}
+                    className="hidden"
+                    disabled={isUploadingDoc}
+                  />
+                  {/* Button that triggers the file input */}
+                  <Button
+                    variant="outline"
+                    onClick={() => docInputRef.current?.click()}
+                    disabled={isUploadingDoc}
+                    className="flex items-center gap-2"
+                  >
+                    <Upload className="h-4 w-4" />
+                    {docFile ? t('profile.verification.changeFile') : t('profile.verification.chooseFile')}
+                  </Button>
+                  {docFile && (
+                    <span className="text-sm text-textSecondary truncate max-w-[200px]">
+                      {docFile.name}
+                    </span>
+                  )}
+                  {docFile && (
+                    <button
+                      type="button"
+                      onClick={handleClearDoc}
+                      className="text-danger hover:text-danger-dark transition"
+                      aria-label="Clear file"
+                      disabled={isUploadingDoc}
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
+                  )}
+                </div>
               </div>
+
               {docFile && (
-                <Button size="sm" onClick={handleDocUpload} isLoading={isUploadingDoc} disabled={isUploadingDoc}>
+                <Button
+                  size="sm"
+                  onClick={handleDocUpload}
+                  isLoading={isUploadingDoc}
+                  disabled={isUploadingDoc}
+                  className="bg-gold hover:bg-gold-dark text-white"
+                >
                   {isUploadingDoc ? t('profile.verification.submitting') : t('profile.verification.submit')}
                 </Button>
               )}
