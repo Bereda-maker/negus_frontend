@@ -478,7 +478,7 @@
     },
     "live": {
       "title": "Live Streaming",
-      "liveNow": "🔴 Live Now",
+      "liveNow": "Live Now",
       "badge": "LIVE",
       "goLive": "Go Live",
       "endStream": "End Stream",
@@ -535,7 +535,7 @@
         "title": "Start Live Stream",
         "streamKeyLabel": "Stream Key",
         "rtmpLabel": "RTMP URL",
-        "instructions": "⚠️ Use OBS or any streaming software to broadcast to this RTMP URL. Your stream will appear in the Reels feed for buyers.",
+        "instructions": "Use OBS or any streaming software to broadcast to this RTMP URL. Your stream will appear in the Reels feed for buyers.",
         "startButton": "Start Live"
       },
       "withdraw": {
@@ -807,6 +807,8 @@
         "driverLicense": "Driver's License"
       },
       "uploadLabel": "Upload Document (JPG, PNG, PDF)",
+      "chooseFile": "Choose Document",
+      "changeFile": "Change Document",
       "submit": "Submit for Verification",
       "submitting": "Submitting..."
     },
@@ -955,16 +957,6 @@
   },
   "contact": {
     "title": "Contact Us",
-    "form": {
-      "title": "Send us a message",
-      "nameLabel": "Full Name",
-      "namePlaceholder": "Your full name",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "messageLabel": "Message",
-      "messagePlaceholder": "How can we help?",
-      "submitButton": "Send Message"
-    },
     "info": {
       "title": "Get in touch",
       "emailLabel": "Email",
@@ -973,6 +965,9 @@
       "address": "Bole, Addis Ababa, Ethiopia",
       "hoursLabel": "Working Hours",
       "hours": "Monday – Friday, 9:00 AM – 6:00 PM (EAT)"
+    },
+    "social": {
+      "title": "Follow Us"
     }
   }
 }
