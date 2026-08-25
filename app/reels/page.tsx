@@ -75,19 +75,12 @@ export default function ReelsPage() {
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
   const currentVideoRef = useRef<HTMLVideoElement | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const feedContainerRef = useRef<HTMLDivElement>(null);
 
-  // ─── Hide navbar/footer on this page ───────────────────
+  // ─── Hide navbar/footer ──────────────────────────────────
   useEffect(() => {
-    // Add a class to the body to hide the main layout elements
     document.body.classList.add('reels-page');
-
-    // Optionally, if you have specific IDs for navbar/footer, hide them directly
-    // Example: document.getElementById('navbar')?.style.display = 'none';
-
     return () => {
       document.body.classList.remove('reels-page');
-      // Restore visibility if you hid by ID
     };
   }, []);
 
@@ -177,7 +170,7 @@ export default function ReelsPage() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [goNext, goPrev]);
 
-  // ── Touch / mouse swipe inside container ──
+  // ── Touch / swipe ──
   const touchStartY = useRef(0);
   const handleTouchStart = (e: React.TouchEvent) => {
     touchStartY.current = e.touches[0].clientY;
@@ -212,7 +205,7 @@ export default function ReelsPage() {
   // ── Play/Pause toggle ──
   const togglePlay = () => setIsPlaying((prev) => !prev);
 
-  // ── Go back to previous page ──
+  // ── Go back ──
   const handleClose = () => {
     router.back();
   };
@@ -250,193 +243,187 @@ export default function ReelsPage() {
 
   return (
     <div
-      className="relative flex h-screen w-full items-center justify-center bg-black"
+      className="relative flex h-screen w-full items-center justify-center bg-black overflow-hidden"
       ref={containerRef}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
     >
-      {/* --- Close Button --- */}
-      <button
-        onClick={handleClose}
-        className="absolute top-4 left-4 z-30 rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition"
-        aria-label="Close reels"
-      >
-        <X className="h-6 w-6" />
-      </button>
+      {/* --- Video --- */}
+      {currentItem.type === 'live' ? (
+        <>
+          <LiveStreamPlayer streamKey={currentItem.data.streamKey} />
+          <div className="absolute top-4 left-4 z-20 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
+            {t('reels.liveBadge')}
+          </div>
+        </>
+      ) : (
+        <video
+          ref={(el) => {
+            videoRefs.current[currentIndex] = el;
+          }}
+          src={currentItem.data.videos?.[0]?.url}
+          className="absolute inset-0 h-full w-full object-cover"
+          loop
+          playsInline
+          muted={false}
+          autoPlay={isPlaying}
+          onPlay={() => setIsPlaying(true)}
+          onPause={() => setIsPlaying(false)}
+        />
+      )}
 
-      {/* --- Full‑screen Toggle --- */}
-      <button
-        onClick={toggleFullscreen}
-        className="absolute top-4 right-4 z-30 rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition"
-        aria-label={isFullscreen ? 'Exit full screen' : 'Full screen'}
-      >
-        {isFullscreen ? (
-          <Minimize className="h-6 w-6" />
-        ) : (
-          <Maximize className="h-6 w-6" />
-        )}
-      </button>
+      {/* --- Overlay Gradient --- */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
 
-      {/* --- Mobile‑style Feed Container --- */}
-      <div
-        className="relative h-full max-h-[90vh] w-full max-w-[420px] overflow-hidden rounded-2xl bg-black shadow-2xl md:h-[80vh]"
-        onTouchStart={handleTouchStart}
-        onTouchEnd={handleTouchEnd}
-        ref={feedContainerRef}
-      >
-        {/* ─── Video / Stream ─── */}
-        {currentItem.type === 'live' ? (
-          <>
-            <LiveStreamPlayer streamKey={currentItem.data.streamKey} />
-            <div className="absolute top-3 left-3 z-20 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1.5">
-              <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
-              {t('reels.liveBadge')}
-            </div>
-          </>
-        ) : (
-          <video
-            ref={(el) => {
-              videoRefs.current[currentIndex] = el;
-            }}
-            src={currentItem.data.videos?.[0]?.url}
-            className="absolute inset-0 h-full w-full object-cover"
-            loop
-            playsInline
-            muted={false}
-            autoPlay={isPlaying}
-            onPlay={() => setIsPlaying(true)}
-            onPause={() => setIsPlaying(false)}
+      {/* --- Top Controls --- */}
+      <div className="absolute top-4 left-4 right-4 z-30 flex items-center justify-between">
+        <button
+          onClick={handleClose}
+          className="rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition"
+          aria-label="Close reels"
+        >
+          <X className="h-6 w-6" />
+        </button>
+        <button
+          onClick={toggleFullscreen}
+          className="rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition"
+          aria-label={isFullscreen ? 'Exit full screen' : 'Full screen'}
+        >
+          {isFullscreen ? (
+            <Minimize className="h-6 w-6" />
+          ) : (
+            <Maximize className="h-6 w-6" />
+          )}
+        </button>
+      </div>
+
+      {/* --- Side Navigation Arrows (desktop) --- */}
+      <div className="absolute right-4 top-1/2 z-20 hidden -translate-y-1/2 flex-col gap-4 md:flex">
+        <button
+          onClick={goPrev}
+          disabled={currentIndex === 0}
+          className="rounded-full bg-black/50 p-2 text-white transition hover:bg-black/70 disabled:opacity-30"
+          aria-label={t('reels.aria.prev')}
+        >
+          <ChevronUp className="h-5 w-5" />
+        </button>
+        <button
+          onClick={goNext}
+          disabled={currentIndex === feedItems.length - 1}
+          className="rounded-full bg-black/50 p-2 text-white transition hover:bg-black/70 disabled:opacity-30"
+          aria-label={t('reels.aria.next')}
+        >
+          <ChevronDown className="h-5 w-5" />
+        </button>
+      </div>
+
+      {/* --- Progress Dots --- */}
+      <div className="absolute right-6 top-1/2 z-20 hidden -translate-y-1/2 translate-x-6 flex-col items-center gap-2 md:flex">
+        {feedItems.map((_, idx) => (
+          <div
+            key={idx}
+            className={`h-1.5 w-1.5 rounded-full transition-all ${
+              idx === currentIndex ? 'h-6 w-1.5 bg-gold' : 'bg-white/40'
+            }`}
           />
-        )}
+        ))}
+      </div>
 
-        {/* ─── Overlay Gradient ─── */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
-
-        {/* ─── Side Navigation Arrows (desktop) ─── */}
-        <div className="absolute right-2 top-1/2 z-20 hidden -translate-y-1/2 flex-col gap-4 md:flex">
-          <button
-            onClick={goPrev}
-            disabled={currentIndex === 0}
-            className="rounded-full bg-black/50 p-2 text-white transition hover:bg-black/70 disabled:opacity-30"
-            aria-label={t('reels.aria.prev')}
-          >
-            <ChevronUp className="h-5 w-5" />
-          </button>
-          <button
-            onClick={goNext}
-            disabled={currentIndex === feedItems.length - 1}
-            className="rounded-full bg-black/50 p-2 text-white transition hover:bg-black/70 disabled:opacity-30"
-            aria-label={t('reels.aria.next')}
-          >
-            <ChevronDown className="h-5 w-5" />
-          </button>
-        </div>
-
-        {/* ─── Progress Dots ─── */}
-        <div className="absolute right-3 top-1/2 z-20 hidden -translate-y-1/2 translate-x-6 flex-col items-center gap-2 md:flex">
-          {feedItems.map((_, idx) => (
-            <div
-              key={idx}
-              className={`h-1.5 w-1.5 rounded-full transition-all ${
-                idx === currentIndex ? 'h-6 w-1.5 bg-gold' : 'bg-white/40'
-              }`}
-            />
-          ))}
-        </div>
-
-        {/* ─── Info & Controls ─── */}
-        <div className="absolute bottom-0 left-0 right-0 z-20 p-4 pb-6 text-white">
-          <div className="flex items-start justify-between gap-3">
-            <div className="flex-1 space-y-1.5">
-              {/* Seller */}
-              <button
-                onClick={() => router.push(`/seller/${seller?._id}`)}
-                className="flex items-center gap-2 hover:underline focus:outline-none"
-              >
-                {seller?.avatar?.url ? (
-                  <img
-                    src={seller.avatar.url}
-                    alt={seller.name}
-                    className="h-8 w-8 rounded-full object-cover border-2 border-white/30"
-                  />
-                ) : (
-                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gold/30 text-sm font-bold">
-                    {seller?.name?.charAt(0) || 'U'}
-                  </div>
-                )}
-                <span className="text-sm font-semibold">
-                  {seller?.name || t('reels.sellerFallback')}
-                </span>
-              </button>
-
-              {/* Content */}
-              {currentItem.type === 'live' ? (
-                <div>
-                  <h2 className="text-lg font-bold leading-tight">
-                    {currentItem.data.title || t('reels.liveTitleFallback')}
-                  </h2>
-                  <div className="flex items-center gap-2 text-xs">
-                    <span className="text-red-400 flex items-center gap-1">
-                      <Radio className="h-3 w-3" /> {t('reels.liveBadge')}
-                    </span>
-                    <span className="text-white/60">
-                      {t('reels.viewerCount', { count: currentItem.data.viewerCount || 0 })}
-                    </span>
-                  </div>
-                </div>
+      {/* --- Bottom Info & Controls --- */}
+      <div className="absolute bottom-0 left-0 right-0 z-20 p-4 pb-6 text-white">
+        <div className="flex items-start justify-between gap-3">
+          <div className="flex-1 space-y-1.5">
+            {/* Seller */}
+            <button
+              onClick={() => router.push(`/seller/${seller?._id}`)}
+              className="flex items-center gap-2 hover:underline focus:outline-none"
+            >
+              {seller?.avatar?.url ? (
+                <img
+                  src={seller.avatar.url}
+                  alt={seller.name}
+                  className="h-8 w-8 rounded-full object-cover border-2 border-white/30"
+                />
               ) : (
-                <>
-                  <h2 className="text-lg font-bold leading-tight line-clamp-2">
-                    {currentItem.data.title}
-                  </h2>
-                  <p className="text-gold text-base font-bold">
-                    {currentItem.data.price} ETB
-                  </p>
-                  <Link
-                    href={`/product/${currentItem.data._id}`}
-                    className="inline-flex items-center gap-1 rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur-sm hover:bg-white/30 transition"
-                  >
-                    {t('reels.viewProduct')} <Eye className="h-3 w-3" />
-                  </Link>
-                </>
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gold/30 text-sm font-bold">
+                  {seller?.name?.charAt(0) || 'U'}
+                </div>
               )}
-            </div>
+              <span className="text-sm font-semibold">
+                {seller?.name || t('reels.sellerFallback')}
+              </span>
+            </button>
 
-            {/* Play/Pause */}
-            {currentItem.type === 'product' && (
-              <button
-                onClick={togglePlay}
-                className="rounded-full bg-black/40 p-2 backdrop-blur-sm transition hover:bg-black/60"
-                aria-label={isPlaying ? t('reels.aria.pause') : t('reels.aria.play')}
-              >
-                {isPlaying ? (
-                  <Pause className="h-5 w-5" />
-                ) : (
-                  <Play className="h-5 w-5" />
-                )}
-              </button>
+            {/* Content */}
+            {currentItem.type === 'live' ? (
+              <div>
+                <h2 className="text-lg font-bold leading-tight">
+                  {currentItem.data.title || t('reels.liveTitleFallback')}
+                </h2>
+                <div className="flex items-center gap-2 text-xs">
+                  <span className="text-red-400 flex items-center gap-1">
+                    <Radio className="h-3 w-3" /> {t('reels.liveBadge')}
+                  </span>
+                  <span className="text-white/60">
+                    {t('reels.viewerCount', { count: currentItem.data.viewerCount || 0 })}
+                  </span>
+                </div>
+              </div>
+            ) : (
+              <>
+                <h2 className="text-lg font-bold leading-tight line-clamp-2">
+                  {currentItem.data.title}
+                </h2>
+                <p className="text-gold text-base font-bold">
+                  {currentItem.data.price} ETB
+                </p>
+                <Link
+                  href={`/product/${currentItem.data._id}`}
+                  className="inline-flex items-center gap-1 rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur-sm hover:bg-white/30 transition"
+                >
+                  {t('reels.viewProduct')} <Eye className="h-3 w-3" />
+                </Link>
+              </>
             )}
           </div>
 
-          {/* Progress bar */}
-          <div className="mt-3 flex items-center gap-2">
-            <span className="text-xs text-white/60">
-              {t('reels.progress', { current: currentIndex + 1, total: feedItems.length })}
-            </span>
-            <div className="h-1 flex-1 rounded-full bg-white/20">
-              <div
-                className="h-full rounded-full bg-gold transition-all duration-300"
-                style={{ width: `${((currentIndex + 1) / feedItems.length) * 100}%` }}
-              />
-            </div>
-          </div>
+          {/* Play/Pause */}
+          {currentItem.type === 'product' && (
+            <button
+              onClick={togglePlay}
+              className="rounded-full bg-black/40 p-2 backdrop-blur-sm transition hover:bg-black/60"
+              aria-label={isPlaying ? t('reels.aria.pause') : t('reels.aria.play')}
+            >
+              {isPlaying ? (
+                <Pause className="h-5 w-5" />
+              ) : (
+                <Play className="h-5 w-5" />
+              )}
+            </button>
+          )}
         </div>
 
-        {/* ─── Swipe Hint (first item only) ─── */}
-        {currentIndex === 0 && (
-          <div className="absolute bottom-24 left-1/2 z-20 -translate-x-1/2 animate-bounce text-white/60 text-xs">
-            {t('reels.swipeHint')}
+        {/* Progress bar */}
+        <div className="mt-3 flex items-center gap-2">
+          <span className="text-xs text-white/60">
+            {t('reels.progress', { current: currentIndex + 1, total: feedItems.length })}
+          </span>
+          <div className="h-1 flex-1 rounded-full bg-white/20">
+            <div
+              className="h-full rounded-full bg-gold transition-all duration-300"
+              style={{ width: `${((currentIndex + 1) / feedItems.length) * 100}%` }}
+            />
           </div>
-        )}
+        </div>
       </div>
+
+      {/* --- Swipe Hint (first item only) --- */}
+      {currentIndex === 0 && (
+        <div className="absolute bottom-24 left-1/2 z-20 -translate-x-1/2 animate-bounce text-white/60 text-xs">
+          {t('reels.swipeHint')}
+        </div>
+      )}
     </div>
   );
 }
