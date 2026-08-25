@@ -89,8 +89,17 @@ function CreateListingContent() {
       <h1 className="mb-1 text-2xl font-bold text-textPrimary">{t('createListing.title')}</h1>
       <p className="mb-6 text-sm text-textSecondary">{t('createListing.subtitle')}</p>
 
+      {/* Listing Form (includes the publish button) */}
+      <ListingForm
+        categories={categories}
+        onSubmit={handleSubmit}
+        isSubmitting={isSubmitting}
+        submitLabel={t('createListing.publishButton')}
+      />
+
+      {/* 🆕 Video upload progress – now shown AFTER the publish button */}
       {isUploadingVideos && (
-        <div className="mb-4 p-4 bg-blue-50 rounded-xl border border-blue-200">
+        <div className="mt-6 p-4 bg-blue-50 rounded-xl border border-blue-200">
           <p className="text-sm font-medium text-blue-800">
             {t('createListing.uploadingVideos', { progress: uploadProgress })}
           </p>
@@ -103,13 +112,7 @@ function CreateListingContent() {
         </div>
       )}
 
-      <ListingForm
-        categories={categories}
-        onSubmit={handleSubmit}
-        isSubmitting={isSubmitting}
-        submitLabel={t('createListing.publishButton')}
-      />
-
+      {/* Video upload section */}
       <div className="mt-8 border-t border-border pt-8">
         <VideoUpload onChange={setVideoFiles} maxCount={3} />
         {isUploading && (
