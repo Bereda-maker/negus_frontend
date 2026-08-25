@@ -20,10 +20,10 @@ import RequireAdmin from '@/components/common/RequireAdmin';
 import PageLoader from '@/components/common/PageLoader';
 import EmptyState from '@/components/ui/EmptyState';
 import Button from '@/components/ui/Button';
-import '@/i18n'; // ensure i18n initialised
+import '@/i18n';
 
 // ============================================================
-// TYPES (unchanged)
+// TYPES
 // ============================================================
 
 interface Stats {
@@ -108,13 +108,21 @@ interface Pagination {
 type Tab = 'dashboard' | 'products' | 'orders' | 'reports' | 'verifications' | 'withdrawals' | 'blogs';
 
 // ============================================================
+// HELPER: format currency
+// ============================================================
+const formatCurrency = (value: number): string => {
+  if (value === undefined || value === null) return '0.00';
+  return value.toFixed(2);
+};
+
+// ============================================================
 // COMPONENT
 // ============================================================
 
 function AdminDashboardContent() {
   const { t } = useTranslation();
 
-  // ---- State (unchanged) ----
+  // ---- State ----
   const [stats, setStats] = useState<Stats>({
     totalUsers: 0,
     totalListings: 0,
@@ -174,7 +182,7 @@ function AdminDashboardContent() {
   });
   const [isBlogSubmitting, setIsBlogSubmitting] = useState<boolean>(false);
 
-  // ---- Effects (unchanged) ----
+  // ---- Effects ----
   useEffect(() => {
     fetchAll();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -190,7 +198,7 @@ function AdminDashboardContent() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeTab, productFilters, productPagination.page, orderFilters, orderPagination.page]);
 
-  // ---- Data fetching (unchanged) ----
+  // ---- Data fetching ----
   const fetchAll = async () => {
     setLoading(true);
     try {
@@ -248,7 +256,14 @@ function AdminDashboardContent() {
       params.append('limit', String(limit));
       const res = await api.get(`/orders/admin/all?${params.toString()}`);
       setOrders(res.data.data);
-      setOrderPagination(res.data.pagination || { page: 1, limit: 20, total: 0 });
+      const pagination = res.data.pagination || { page: 1, limit: 20, total: 0 };
+      setOrderPagination(pagination);
+
+      // ✅ Update totalOrders in stats so the tab label reflects the actual count
+      setStats((prev) => ({
+        ...prev,
+        totalOrders: pagination.total,
+      }));
     } catch {
       toast.error(t('admin.errors.ordersLoadFailed'));
     } finally {
@@ -256,7 +271,7 @@ function AdminDashboardContent() {
     }
   };
 
-  // ---- Handlers (unchanged logic, but use t for toast messages) ----
+  // ---- Handlers ----
   const handleProductStatusChange = async (productId: string, newStatus: string) => {
     if (!window.confirm(t('admin.products.confirmStatusChange', { status: newStatus }))) return;
     setUpdating(productId);
@@ -452,6 +467,9 @@ function AdminDashboardContent() {
   const orderLimit = orderPagination.limit;
   const orderTotal = orderPagination.total;
 
+  // Compute actual order count from pagination (it will be updated after fetch)
+  const ordersCount = orderTotal || stats.totalOrders;
+
   return (
     <div className="bg-cream min-h-screen py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -480,7 +498,7 @@ function AdminDashboardContent() {
           {[
             { id: 'dashboard', label: t('admin.tabs.overview') },
             { id: 'products', label: `${t('admin.tabs.products')} (${stats.totalListings || 0})` },
-            { id: 'orders', label: `${t('admin.tabs.orders')} (${stats.totalOrders || 0})` },
+            { id: 'orders', label: `${t('admin.tabs.orders')} (${ordersCount})` },
             { id: 'reports', label: `${t('admin.tabs.reports')} (${reports.length})` },
             { id: 'verifications', label: `${t('admin.tabs.verifications')} (${verifications.length})` },
             { id: 'withdrawals', label: `${t('admin.tabs.withdrawals')} (${withdrawals.filter((w) => w.status === 'pending').length})` },
@@ -587,7 +605,7 @@ function AdminDashboardContent() {
                               </div>
                             </td>
                             <td className="px-4 py-2">{product.seller?.name || t('admin.products.unknown')}</td>
-                            <td className="px-4 py-2">{product.price}</td>
+                            <td className="px-4 py-2">{formatCurrency(product.price)}</td>
                             <td className="px-4 py-2">
                               <span className={getStatusBadgeClass(product.status, 'product')}>
                                 {statusLabel}
@@ -731,7 +749,7 @@ function AdminDashboardContent() {
                             </td>
                             <td className="px-4 py-2">{order.buyer?.name || t('admin.orders.unknown')}</td>
                             <td className="px-4 py-2">{order.seller?.name || t('admin.orders.unknown')}</td>
-                            <td className="px-4 py-2 font-bold">{order.amount}</td>
+                            <td className="px-4 py-2 font-bold">{formatCurrency(order.amount)}</td>
                             <td className="px-4 py-2">
                               <span className={getStatusBadgeClass(order.status, 'order')}>
                                 {statusLabel}
@@ -953,7 +971,7 @@ function AdminDashboardContent() {
                       return (
                         <tr key={w._id} className="border-t border-border">
                           <td className="px-4 py-2">{w.seller?.name || t('admin.withdrawals.unknown')}</td>
-                          <td className="px-4 py-2 font-bold">{w.amount}</td>
+                          <td className="px-4 py-2 font-bold">{formatCurrency(w.amount)}</td>
                           <td className="px-4 py-2">
                             {w.bankAccount?.accountName} <br />
                             <span className="text-xs text-textSecondary">
