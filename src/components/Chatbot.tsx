@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useRef, useEffect, FormEvent } from 'react';
-import axios from 'axios';
 import { MessageCircle, X, Send, Sparkles, Phone, ArrowRight } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
+import api from '@/services/api'; 
 
 interface ChatMessage {
   role: 'user' | 'assistant';
@@ -44,22 +44,23 @@ export function Chatbot() {
     setLoading(true);
 
     try {
-      const res = await axios.post(
-        '/api/ai/chat',
-        { question: userMsg },
-        { withCredentials: true }
-      );
+      // ✅ Use `api` instead of `axios` – automatically includes auth token
+      const res = await api.post('/ai/chat', { question: userMsg });
       setMessages((prev) => [
         ...prev,
         { role: 'assistant', content: res.data.data.answer },
       ]);
-    } catch {
+    } catch (error: any) {
+      console.error('Chatbot error:', error);
+      let errorMsg = 'Sorry, I’m having trouble answering right now. Please try again later.';
+      if (error.response?.status === 401) {
+        errorMsg = 'Your session has expired. Please log in again to continue.';
+      } else if (error.response?.data?.message) {
+        errorMsg = error.response.data.message;
+      }
       setMessages((prev) => [
         ...prev,
-        {
-          role: 'assistant',
-          content: 'Sorry, I’m having trouble answering right now. Please try again later.',
-        },
+        { role: 'assistant', content: errorMsg },
       ]);
     } finally {
       setLoading(false);
